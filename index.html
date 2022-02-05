@@ -175,9 +175,9 @@
       <h1 id="heading">Archnemesis Components</h1>
 
       <div class="buttonHold" style="text-align:center;">
-		<p>Click names in the first column to go to the PoeDB flow chart for the component.<br/>Brighter names marked with an asterisk are crafted only.</p>
+		<p>Click names in the first column to go to the PoeDB flow chart for the component.<br/>Brighter names marked with an asterisk are crafted only.<br/>Hide Nested only shows recipes that can be crafted without other crafting prerequisites.</p>
          <div class="swapButton" id="toggleDetails">Toggle Recipe Details</div>
-		<p>Search <input id="search" length="24" /> <input type="checkbox" id="recipeSearch" name="srecipes" checked><label for="srecipes">Search Recipes?</label>
+		<p>Search <input id="search" length="24" /> <input type="checkbox" id="recipeSearch" name="srecipes" checked><label for="srecipes">Search Recipes?</label> <input type="checkbox" id="nestedHide" name="nhide"><label for="nhide">Hide Nested?</label>
 		</p> 
       </div>
       <table class="mb-0 table table-dark table-hover table-striped table-bordered filters tablesorter tablesorter-default tablesorter7f5a91c4d0bb3" role="grid">
@@ -216,7 +216,7 @@
             </td>
             <td>
          </tr>
-         <tr role="row">
+         <tr role="row" class="nested">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeUnionofsouls.png?locale=1&amp;scale=1">
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Empowering_Minions#Recipe"><span class="modname crafted">Empowering Minions</span></a>
@@ -275,7 +275,7 @@
             </td>
             <td>
          </tr>
-         <tr role="row">
+         <tr role="row" class="nested">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeTrickster.png?locale=1&amp;scale=1">
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Trickster#Recipe"><span class="modname crafted">Trickster</span></a>
@@ -294,7 +294,7 @@
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeAssassin.png?locale=1&amp;scale=1">
                <p class="details"><span class="modname crafted">Assassin</span>
                   <br/><span class="modeffect">Monster has augmented Critical powers and has Shroud Walker</span>
-                  <br/><span class="modreward">CurrencyCurrency</span>
+                  <br/><span class="modreward">Currency Currency</span>
                </p>
             </td>
             <td>
@@ -469,7 +469,7 @@
             </td>
             <td>
          </tr>
-         <tr role="row">
+         <tr role="row" class="nested">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeTimeBubble.png?locale=1&amp;scale=1">
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Temporal_Bubble#Recipe"><span class="modname crafted">Temporal Bubble</span></a>
@@ -588,7 +588,7 @@
             </td>
             <td>
          </tr>
-         <tr role="row">
+         <tr role="row" class="nested">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeSouleater.png?locale=1&amp;scale=1">
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Soul_Eater#Recipe"><span class="modname crafted">Soul Eater</span></a>
@@ -880,7 +880,7 @@
             </td>
             <td>
          </tr>
-         <tr role="row">
+         <tr role="row" class="nested">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeLivingCrystal.png?locale=1&amp;scale=1">
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Crystal-skinned#Recipe"><span class="modname crafted">Crystal-skinned</span></a>
@@ -913,7 +913,7 @@
             </td>
             <td>
          </tr>
-         <tr role="row">
+         <tr role="row" class="nested">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeCycleofelements.png?locale=1&amp;scale=1">
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Empowered_Elements#Recipe"><span class="modname crafted">Empowered Elements</span></a>
@@ -946,7 +946,7 @@
             </td>
             <td>
          </tr>
-         <tr role="row">
+         <tr role="row" class="nested">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeVoodoodoll.png?locale=1&amp;scale=1">
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Effigy#Recipe"><span class="modname crafted">Effigy</span></a>
@@ -980,7 +980,7 @@
             </td>
             <td>
          </tr>
-         <tr role="row">
+         <tr role="row" class="nested">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonLunaris.png?locale=1&amp;scale=1">
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Lunaris-touched#Recipe"><span class="modname crafted">Lunaris-touched</span></a>
@@ -1013,7 +1013,7 @@
             </td>
             <td>
          </tr>
-         <tr role="row">
+         <tr role="row" class="nested">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonSolaris.png?locale=1&amp;scale=1">
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Solaris-touched#Recipe"><span class="modname crafted">Solaris-touched</span></a>
@@ -1047,7 +1047,7 @@
             </td>
             <td>
          </tr>
-         <tr role="row">
+         <tr role="row" class="nested">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonArakaali.png?locale=1&amp;scale=1">
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Arakaali-touched#Recipe"><span class="modname crafted">Arakaali-touched</span></a>
@@ -1080,7 +1080,7 @@
             </td>
             <td>
          </tr>
-         <tr role="row">
+         <tr role="row" class="nested">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonBrineking.png?locale=1&amp;scale=1">
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Brine_King-touched#Recipe"><span class="modname crafted">Brine King-touched</span></a>
@@ -1114,7 +1114,7 @@
             </td>
             <td>
          </tr>
-         <tr role="row">
+         <tr role="row" class="nested">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonTukohama.png?locale=1&amp;scale=1">
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Tukohama-touched#Recipe"><span class="modname crafted">Tukohama-touched</span></a>
@@ -1147,7 +1147,7 @@
             </td>
             <td>
          </tr>
-         <tr role="row">
+         <tr role="row" class="nested">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonAbberath.png?locale=1&amp;scale=1">
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Abberath-touched#Recipe"><span class="modname crafted">Abberath-touched</span></a>
@@ -1181,7 +1181,7 @@
             </td>
             <td>
          </tr>
-         <tr role="row">
+         <tr role="row" class="nested">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonShakari.png?locale=1&amp;scale=1">
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Shakari-touched#Recipe"><span class="modname crafted">Shakari-touched</span></a>
@@ -1214,7 +1214,7 @@
             </td>
             <td>
          </tr>
-         <tr role="row">
+         <tr role="row" class="nested">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonInnocence.png?locale=1&amp;scale=1">
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Innocence-touched#Recipe"><span class="modname crafted">Innocence-touched</span></a>
@@ -1256,7 +1256,7 @@
                </p>
             </td>
          </tr>
-         <tr role="row">
+         <tr role="row" class="nested">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonKitava.png?locale=1&amp;scale=1">
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Kitava-touched#Recipe"><span class="modname crafted">Kitava-touched</span></a>
@@ -1304,8 +1304,9 @@
    <script>
       $("#toggleDetails").click(function(){
       	$("td:nth-child(n+2) .details span:nth-child(n+2)").toggle();
-      });
-	  
+      });	  
+      $("#toggleNested").click(function(){
+      });	  
 	  // case insensitive
 		$.expr[":"].contains = $.expr.createPseudo(function(arg) {
 			return function( elem ) {
@@ -1328,17 +1329,20 @@ $("#search,#searchTags").keyup(throttle(searchMods));
 $('select').blur(searchMods);
 $('select').change(searchMods);
 $("#recipeSearch").change(searchMods);
+$("#nestedHide").change(searchMods);
 function searchMods(){
-	var term = $('#search').val();
+	var term = $('#search').val();	
 	if($("#recipeSearch").is(':checked') && term.length > 0){
 	    $("td").parent().hide();
-		$("td:contains('" + term + "')").parent().show();	
+		$("td:contains('" + term + "')").parent().show();
 	} else if(term.length > 0){
 	    $("td").parent().hide();
 		$("td:nth-child(1):contains('" + term + "')").parent().show();
 	} else {
-		$("td:nth-child(1)").parent().show();
-	
+		$("td:nth-child(1)").parent().show();	
+	}
+	if($("#nestedHide").is(':checked')){
+		$(".nested").hide();
 	}
 };
 	  
