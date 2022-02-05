@@ -152,7 +152,8 @@
 
       <div class="buttonHold" style="text-align:center;">
          <div class="swapButton" id="toggleDetails">Toggle Recipe Details</div>
-		<p>Search <input id="search" length="24" /></p>
+		<p>Search <input id="search" length="24" /> <input type="checkbox" id="recipeSearch" name="srecipes" checked><label for="srecipes">Search Recipes?</label>
+		</p> 
       </div>
       <table class="mb-0 table table-dark table-hover table-striped table-bordered filters tablesorter tablesorter-default tablesorter7f5a91c4d0bb3" role="grid">
          <thead>
@@ -1303,7 +1304,10 @@ $('select').blur(searchMods);
 $('select').change(searchMods);
 function searchMods(){
 	var term = $('#search').val();
-	if(term.length > 0){
+	if($("#recipeSearch").attr('checked') == 'checked' && term.length > 0){
+	    $("td").parent().hide();
+		$("td:contains('" + term + "')").parent().show();	
+	} else if(term.length > 0){
 	    $("td").parent().hide();
 		$("td:nth-child(1):contains('" + term + "')").parent().show();
 	} else {
