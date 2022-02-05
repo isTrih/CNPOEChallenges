@@ -10,44 +10,43 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
       <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
       <style>
-		  a{
-		  text-decoration-style:dotted;
-		  }
-		 *{
-         font-family:"Droid Sans",Arial, Helvetica, sans-serif;
-		 font-variant: small-caps;
+         a{
+         text-decoration-style:dotted;
          }
-         
-		 td:nth-child(n+2) .details span:nth-child(n+2){
-			display:none;
-		 }
+         *{
+         font-family:"Droid Sans",Arial, Helvetica, sans-serif;
+         font-variant: small-caps;
+         }
+         td:nth-child(n+2) .details span:nth-child(n+2){
+         display:none;
+         }
          td:nth-child(n+2) .modname.crafted:after		 
-		 { 
-		 content:"*";
-	     font-size:75%;	
+         { 
+         content:"*";
+         font-size:75%;	
          color:#D6D1AA;	 
-		 }
-		 td:nth-child(n+2) .modname.crafted{
+         }
+         td:nth-child(n+2) .modname.crafted{
          color:#D6D1AA;	 		 
-		 }
-		 td a{		 
+         }
+         td a{		 
          color:#AA9E81;	 
-		 }
-		 td a:hover .modname{		 
+         }
+         td a:hover .modname{		 
          color:#C8C8FF;	 
-		 }
-		 td img{
+         }
+         td img{
          margin:5px 0px -5px 0px;
-		 }
+         }
          td:nth-child(1) .modname{
          color:#AA9E81;	 
-		 }
+         }
          td:nth-child(n+2) .modname{
          color:#B4B4B4;	 
-		 }
+         }
          .modname{
          font-size:110%;
-		 font-weight:bold;
+         font-weight:bold;
          }
          .modeffect{
          color:#8787FE;
@@ -115,7 +114,6 @@
          p{
          text-align:center;
          text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
-
          margin:5px 0px 15px 0px;
          padding:2px;
          }
@@ -172,17 +170,23 @@
          #negatives,#positives{
          display:none;
          }
+         .copy{
+         width:120px;
+         text-align:center;
+         background-color:black;
+         color:white;
+         border:1px solid rgba(255,255,255,0.2);
+         }
       </style>
    </head>
    <body>
       <h1 id="heading">Archnemesis Components</h1>
-
       <div class="buttonHold" style="text-align:center;">
-		<p>Click names in the first column to go to the PoeDB flow chart for the component.<br/>Brighter names marked with an asterisk are crafted only.<br/>Hide Nested only shows recipes that can be crafted without other crafting prerequisites.</p>
+         <p>Click names in the first column to go to the PoeDB flow chart for the component.<br/>Brighter names marked with an asterisk are crafted only.<br/>Hide Nested only shows recipes that can be crafted without other crafting prerequisites.<br/>Click the text input below a mod to copy a regex to search the components in the Archnemesis window.</p>
          <div class="swapButton" id="toggleDetails">Toggle Recipe Details</div>
          <div class="swapButton" id="swapFont">I Hate This Font</div>
-		<p>Search <input id="search" length="24" /> <input type="checkbox" id="recipeSearch" name="srecipes" checked><label for="srecipes">Search Recipes?</label> <input type="checkbox" id="nestedHide" name="nhide"><label for="nhide">Hide Nested?</label>
-		</p> 
+         <p>Search <input id="search" length="24" /> <input type="checkbox" id="recipeSearch" name="srecipes" checked><label for="srecipes">Search Recipes?</label> <input type="checkbox" id="nestedHide" name="nhide"><label for="nhide">Hide Nested?</label>
+         </p>
       </div>
       <table role="grid">
          <thead>
@@ -197,6 +201,7 @@
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Heralding_Minions#Recipe"><span class="modname crafted">Heralding Minions</span></a>
                   <br/><span class="modeffect">Monster's minions summon invulnerable Lightning Totems on death</span>
                   <br/><span class="modreward">Fragments Fragments </span>
+                  <br/><input class="copy" value="^(dyn|arc)" readonly>
                </p>
             </td>
             <td>
@@ -222,6 +227,7 @@
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Empowering_Minions#Recipe"><span class="modname crafted">Empowering Minions</span></a>
                   <br/><span class="modeffect">Monster's minions are empowered. Minions empower the Monster with additional modifiers on death</span>
                   <br/><span class="modreward">Blight Ritual</span>
+                  <br/><input class="copy" value="^(nec|exe|gar)" readonly>
                </p>
             </td>
             <td>
@@ -254,6 +260,7 @@
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Assassin#Recipe"><span class="modname crafted">Assassin</span></a>
                   <br/><span class="modeffect">Monster has augmented Critical powers and has Shroud Walker</span>
                   <br/><span class="modreward">Currency Currency</span>
+                  <br/><input class="copy" value="^(dea|vam)" readonly>
                </p>
             </td>
             <td>
@@ -281,6 +288,7 @@
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Trickster#Recipe"><span class="modname crafted">Trickster</span></a>
                   <br/><span class="modeffect">Monster has damage avoidance. Monster periodically Flees</span>
                   <br/><span class="modreward">Currency Uniques Cards </span>
+                  <br/><input class="copy" value="^(ove|ass|ech)" readonly>
                </p>
             </td>
             <td>
@@ -314,6 +322,7 @@
                   <br/><span class="modeffect">Monster can raise Undead. Minions are empowered and revive shortly after dying</span>
                   <br/><span class="modreward">Generic </span>
                   <br/><span class="modextra">Rewards are rolled 2 additional times, choosing the rarest result</span>
+                  <br/><input class="copy" value="^(bom|ove)" readonly>
                </p>
             </td>
             <td>
@@ -342,6 +351,7 @@
                   <br/><span class="modeffect">Monster has Life Regeneration. Periodically releases a wave that heals nearby allies and prevents enemy Life and Energy Shield recovery</span>
                   <br/><span class="modreward">Currency</span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
+                  <br/><input class="copy" value="^(gar|vam)" readonly>
                </p>
             </td>
             <td>
@@ -369,6 +379,7 @@
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Executioner#Recipe"><span class="modname crafted">Executioner</span></a>
                   <br/><span class="modeffect">Monster gains Damage based on missing enemy Life. Monster has an aura that prevents enemies recovering Life and Energy Shield above 50%</span>
                   <br/><span class="modreward">Legion Breach</span>
+                  <br/><input class="copy" value="^(fre|ber)" readonly>
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRareKillRampage.png?locale=1&amp;scale=1">
@@ -395,6 +406,7 @@
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Hexer#Recipe"><span class="modname crafted">Hexer</span></a>
                   <br/><span class="modeffect">Monster is Hexproof. Monster is followed by a Hexing Effigy that creates Hexing areas</span>
                   <br/><span class="modreward">Essences Essences </span>
+                  <br/><input class="copy" value="^(cha|ech)" readonly>
                </p>
             </td>
             <td>
@@ -422,6 +434,7 @@
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Drought_Bringer#Recipe"><span class="modname crafted">Drought Bringer</span></a>
                   <br/><span class="modeffect">Monster disables Flask effects on hit. Monster has an aura that drains Flask charges and prevents gaining Flask charges</span>
                   <br/><span class="modreward">Labyrinth Labyrinth</span>
+                  <br/><input class="copy" value="^(mal|dea)" readonly>
                </p>
             </td>
             <td>
@@ -448,6 +461,7 @@
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Entangler#Recipe"><span class="modname crafted">Entangler</span></a>
                   <br/><span class="modeffect">Monster creates Thorned Vines that slow and deal Chaos Damage over time.</span>
                   <br/><span class="modreward">Fossils Fossils </span>
+                  <br/><input class="copy" value="^(tox|blo)" readonly>
                </p>
             </td>
             <td>
@@ -475,6 +489,7 @@
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Temporal_Bubble#Recipe"><span class="modname crafted">Temporal Bubble</span></a>
                   <br/><span class="modeffect">Monster is protected by a Temporal Bubble that severely slows those in it and cannot be damaged by those outside of it</span>
                   <br/><span class="modreward">Heist Expedition </span>
+                  <br/><input class="copy" value="^(jug|hex|arc)" readonly>
                </p>
             </td>
             <td>
@@ -507,6 +522,7 @@
                   <br/><span class="modeffect">Monster's minions are replaced with powerful Treants. Some Damage taken from the monster is split between the Treants</span>
                   <br/><span class="modreward">Generic </span>
                   <br/><span class="modextra">Monster's Minions drop a randomly-chosen Reward Type</span>
+                  <br/><input class="copy" value="^(tox|sen|ste)" readonly>
                </p>
             </td>
             <td>
@@ -538,6 +554,7 @@
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Frost_Strider#Recipe"><span class="modname crafted">Frost Strider</span></a>
                   <br/><span class="modeffect">Monster leaves Chilling Ground in its wake. Minions create Frost Bearers on death</span>
                   <br/><span class="modreward">Armour Armour Armour </span>
+                  <br/><input class="copy" value="^(frostw|has)" readonly>
                </p>
             </td>
             <td>
@@ -566,6 +583,7 @@
                   <br/><span class="modeffect">Monster periodically entraps players in a cage of ice</span>
                   <br/><span class="modreward">Armour Armour </span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
+                  <br/><input class="copy" value="^(per|sen)" readonly>
                </p>
             </td>
             </td>
@@ -594,6 +612,7 @@
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Soul_Eater#Recipe"><span class="modname crafted">Soul Eater</span></a>
                   <br/><span class="modeffect">Monster empowers when nearby allies die. Periodically summons Phantasms</span>
                   <br/><span class="modreward">Maps Maps </span>
+                  <br/><input class="copy" value="^(soul c|nec|gar)" readonly>
                </p>
             </td>
             <td>
@@ -627,6 +646,7 @@
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Flame_Strider#Recipe"><span class="modname crafted">Flame Strider</span></a>
                   <br/><span class="modeffect">Monster leaves Burning Ground in its wake. Minions create Flame Bearers on death</span>
                   <br/><span class="modreward">Weapon Weapon Weapon </span>
+                  <br/><input class="copy" value="^(flamew|has)" readonly>
                </p>
             </td>
             <td>
@@ -654,6 +674,7 @@
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Corpse_Detonator#Recipe"><span class="modname crafted">Corpse Detonator</span></a>
                   <br/><span class="modeffect">Monster detonates nearby Corpses. Monster periodically creates Corpses</span>
                   <br/><span class="modreward">Cards Cards </span>
+                  <br/><input class="copy" value="^(nec|inc)" readonly>
                </p>
             </td>
             <td>
@@ -682,6 +703,7 @@
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Evocationist#Recipe"><span class="modname crafted">Evocationist</span></a>
                   <br/><span class="modeffect">Monster is imbued with Elemental Damage, Resistances and Ailments</span>
                   <br/><span class="modreward">Generic Weapon Armour Trinkets </span>
+                  <br/><input class="copy" value="^(flamew|frostw|stormw)" readonly>
                </p>
             </td>
             <td>
@@ -715,6 +737,7 @@
                   <br/><span class="modeffect">Monster is protected by a Magmatic shield that explodes when depleted. Monster periodically creates Volatile Flamebloods</span>
                   <br/><span class="modreward">Weapon Weapon </span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
+                  <br/><input class="copy" value="^(inc|bon)" readonly>
                </p>
             </td>
             <td>
@@ -743,6 +766,7 @@
                   <br/><span class="modeffect">Monster can create illusions of itself</span>
                   <br/><span class="modreward">Scarabs</span>
                   <br/><span class="modextra">Rewards are rolled 2 additional times, choosing the rarest result</span>
+                  <br/><input class="copy" value="^(ech|soul c)" readonly>
                </p>
             </td>
             <td>
@@ -770,6 +794,7 @@
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Storm_Strider#Recipe"><span class="modname crafted">Storm Strider</span></a>
                   <br/><span class="modeffect">Monster leaves Shocking Ground in its wake and spawns Lightning Mirages when hit. Minions create Storm Bearers on death</span>
                   <br/><span class="modreward">Trinkets Trinkets Trinkets </span>
+                  <br/><input class="copy" value="^(stormw|has)" readonly>
                </p>
             </td>
             <td>
@@ -798,6 +823,7 @@
                   <br/><span class="modeffect">Monster is surrounded by a ring that deals Lightning Damage over time as well as draining Mana</span>
                   <br/><span class="modreward">Trinkets Trinkets </span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
+                  <br/><input class="copy" value="^(con|dyn)" readonly>
                </p>
             </td>
             <td>
@@ -826,6 +852,7 @@
                   <br/><span class="modeffect">Monster inflicts Corrupted Blood on Hit and when Hit. Minions create Corrupted Bubbles on death</span>
                   <br/><span class="modreward">Abyss Abyss </span>
                   <br/><span class="modextra">Items dropped from the Monster and its Minions are Corrupted</span>
+                  <br/><input class="copy" value="^(blo|cha)" readonly>
                </p>
             </td>
             <td>
@@ -854,6 +881,7 @@
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Invulnerable#Recipe"><span class="modname crafted">Invulnerable</span></a>
                   <br/><span class="modeffect">Monster and its Minions periodically become immune to all Damage. Minions cannot die while Monster is alive</span>
                   <br/><span class="modreward">Delirium Metamorph </span>
+                  <br/><input class="copy" value="^(sen|jug|con)" readonly>
                </p>
             </td>
             <td>
@@ -886,6 +914,7 @@
                <p class="details"><a target="_blank" href="https://poedb.tw/us/Crystal-skinned#Recipe"><span class="modname crafted">Crystal-skinned</span></a>
                   <br/><span class="modeffect">Monster triggers the creation of Crystals when hit. Crystals explode when the Monster dies</span>
                   <br/><span class="modreward">Harbinger Harbinger </span>
+                  <br/><input class="copy" value="^(per|rej|ber)" readonly>
                </p>
             </td>
             <td>
@@ -920,6 +949,7 @@
                   <br/><span class="modeffect">Monster cycles between imbued damage of a particular type and immunity to all other damage types</span>
                   <br/><span class="modreward">Uniques Uniques </span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
+                  <br/><input class="copy" value="^(evo|ste|cha)" readonly>
                </p>
             </td>
             <td>
@@ -953,6 +983,7 @@
                   <br/><span class="modeffect">Monster creates an Effigy of the player. Damage dealt to the Effigy is also reflected to the bonded player</span>
                   <br/><span class="modreward">Cards Cards </span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
+                  <br/><input class="copy" value="^(hex|mal|corr)" readonly>
                </p>
             </td>
             <td>
@@ -987,6 +1018,7 @@
                   <br/><span class="modeffect">Monster uses the abilities of Lunaris</span>
                   <br/><span class="modreward">Uniques </span>
                   <br/><span class="modextra">All Reward Types have an additional reward</span>
+                  <br/><input class="copy" value="^(inv|frost s|emp)" readonly>
                </p>
             </td>
             <td>
@@ -1020,6 +1052,7 @@
                   <br/><span class="modeffect">Monster uses the abilities of Solaris</span>
                   <br/><span class="modreward">Scarabs</span>
                   <br/><span class="modextra">All Reward Types have an additional reward</span>
+                  <br/><input class="copy" value="^(inv|mag|emp)" readonly>
                </p>
             </td>
             <td>
@@ -1054,6 +1087,7 @@
                   <br/><span class="modeffect">Monster uses the abilities of Arakaali</span>
                   <br/><span class="modreward">Cards </span>
                   <br/><span class="modextra">All Reward Types are Divination Cards</span>
+                  <br/><input class="copy" value="^(corp|ent|ass)" readonly>
                </p>
             </td>
             <td>
@@ -1087,6 +1121,7 @@
                   <br/><span class="modeffect">Monster uses the abilities of the Brine King</span>
                   <br/><span class="modreward">Armour Armour Armour </span>
                   <br/><span class="modextra">Rewards are rolled 6 additional times, choosing the rarest result</span>
+                  <br/><input class="copy" value="^(ice|storm s|her)" readonly>
                </p>
             </td>
             <td>
@@ -1121,6 +1156,7 @@
                   <br/><span class="modeffect">Monster uses the abilities of Tukohama</span>
                   <br/><span class="modreward">Weapon Weapon Fragments </span>
                   <br/><span class="modextra">Rewards are rolled 4 additional times, choosing the rarest result</span>
+                  <br/><input class="copy" value="^(bon|exe|mag)" readonly>
                </p>
             </td>
             <td>
@@ -1154,6 +1190,7 @@
                   <br/><span class="modeffect">Monster uses the abilities of Abberath</span>
                   <br/><span class="modreward">Trinkets Trinkets Maps </span>
                   <br/><span class="modextra">Rewards are rolled 4 additional times, choosing the rarest result</span>
+                  <br/><input class="copy" value="^(flame s|fre|rej)" readonly>
                </p>
             </td>
             <td>
@@ -1188,6 +1225,7 @@
                   <br/><span class="modeffect">Monster uses the abilities of Shakari</span>
                   <br/><span class="modreward">Uniques </span>
                   <br/><span class="modextra">All Reward Types are Uniques </span>
+                  <br/><input class="copy" value="^(ent|soul e|dro)" readonly>
                </p>
             </td>
             <td>
@@ -1221,6 +1259,7 @@
                   <br/><span class="modeffect">Monster uses the abilities of Innocence</span>
                   <br/><span class="modreward">Currency Currency Currency</span>
                   <br/><span class="modextra">All Reward Types are Currency</span>
+                  <br/><input class="copy" value="^(lun|sol|mir|man)" readonly>
                </p>
             </td>
             <td>
@@ -1263,6 +1302,7 @@
                   <br/><span class="modeffect">Monster uses the abilities of Kitava</span>
                   <br/><span class="modreward">Generic </span>
                   <br/><span class="modextra">Rewards are doubled</span>
+                  <br/><input class="copy" value="^(tuk|abb|cor)" readonly>
                </p>
             </td>
             <td>
@@ -1306,54 +1346,64 @@
       	$("td:nth-child(n+2) .details span:nth-child(n+2)").toggle();
       });	  
       $("#swapFont").click(function(){
-	  $("#swapFont").hide();
-	  var style=document.createElement('style');
-		style.type='text/css';
-		if(style.styleSheet){
-			style.styleSheet.cssText='*{ font-family: Arial, Helvetica, sans-serif!important;font-variant: none;}';
-		}else{
-			style.appendChild(document.createTextNode('*{ font-family: Arial, Helvetica, sans-serif;font-variant: none;}'));
-		}
-		document.getElementsByTagName('head')[0].appendChild(style);
+      $("#swapFont").hide();
+      var style=document.createElement('style');
+      style.type='text/css';
+      if(style.styleSheet){
+      style.styleSheet.cssText='*{ font-family: Arial, Helvetica, sans-serif!important;font-variant: none;}';
+      }else{
+      style.appendChild(document.createTextNode('*{ font-family: Arial, Helvetica, sans-serif;font-variant: none;}'));
+      }
+      document.getElementsByTagName('head')[0].appendChild(style);
       });	  
-	  // case insensitive
-		$.expr[":"].contains = $.expr.createPseudo(function(arg) {
-			return function( elem ) {
-				return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
-			};
-		});
-		// delay function
-		function throttle(f, delay){
-			var timer = null;
-			return function(){
-				var context = this, args = arguments;
-				clearTimeout(timer);
-				timer = window.setTimeout(function(){
-					f.apply(context, args);
-				},
-				delay || 350);
-			};
-		}
-$("#search,#searchTags").keyup(throttle(searchMods)); 
-$('select').blur(searchMods);
-$('select').change(searchMods);
-$("#recipeSearch").change(searchMods);
-$("#nestedHide").change(searchMods);
-function searchMods(){
-	var term = $('#search').val();	
-	if($("#recipeSearch").is(':checked') && term.length > 0){
-	    $("td").parent().hide();
-		$("td:contains('" + term + "')").parent().show();
-	} else if(term.length > 0){
-	    $("td").parent().hide();
-		$("td:nth-child(1):contains('" + term + "')").parent().show();
-	} else {
-		$("td:nth-child(1)").parent().show();	
-	}
-	if($("#nestedHide").is(':checked')){
-		$(".nested").hide();
-	}
-};
-	  
+      // case insensitive
+      $.expr[":"].contains = $.expr.createPseudo(function(arg) {
+      return function( elem ) {
+      return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+      };
+      });
+      // delay function
+      function throttle(f, delay){
+      var timer = null;
+      return function(){
+      var context = this, args = arguments;
+      clearTimeout(timer);
+      timer = window.setTimeout(function(){
+      f.apply(context, args);
+      },
+      delay || 350);
+      };
+      }
+      $("#search,#searchTags").keyup(throttle(searchMods)); 
+      $('select').blur(searchMods);
+      $('select').change(searchMods);
+      $("#recipeSearch").change(searchMods);
+      $("#nestedHide").change(searchMods);
+      function searchMods(){
+      var term = $('#search').val();	
+      if($("#recipeSearch").is(':checked') && term.length > 0){
+      $("td").parent().hide();
+      $("td:contains('" + term + "')").parent().show();
+      } else if(term.length > 0){
+      $("td").parent().hide();
+      $("td:nth-child(1):contains('" + term + "')").parent().show();
+      } else {
+      $("td:nth-child(1)").parent().show();	
+      }
+      if($("#nestedHide").is(':checked')){
+      $(".nested").hide();
+      }
+      };
+      
+      function copy() {
+      this.select();
+      document.execCommand("copy");
+      }
+      
+      var elements = document.getElementsByClassName("copy");
+      for (var i = 0; i < elements.length; i++) {
+      elements[i].addEventListener('click', copy, false);
+      }
+      
    </script>
 </html>
