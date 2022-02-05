@@ -8,17 +8,41 @@
       <link rel="stylesheet", href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/smoothness/jquery-ui.css", />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
-      <link rel="stylesheet", type="text/css", href="http://yui.yahooapis.com/3.18.1/build/cssreset-context/cssreset-context-min.css">
+      <link rel="stylesheet", type="text/css", href="https://yui.yahooapis.com/3.18.1/build/cssreset-context/cssreset-context-min.css">
       <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
       <style>
-	  td:nth-child(n+2) .details span:nth-child(n+2){
-		display:none;
-	  }
-         *{
+		 *{
          font-family:"Droid Sans",Arial, Helvetica, sans-serif;
          }
+         
+		 td:nth-child(n+2) .details span:nth-child(n+2){
+			display:none;
+		 }
+         td:nth-child(n+2) .modname.crafted:after		 
+		 { 
+		 content:"*";
+	     font-size:75%;	
+         color:#D6D1AA;	 
+		 }
+		 td:nth-child(n+2) .modname.crafted{
+         color:#D6D1AA;	 		 
+		 }
+		 td a{		 
+         color:#AA9E81;	 
+		 }
+		 td a:hover .modname{		 
+         color:#C8C8FF;	 
+		 }
+		 td img{
+         margin:5px 0px -5px 0px;
+		 }
+         td:nth-child(1) .modname{
+         color:#AA9E81;	 
+		 }
+         td:nth-child(n+2) .modname{
+         color:#B4B4B4;	 
+		 }
          .modname{
-         color:#AA9E81;
          font-size:110%;
 		 font-weight:bold;
          }
@@ -151,6 +175,8 @@
       <h1 id="heading">Archnemesis Components</h1>
 
       <div class="buttonHold" style="text-align:center;">
+		<p>Click names in the first column to go to the PoeDB flow chart for the component.</p>
+		<p>Brighter names marked with an asterisk are crafted only.</p>
          <div class="swapButton" id="toggleDetails">Toggle Recipe Details</div>
 		<p>Search <input id="search" length="24" /> <input type="checkbox" id="recipeSearch" name="srecipes" checked><label for="srecipes">Search Recipes?</label>
 		</p> 
@@ -169,7 +195,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeHeraldoftheobelisk.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Heralding Minions</span>
+               <p class="details"><a href="https://poedb.tw/us/Heralding_Minions#Recipe"><span class="modname crafted">Heralding Minions</span></a>
                   <br/><span class="modeffect">Monster's minions summon invulnerable Lightning Totems on death</span>
                   <br/><span class="modreward">Fragments Fragments </span>
                </p>
@@ -194,21 +220,21 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeUnionofsouls.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Empowering Minions</span>
+               <p class="details"><a href="https://poedb.tw/us/Empowering_Minions#Recipe"><span class="modname crafted">Empowering Minions</span></a>
                   <br/><span class="modeffect">Monster's minions are empowered. Minions empower the Monster with additional modifiers on death</span>
                   <br/><span class="modreward">Blight Ritual</span>
                </p>
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeNecromancer.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Necromancer</span>
+               <p class="details"><span class="modname crafted">Necromancer</span>
                   <br/><span class="modeffect">Monster can raise Undead. Minions are empowered and revive shortly after dying</span>
                   <br/><span class="modreward">Generic </span>
                   <br/><span class="modextra">Rewards are rolled 2 additional times, choosing the rarest result</span>
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeExecutioner.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Executioner</span>
+               <p class="details"><span class="modname crafted">Executioner</span>
                   <br/><span class="modeffect">Monster gains Damage based on missing enemy Life. Monster has an aura that prevents enemies recovering Life and Energy Shield above 50%</span>
                   <br/><span class="modreward">Legion Breach</span>
                </p>
@@ -226,7 +252,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeAssassin.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Assassin</span>
+               <p class="details"><a href="https://poedb.tw/us/Assassin#Recipe"><span class="modname crafted">Assassin</span></a>
                   <br/><span class="modeffect">Monster has augmented Critical powers and has Shroud Walker</span>
                   <br/><span class="modreward">Currency Currency</span>
                </p>
@@ -253,7 +279,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeTrickster.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Trickster</span>
+               <p class="details"><a href="https://poedb.tw/us/Trickster#Recipe"><span class="modname crafted">Trickster</span></a>
                   <br/><span class="modeffect">Monster has damage avoidance. Monster periodically Flees</span>
                   <br/><span class="modreward">Currency Uniques Cards </span>
                </p>
@@ -267,7 +293,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeAssassin.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Assassin</span>
+               <p class="details"><span class="modname crafted">Assassin</span>
                   <br/><span class="modeffect">Monster has augmented Critical powers and has Shroud Walker</span>
                   <br/><span class="modreward">CurrencyCurrency</span>
                </p>
@@ -285,7 +311,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeNecromancer.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Necromancer</span>
+               <p class="details"><a href="https://poedb.tw/us/Necromancer#Recipe"><span class="modname crafted">Necromancer</span></a>
                   <br/><span class="modeffect">Monster can raise Undead. Minions are empowered and revive shortly after dying</span>
                   <br/><span class="modreward">Generic </span>
                   <br/><span class="modextra">Rewards are rolled 2 additional times, choosing the rarest result</span>
@@ -313,7 +339,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeRejuvenating.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Rejuvenating</span>
+               <p class="details"><a href="https://poedb.tw/us/Rejuvenating#Recipe"><span class="modname crafted">Rejuvenating</span></a>
                   <br/><span class="modeffect">Monster has Life Regeneration. Periodically releases a wave that heals nearby allies and prevents enemy Life and Energy Shield recovery</span>
                   <br/><span class="modreward">Currency</span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
@@ -341,7 +367,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeExecutioner.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Executioner</span>
+               <p class="details"><a href="https://poedb.tw/us/Executioner#Recipe"><span class="modname crafted">Executioner</span></a>
                   <br/><span class="modeffect">Monster gains Damage based on missing enemy Life. Monster has an aura that prevents enemies recovering Life and Energy Shield above 50%</span>
                   <br/><span class="modreward">Legion Breach</span>
             </td>
@@ -367,7 +393,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeHexer.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Hexer</span>
+               <p class="details"><a href="https://poedb.tw/us/Hexer#Recipe"><span class="modname crafted">Hexer</span></a>
                   <br/><span class="modeffect">Monster is Hexproof. Monster is followed by a Hexing Effigy that creates Hexing areas</span>
                   <br/><span class="modreward">Essences Essences </span>
                </p>
@@ -394,7 +420,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeFlaskdrain.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Drought Bringer</span>
+               <p class="details"><a href="https://poedb.tw/us/Drought_Bringer#Recipe"><span class="modname crafted">Drought Bringer</span></a>
                   <br/><span class="modeffect">Monster disables Flask effects on hit. Monster has an aura that drains Flask charges and prevents gaining Flask charges</span>
                   <br/><span class="modreward">Labyrinth Labyrinth</span>
                </p>
@@ -420,7 +446,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeGraspingVines.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Entangler</span>
+               <p class="details"><a href="https://poedb.tw/us/Entangler#Recipe"><span class="modname crafted">Entangler</span></a>
                   <br/><span class="modeffect">Monster creates Thorned Vines that slow and deal Chaos Damage over time.</span>
                   <br/><span class="modreward">Fossils Fossils </span>
                </p>
@@ -447,7 +473,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeTimeBubble.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Temporal Bubble</span>
+               <p class="details"><a href="https://poedb.tw/us/Temporal_Bubble#Recipe"><span class="modname crafted">Temporal Bubble</span></a>
                   <br/><span class="modeffect">Monster is protected by a Temporal Bubble that severely slows those in it and cannot be damaged by those outside of it</span>
                   <br/><span class="modreward">Heist Expedition </span>
                </p>
@@ -461,7 +487,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeHexer.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Hexer</span>
+               <p class="details"><span class="modname crafted">Hexer</span>
                   <br/><span class="modeffect">Monster is Hexproof. Monster is followed by a Hexing Effigy that creates Hexing areas</span>
                   <br/><span class="modreward">Essences Essences </span>
                </p>
@@ -478,7 +504,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeSaplings.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Treant Horde</span>
+               <p class="details"><a href="https://poedb.tw/us/Treant_Horde#Recipe"><span class="modname crafted">Treant Horde</span></a>
                   <br/><span class="modeffect">Monster's minions are replaced with powerful Treants. Some Damage taken from the monster is split between the Treants</span>
                   <br/><span class="modreward">Generic </span>
                   <br/><span class="modextra">Monster's Minions drop a randomly-chosen Reward Type</span>
@@ -510,7 +536,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeFrostwalker.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Frost Strider</span>
+               <p class="details"><a href="https://poedb.tw/us/Frost_Strider#Recipe"><span class="modname crafted">Frost Strider</span></a>
                   <br/><span class="modeffect">Monster leaves Chilling Ground in its wake. Minions create Frost Bearers on death</span>
                   <br/><span class="modreward">Armour Armour Armour </span>
                </p>
@@ -537,7 +563,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeCold.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Ice Prison</span>
+               <p class="details"><a href="https://poedb.tw/us/Ice_Prison#Recipe"><span class="modname crafted">Ice Prison</span></a>
                   <br/><span class="modeffect">Monster periodically entraps players in a cage of ice</span>
                   <br/><span class="modreward">Armour Armour </span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
@@ -566,7 +592,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeSouleater.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Soul Eater</span>
+               <p class="details"><a href="https://poedb.tw/us/Soul_Eater#Recipe"><span class="modname crafted">Soul Eater</span></a>
                   <br/><span class="modeffect">Monster empowers when nearby allies die. Periodically summons Phantasms</span>
                   <br/><span class="modreward">Maps Maps </span>
                </p>
@@ -580,7 +606,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeNecromancer.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Necromancer</span>
+               <p class="details"><span class="modname crafted">Necromancer</span>
                   <br/><span class="modeffect">Monster can raise Undead. Minions are empowered and revive shortly after dying</span>
                   <br/><span class="modreward">Generic </span>
                   <br/><span class="modextra">Rewards are rolled 2 additional times, choosing the rarest result</span>
@@ -599,7 +625,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeFire.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Flame Strider</span>
+               <p class="details"><a href="https://poedb.tw/us/Flame_Strider#Recipe"><span class="modname crafted">Flame Strider</span></a>
                   <br/><span class="modeffect">Monster leaves Burning Ground in its wake. Minions create Flame Bearers on death</span>
                   <br/><span class="modreward">Weapon Weapon Weapon </span>
                </p>
@@ -626,14 +652,14 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeCorpseeploder.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Corpse Detonator</span>
+               <p class="details"><a href="https://poedb.tw/us/Corpse_Detonator#Recipe"><span class="modname crafted">Corpse Detonator</span></a>
                   <br/><span class="modeffect">Monster detonates nearby Corpses. Monster periodically creates Corpses</span>
                   <br/><span class="modreward">Cards Cards </span>
                </p>
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeNecromancer.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Necromancer</span>
+               <p class="details"><span class="modname crafted">Necromancer</span>
                   <br/><span class="modeffect">Monster can raise Undead. Minions are empowered and revive shortly after dying</span>
                   <br/><span class="modreward">Generic </span>
                   <br/><span class="modextra">Rewards are rolled 2 additional times, choosing the rarest result</span>
@@ -654,7 +680,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipePrismatic.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Evocationist</span>
+               <p class="details"><a href="https://poedb.tw/us/Evocationist#Recipe"><span class="modname crafted">Evocationist</span></a>
                   <br/><span class="modeffect">Monster is imbued with Elemental Damage, Resistances and Ailments</span>
                   <br/><span class="modreward">Generic Weapon Armour Trinkets </span>
                </p>
@@ -686,7 +712,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeVolatileflameblood.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Magma Barrier</span>
+               <p class="details"><a href="https://poedb.tw/us/Magma_Barrier#Recipe"><span class="modname crafted">Magma Barrier</span></a>
                   <br/><span class="modeffect">Monster is protected by a Magmatic shield that explodes when depleted. Monster periodically creates Volatile Flamebloods</span>
                   <br/><span class="modreward">Weapon Weapon </span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
@@ -714,7 +740,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeMirrorImage.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Mirror Image</span>
+               <p class="details"><a href="https://poedb.tw/us/Mirror_Image#Recipe"><span class="modname crafted">Mirror Image</span></a>
                   <br/><span class="modeffect">Monster can create illusions of itself</span>
                   <br/><span class="modreward">Scarabs</span>
                   <br/><span class="modextra">Rewards are rolled 2 additional times, choosing the rarest result</span>
@@ -742,7 +768,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeLightningwalker.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Storm Strider</span>
+               <p class="details"><a href="https://poedb.tw/us/Storm_Strider#Recipe"><span class="modname crafted">Storm Strider</span></a>
                   <br/><span class="modeffect">Monster leaves Shocking Ground in its wake and spawns Lightning Mirages when hit. Minions create Storm Bearers on death</span>
                   <br/><span class="modreward">Trinkets Trinkets Trinkets </span>
                </p>
@@ -769,7 +795,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeManaDonut.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Mana Siphoner</span>
+               <p class="details"><a href="https://poedb.tw/us/Mana_Siphoner#Recipe"><span class="modname crafted">Mana Siphoner</span></a>
                   <br/><span class="modeffect">Monster is surrounded by a ring that deals Lightning Damage over time as well as draining Mana</span>
                   <br/><span class="modreward">Trinkets Trinkets </span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
@@ -797,7 +823,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeCorrupter.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Corrupter</span>
+               <p class="details"><a href="https://poedb.tw/us/Corrupter#Recipe"><span class="modname crafted">Corrupter</span></a>
                   <br/><span class="modeffect">Monster inflicts Corrupted Blood on Hit and when Hit. Minions create Corrupted Bubbles on death</span>
                   <br/><span class="modreward">Abyss Abyss </span>
                   <br/><span class="modextra">Items dropped from the Monster and its Minions are Corrupted</span>
@@ -826,7 +852,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeDivinetouched.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Invulnerable</span>
+               <p class="details"><a href="https://poedb.tw/us/Invulnerable#Recipe"><span class="modname crafted">Invulnerable</span></a>
                   <br/><span class="modeffect">Monster and its Minions periodically become immune to all Damage. Minions cannot die while Monster is alive</span>
                   <br/><span class="modreward">Delirium Metamorph </span>
                </p>
@@ -858,7 +884,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeLivingCrystal.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Crystal-skinned</span>
+               <p class="details"><a href="https://poedb.tw/us/Crystal-skinned#Recipe"><span class="modname crafted">Crystal-skinned</span></a>
                   <br/><span class="modeffect">Monster triggers the creation of Crystals when hit. Crystals explode when the Monster dies</span>
                   <br/><span class="modreward">Harbinger Harbinger </span>
                </p>
@@ -872,7 +898,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeRejuvenating.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Rejuvenating</span>
+               <p class="details"><span class="modname crafted">Rejuvenating</span>
                   <br/><span class="modeffect">Monster has Life Regeneration. Periodically releases a wave that heals nearby allies and prevents enemy Life and Energy Shield recovery</span>
                   <br/><span class="modreward">Currency</span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
@@ -891,7 +917,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeCycleofelements.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Empowered Elements</span>
+               <p class="details"><a href="https://poedb.tw/us/Empowered_Elements#Recipe"><span class="modname crafted">Empowered Elements</span></a>
                   <br/><span class="modeffect">Monster cycles between imbued damage of a particular type and immunity to all other damage types</span>
                   <br/><span class="modreward">Uniques Uniques </span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
@@ -899,7 +925,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipePrismatic.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Evocationist</span>
+               <p class="details"><span class="modname crafted">Evocationist</span>
                   <br/><span class="modeffect">Monster is imbued with Elemental Damage, Resistances and Ailments</span>
                   <br/><span class="modreward">Generic Weapon Armour Trinkets </span>
                </p>
@@ -924,7 +950,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeVoodoodoll.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Effigy</span>
+               <p class="details"><a href="https://poedb.tw/us/Effigy#Recipe"><span class="modname crafted">Effigy</span></a>
                   <br/><span class="modeffect">Monster creates an Effigy of the player. Damage dealt to the Effigy is also reflected to the bonded player</span>
                   <br/><span class="modreward">Cards Cards </span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
@@ -932,7 +958,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeHexer.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Hexer</span>
+               <p class="details"><span class="modname crafted">Hexer</span>
                   <br/><span class="modeffect">Monster is Hexproof. Monster is followed by a Hexing Effigy that creates Hexing areas</span>
                   <br/><span class="modreward">Essences Essences </span>
                </p>
@@ -946,7 +972,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeCorrupter.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Corrupter</span>
+               <p class="details"><span class="modname crafted">Corrupter</span>
                   <br/><span class="modeffect">Monster inflicts Corrupted Blood on Hit and when Hit. Minions create Corrupted Bubbles on death</span>
                   <br/><span class="modreward">Abyss Abyss </span>
                   <br/><span class="modextra">Items dropped from the Monster and its Minions are Corrupted</span>
@@ -958,7 +984,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonLunaris.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Lunaris-touched</span>
+               <p class="details"><a href="https://poedb.tw/us/Lunaris-touched#Recipe"><span class="modname crafted">Lunaris-touched</span></a>
                   <br/><span class="modeffect">Monster uses the abilities of Lunaris</span>
                   <br/><span class="modreward">Uniques </span>
                   <br/><span class="modextra">All Reward Types have an additional reward</span>
@@ -966,21 +992,21 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeDivinetouched.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Invulnerable</span>
+               <p class="details"><span class="modname crafted">Invulnerable</span>
                   <br/><span class="modeffect">Monster and its Minions periodically become immune to all Damage. Minions cannot die while Monster is alive</span>
                   <br/><span class="modreward">Delirium Metamorph </span>
                </p>
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeFrostwalker.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Frost Strider</span>
+               <p class="details"><span class="modname crafted">Frost Strider</span>
                   <br/><span class="modeffect">Monster leaves Chilling Ground in its wake. Minions create Frost Bearers on death</span>
                   <br/><span class="modreward">Armour Armour Armour </span>
                </p>
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeUnionofsouls.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Empowering Minions</span>
+               <p class="details"><span class="modname crafted">Empowering Minions</span>
                   <br/><span class="modeffect">Monster's minions are empowered. Minions empower the Monster with additional modifiers on death</span>
                   <br/><span class="modreward">Blight Ritual</span>
                </p>
@@ -991,7 +1017,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonSolaris.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Solaris-touched</span>
+               <p class="details"><a href="https://poedb.tw/us/Solaris-touched#Recipe"><span class="modname crafted">Solaris-touched</span></a>
                   <br/><span class="modeffect">Monster uses the abilities of Solaris</span>
                   <br/><span class="modreward">Scarabs</span>
                   <br/><span class="modextra">All Reward Types have an additional reward</span>
@@ -999,14 +1025,14 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeDivinetouched.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Invulnerable</span>
+               <p class="details"><span class="modname crafted">Invulnerable</span>
                   <br/><span class="modeffect">Monster and its Minions periodically become immune to all Damage. Minions cannot die while Monster is alive</span>
                   <br/><span class="modreward">Delirium Metamorph </span>
                </p>
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeVolatileflameblood.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Magma Barrier</span>
+               <p class="details"><span class="modname crafted">Magma Barrier</span>
                   <br/><span class="modeffect">Monster is protected by a Magmatic shield that explodes when depleted. Monster periodically creates Volatile Flamebloods</span>
                   <br/><span class="modreward">Weapon Weapon </span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
@@ -1014,7 +1040,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeUnionofsouls.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Empowering Minions</span>
+               <p class="details"><span class="modname crafted">Empowering Minions</span>
                   <br/><span class="modeffect">Monster's minions are empowered. Minions empower the Monster with additional modifiers on death</span>
                   <br/><span class="modreward">Blight Ritual</span>
                </p>
@@ -1025,7 +1051,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonArakaali.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Arakaali-touched</span>
+               <p class="details"><a href="https://poedb.tw/us/Arakaali-touched#Recipe"><span class="modname crafted">Arakaali-touched</span></a>
                   <br/><span class="modeffect">Monster uses the abilities of Arakaali</span>
                   <br/><span class="modreward">Cards </span>
                   <br/><span class="modextra">All Reward Types are Divination Cards</span>
@@ -1033,21 +1059,21 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeCorpseeploder.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Corpse Detonator</span>
+               <p class="details"><span class="modname crafted">Corpse Detonator</span>
                   <br/><span class="modeffect">Monster detonates nearby Corpses. Monster periodically creates Corpses</span>
                   <br/><span class="modreward">Cards Cards </span>
                </p>
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeGraspingVines.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Entangler</span>
+               <p class="details"><span class="modname crafted">Entangler</span>
                   <br/><span class="modeffect">Monster creates Thorned Vines that slow and deal Chaos Damage over time.</span>
                   <br/><span class="modreward">Fossils Fossils </span>
                </p>
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeAssassin.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Assassin</span>
+               <p class="details"><span class="modname crafted">Assassin</span>
                   <br/><span class="modeffect">Monster has augmented Critical powers and has Shroud Walker</span>
                   <br/><span class="modreward">Currency Currency</span>
                </p>
@@ -1058,7 +1084,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonBrineking.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Brine King-touched</span>
+               <p class="details"><a href="https://poedb.tw/us/Brine_King-touched#Recipe"><span class="modname crafted">Brine King-touched</span></a>
                   <br/><span class="modeffect">Monster uses the abilities of the Brine King</span>
                   <br/><span class="modreward">Armour Armour Armour </span>
                   <br/><span class="modextra">Rewards are rolled 6 additional times, choosing the rarest result</span>
@@ -1066,7 +1092,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeCold.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Ice Prison</span>
+               <p class="details"><span class="modname crafted">Ice Prison</span>
                   <br/><span class="modeffect">Monster periodically entraps players in a cage of ice</span>
                   <br/><span class="modreward">Armour Armour </span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
@@ -1074,14 +1100,14 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeLightningwalker.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Storm Strider</span>
+               <p class="details"><span class="modname crafted">Storm Strider</span>
                   <br/><span class="modeffect">Monster leaves Shocking Ground in its wake and spawns Lightning Mirages when hit. Minions create Storm Bearers on death</span>
                   <br/><span class="modreward">Trinkets Trinkets Trinkets </span>
                </p>
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeHeraldoftheobelisk.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Heralding Minions</span>
+               <p class="details"><span class="modname crafted">Heralding Minions</span>
                   <br/><span class="modeffect">Monster's minions summon invulnerable Lightning Totems on death</span>
                   <br/><span class="modreward">Fragments Fragments </span>
                </p>
@@ -1092,7 +1118,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonTukohama.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Tukohama-touched</span>
+               <p class="details"><a href="https://poedb.tw/us/Tukohama-touched#Recipe"><span class="modname crafted">Tukohama-touched</span></a>
                   <br/><span class="modeffect">Monster uses the abilities of Tukohama</span>
                   <br/><span class="modreward">Weapon Weapon Fragments </span>
                   <br/><span class="modextra">Rewards are rolled 4 additional times, choosing the rarest result</span>
@@ -1107,13 +1133,13 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeExecutioner.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Executioner</span>
+               <p class="details"><span class="modname crafted">Executioner</span>
                   <br/><span class="modeffect">Monster gains Damage based on missing enemy Life. Monster has an aura that prevents enemies recovering Life and Energy Shield above 50%</span>
                   <br/><span class="modreward">Legion Breach</span>
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeVolatileflameblood.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Magma Barrier</span>
+               <p class="details"><span class="modname crafted">Magma Barrier</span>
                   <br/><span class="modeffect">Monster is protected by a Magmatic shield that explodes when depleted. Monster periodically creates Volatile Flamebloods</span>
                   <br/><span class="modreward">Weapon Weapon </span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
@@ -1125,7 +1151,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonAbberath.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Abberath-touched</span>
+               <p class="details"><a href="https://poedb.tw/us/Abberath-touched#Recipe"><span class="modname crafted">Abberath-touched</span></a>
                   <br/><span class="modeffect">Monster uses the abilities of Abberath</span>
                   <br/><span class="modreward">Trinkets Trinkets Maps </span>
                   <br/><span class="modextra">Rewards are rolled 4 additional times, choosing the rarest result</span>
@@ -1133,7 +1159,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeFire.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Flame Strider</span>
+               <p class="details"><span class="modname crafted">Flame Strider</span>
                   <br/><span class="modeffect">Monster leaves Burning Ground in its wake. Minions create Flame Bearers on death</span>
                   <br/><span class="modreward">Weapon Weapon Weapon </span>
                </p>
@@ -1147,7 +1173,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeRejuvenating.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Rejuvenating</span>
+               <p class="details"><span class="modname crafted">Rejuvenating</span>
                   <br/><span class="modeffect">Monster has Life Regeneration. Periodically releases a wave that heals nearby allies and prevents enemy Life and Energy Shield recovery</span>
                   <br/><span class="modreward">Currency</span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
@@ -1159,7 +1185,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonShakari.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Shakari-touched</span>
+               <p class="details"><a href="https://poedb.tw/us/Shakari-touched#Recipe"><span class="modname crafted">Shakari-touched</span></a>
                   <br/><span class="modeffect">Monster uses the abilities of Shakari</span>
                   <br/><span class="modreward">Uniques </span>
                   <br/><span class="modextra">All Reward Types are Uniques </span>
@@ -1167,21 +1193,21 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeGraspingVines.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Entangler</span>
+               <p class="details"><span class="modname crafted">Entangler</span>
                   <br/><span class="modeffect">Monster creates Thorned Vines that slow and deal Chaos Damage over time.</span>
                   <br/><span class="modreward">Fossils Fossils </span>
                </p>
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeSouleater.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Soul Eater</span>
+               <p class="details"><span class="modname crafted">Soul Eater</span>
                   <br/><span class="modeffect">Monster empowers when nearby allies die. Periodically summons Phantasms</span>
                   <br/><span class="modreward">Maps Maps </span>
                </p>
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeFlaskdrain.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Drought Bringer</span>
+               <p class="details"><span class="modname crafted">Drought Bringer</span>
                   <br/><span class="modeffect">Monster disables Flask effects on hit. Monster has an aura that drains Flask charges and prevents gaining Flask charges</span>
                   <br/><span class="modreward">Labyrinth Labyrinth</span>
                </p>
@@ -1192,7 +1218,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonInnocence.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Innocence-touched</span>
+               <p class="details"><a href="https://poedb.tw/us/Innocence-touched#Recipe"><span class="modname crafted">Innocence-touched</span></a>
                   <br/><span class="modeffect">Monster uses the abilities of Innocence</span>
                   <br/><span class="modreward">Currency Currency Currency</span>
                   <br/><span class="modextra">All Reward Types are Currency</span>
@@ -1200,7 +1226,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonLunaris.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Lunaris-touched</span>
+               <p class="details"><span class="modname crafted">Lunaris-touched</span>
                   <br/><span class="modeffect">Monster uses the abilities of Lunaris</span>
                   <br/><span class="modreward">Uniques </span>
                   <br/><span class="modextra">All Reward Types have an additional reward</span>
@@ -1208,7 +1234,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonSolaris.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Solaris-touched</span>
+               <p class="details"><span class="modname crafted">Solaris-touched</span>
                   <br/><span class="modeffect">Monster uses the abilities of Solaris</span>
                   <br/><span class="modreward">Scarabs</span>
                   <br/><span class="modextra">All Reward Types have an additional reward</span>
@@ -1216,7 +1242,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeMirrorImage.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Mirror Image</span>
+               <p class="details"><span class="modname crafted">Mirror Image</span>
                   <br/><span class="modeffect">Monster can create illusions of itself</span>
                   <br/><span class="modreward">Scarabs</span>
                   <br/><span class="modextra">Rewards are rolled 2 additional times, choosing the rarest result</span>
@@ -1224,7 +1250,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeManaDonut.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Mana Siphoner</span>
+               <p class="details"><span class="modname crafted">Mana Siphoner</span>
                   <br/><span class="modeffect">Monster is surrounded by a ring that deals Lightning Damage over time as well as draining Mana</span>
                   <br/><span class="modreward">Trinkets Trinkets </span>
                   <br/><span class="modextra">Rewards are rolled 1 additional time, choosing the rarest result</span>
@@ -1234,7 +1260,7 @@
          <tr role="row">
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonKitava.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Kitava-touched</span>
+               <p class="details"><a href="https://poedb.tw/us/Kitava-touched#Recipe"><span class="modname crafted">Kitava-touched</span></a>
                   <br/><span class="modeffect">Monster uses the abilities of Kitava</span>
                   <br/><span class="modreward">Generic </span>
                   <br/><span class="modextra">Rewards are doubled</span>
@@ -1242,7 +1268,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonTukohama.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Tukohama-touched</span>
+               <p class="details"><span class="modname crafted">Tukohama-touched</span>
                   <br/><span class="modeffect">Monster uses the abilities of Tukohama</span>
                   <br/><span class="modreward">Weapon Weapon Fragments </span>
                   <br/><span class="modextra">Rewards are rolled 4 additional times, choosing the rarest result</span>
@@ -1250,7 +1276,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModPantheonAbberath.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Abberath-touched</span>
+               <p class="details"><span class="modname crafted">Abberath-touched</span>
                   <br/><span class="modeffect">Monster uses the abilities of Abberath</span>
                   <br/><span class="modreward">Trinkets Trinkets Maps </span>
                   <br/><span class="modextra">Rewards are rolled 4 additional times, choosing the rarest result</span>
@@ -1258,7 +1284,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeCorrupter.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Corrupter</span>
+               <p class="details"><span class="modname crafted">Corrupter</span>
                   <br/><span class="modeffect">Monster inflicts Corrupted Blood on Hit and when Hit. Minions create Corrupted Bubbles on death</span>
                   <br/><span class="modreward">Abyss Abyss </span>
                   <br/><span class="modextra">Items dropped from the Monster and its Minions are Corrupted</span>
@@ -1266,7 +1292,7 @@
             </td>
             <td>
                <img src="https://web.poecdn.com/image/Art/2DItems/Currency/Archnemesis/ModRecipeCorpseeploder.png?locale=1&amp;scale=1">
-               <p class="details"><span class="modname">Corpse Detonator</span>
+               <p class="details"><span class="modname crafted">Corpse Detonator</span>
                   <br/><span class="modeffect">Monster detonates nearby Corpses. Monster periodically creates Corpses</span>
                   <br/><span class="modreward">Cards Cards </span>
                </p>
