@@ -1327,9 +1327,10 @@
 $("#search,#searchTags").keyup(throttle(searchMods)); 
 $('select').blur(searchMods);
 $('select').change(searchMods);
+$("#recipeSearch").change(searchMods);
 function searchMods(){
 	var term = $('#search').val();
-	if($("#recipeSearch").attr('checked') == 'checked' && term.length > 0){
+	if($("#recipeSearch").is(':checked') && term.length > 0){
 	    $("td").parent().hide();
 		$("td:contains('" + term + "')").parent().show();	
 	} else if(term.length > 0){
