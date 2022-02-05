@@ -11,8 +11,12 @@
       <link rel="stylesheet", type="text/css", href="https://yui.yahooapis.com/3.18.1/build/cssreset-context/cssreset-context-min.css">
       <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
       <style>
+		  a{
+		  text-decoration-style:dotted;
+		  }
 		 *{
          font-family:"Droid Sans",Arial, Helvetica, sans-serif;
+		 font-variant: small-caps;
          }
          
 		 td:nth-child(n+2) .details span:nth-child(n+2){
@@ -112,7 +116,7 @@
          p{
          text-align:center;
          text-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
-         font-variant: small-caps;
+
          margin:5px 0px 15px 0px;
          padding:2px;
          }
@@ -177,6 +181,7 @@
       <div class="buttonHold" style="text-align:center;">
 		<p>Click names in the first column to go to the PoeDB flow chart for the component.<br/>Brighter names marked with an asterisk are crafted only.<br/>Hide Nested only shows recipes that can be crafted without other crafting prerequisites.</p>
          <div class="swapButton" id="toggleDetails">Toggle Recipe Details</div>
+         <div class="swapButton" id="swapFont">I Hate This Font</div>
 		<p>Search <input id="search" length="24" /> <input type="checkbox" id="recipeSearch" name="srecipes" checked><label for="srecipes">Search Recipes?</label> <input type="checkbox" id="nestedHide" name="nhide"><label for="nhide">Hide Nested?</label>
 		</p> 
       </div>
@@ -1301,7 +1306,16 @@
       $("#toggleDetails").click(function(){
       	$("td:nth-child(n+2) .details span:nth-child(n+2)").toggle();
       });	  
-      $("#toggleNested").click(function(){
+      $("#swapFont").click(function(){
+	  $("#swapFont").hide();
+	  var style=document.createElement('style');
+		style.type='text/css';
+		if(style.styleSheet){
+			style.styleSheet.cssText='*{ font-family: Arial, Helvetica, sans-serif!important;font-variant: none;}';
+		}else{
+			style.appendChild(document.createTextNode('*{ font-family: Arial, Helvetica, sans-serif;font-variant: none;}'));
+		}
+		document.getElementsByTagName('head')[0].appendChild(style);
       });	  
 	  // case insensitive
 		$.expr[":"].contains = $.expr.createPseudo(function(arg) {
