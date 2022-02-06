@@ -10,6 +10,16 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
       <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
       <style>
+		 #toggleInv{
+			cursor:pointer;
+            text-decoration-style:dotted;
+			color:rgb(200,200,230);	 
+			transition: all 0.25s ease;
+		 }
+		 #toggleInv:hover{
+			color:rgb(120,120,255);	 
+			transition: all 0.25s ease;
+		 }
          a{
          text-decoration-style:dotted;
          }
@@ -379,8 +389,7 @@
       <h1 id="heading">Archnemesis Components</h1>
       <div class="buttonHold" style="text-align:center;">
          <p>Click crafted item names to display the number of required components.<br/>Brighter names marked with an asterisk are crafted only.<br/>Hide Nested only shows recipes that can be crafted without other crafting as a prerequisite.<br/>Click the text input below a mod to copy a regex to search the components in the Archnemesis window.</p>
-         <p style="font-size:125%;font-weight:bold;"><span style="color:red;">New!</span><br/>Click crafted items to generate a shopping lift of total dropped materials for that recipe!<br/>Set an inventory to get a list of drops you need for recipes!</p>
-		 <div class="swapButton" id="toggleInv">Inventory</div>
+         <p style="font-size:125%;font-weight:bold;"><span style="color:red;">New!</span><br/>Click crafted items to generate a shopping lift of total dropped materials for that recipe!<br/>Set an inventory to get a list of drops you need for recipes!</p>		 
 		 <div class="swapButton" id="toggleDetails">Toggle Recipe Details</div>
          <div class="swapButton" id="swapFont">I Hate This Font</div>
 		 <!--
@@ -392,7 +401,7 @@
 		 -->
 		 
          <div id="searchDiv">
-            <p>Search <input id="search" length="24" /> <input type="checkbox" id="recipeSearch" name="srecipes" checked><label for="srecipes">Search Recipes?</label> <input type="checkbox" id="nestedHide" name="nhide"><label for="nhide">Hide Nested?</label>
+            <p>Search <input id="search" length="24" /> <input type="checkbox" id="recipeSearch" name="srecipes" checked><label for="srecipes">Search Recipes?</label> <input type="checkbox" id="nestedHide" name="nhide"><label for="nhide">Hide Nested?</label> | <span id="toggleInv">Configure Inventory</span>
             </p>
          </div>
       </div>
