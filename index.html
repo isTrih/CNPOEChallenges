@@ -186,13 +186,21 @@
          color:white;
          border:1px solid rgba(255,255,255,0.2);
 		 transition: all 0.25s ease;
-         }
-		 
+         }		 
          .copy:hover{
 		 cursor: pointer;
          border:1px solid rgba(255,255,255,0.4);
 		 transition: all 0.25s ease;
          }
+		 #searchDiv{
+		 margin:auto;
+		 padding:5px 0px;
+		 width:100%;		 
+		 background-color:#404040;
+		 }		 
+		 #searchDiv p{
+		 margin:0px;
+		 }
       </style>
    </head>
    <body>
@@ -201,8 +209,10 @@
          <p>Click names in the first column to go to the PoeDB flow chart for the component.<br/>Brighter names marked with an asterisk are crafted only.<br/>Hide Nested only shows recipes that can be crafted without other crafting as a prerequisite.<br/>Click the text input below a mod to copy a regex to search the components in the Archnemesis window.</p>
          <div class="swapButton" id="toggleDetails">Toggle Recipe Details</div>
          <div class="swapButton" id="swapFont">I Hate This Font</div>
+		 <div id="searchDiv">
          <p>Search <input id="search" length="24" /> <input type="checkbox" id="recipeSearch" name="srecipes" checked><label for="srecipes">Search Recipes?</label> <input type="checkbox" id="nestedHide" name="nhide"><label for="nhide">Hide Nested?</label>
          </p>
+		 </div>
       </div>
       <table role="grid">
          <thead>
@@ -1420,6 +1430,22 @@
       for (var i = 0; i < elements.length; i++) {
       elements[i].addEventListener('click', copy, false);
       }
+	  
+	  var off = $('#searchDiv').offset().top;
+	  
+	$(window).scroll(function() {
+		if ($(window).scrollTop() - 10 >= off) {
+			$('#searchDiv').css({
+				position: 'fixed',
+				top: '0',
+				left: '0'
+			});
+		} else {
+			$('#searchDiv').css({
+				position: 'static'
+			});
+		}
+	});
       
    </script>
 </html>
