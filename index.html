@@ -233,17 +233,17 @@
          height:100%;
          background:rgba(0,0,0,0.6);
          }
-         .popup{
+         .popup,.popupInv{
          z-index:3;
          display:none;
          position:fixed;
-         width:50%;
+         width:70%;
          height:50%;
          top:25%;
-         left:25%;
+         left:15%;
          border-radius: 10px;
          color: #B4B4B4;
-         background: #06071F;
+         background: #404040;
          padding: 6px;
          text-align: center;
          vertical-align: middle;
@@ -252,7 +252,7 @@
          border-color: #323538;
          overflow-y:auto;
          }
-         .close{
+         .close,.closeInv{
          width:10px;
          height:10px;
          padding:10px;
@@ -261,6 +261,32 @@
          right:10px;
          cursor:pointer;
          }
+		 
+		 .popupInv table td:nth-child(1){
+			border-left:1px solid #323538;
+		 }
+		 
+		 .popupInv table td{
+		 text-align:left;
+		 color:white;
+		 overflow:hidden;
+		 }
+		 .popupInv table td input{
+		 text-align:left;
+		 color:white;
+		 background-color:black;
+		 overflow:hidden;
+         border:1px solid rgba(255,255,255,0.4);
+		 border-radius:4px;
+		 }
+		hr {
+			display: block;
+			border: none;
+			color: white;
+			height: 1px;
+			background: black;
+			background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#5D5D5D), to(#404040));
+		}
       </style>
    </head>
    <body>
@@ -268,11 +294,93 @@
       <div class="popup">
          <div class="close">&#x2715;</div>
          <div class="content">Lorem</div>
+         <div class="contentResult">Lorem</div>
+		 <br/><a href="javascript:;" onclick="$('.popup,.mask').fadeOut();">Close</a>
+      </div>
+      <div class="popupInv">
+         <div class="closeInv">&#x2715;</div>
+		 <table>
+			<p>As a preface, <b>this doesn't currently save</b>. Don't close this tab if you seriously intend to use this.<br/>Recipe shopping lists will have a missing and owned section if you enter values here.</p>
+			<tr><td colspan=3 style="background-color:#1B1E24;color:#D5DDE5;text-align:center;font-weight:bold;">Drops</td>
+			<tr><td><input type="number" id="Arcane_Buffer" name="Arcane_Buffer" value=0><label for="0">Arcane Buffer</label></td>
+			<td><input type="number" id="Berserker" name="Berserker" value=0><label for="1">Berserker</label></td>
+			<td><input type="number" id="Bloodletter" name="Bloodletter" value=0><label for="2">Bloodletter</label></td></tr>
+			<tr><td><input type="number" id="Bombardier" name="Bombardier" value=0><label for="3">Bombardier</label></td>
+			<td><input type="number" id="Bonebreaker" name="Bonebreaker" value=0><label for="4">Bonebreaker</label></td>
+			<td><input type="number" id="Chaosweaver" name="Chaosweaver" value=0><label for="5">Chaosweaver</label></td></tr>
+			<tr><td><input type="number" id="Consecrator" name="Consecrator" value=0><label for="6">Consecrator</label></td>
+			<td><input type="number" id="Deadeye" name="Deadeye" value=0><label for="7">Deadeye</label></td>
+			<td><input type="number" id="Dynamo" name="Dynamo" value=0><label for="8">Dynamo</label></td></tr>
+			<tr><td><input type="number" id="Echoist" name="Echoist" value=0><label for="9">Echoist</label></td>
+			<td><input type="number" id="Flameweaver" name="Flameweaver" value=0><label for="10">Flameweaver</label></td>
+			<td><input type="number" id="Frenzied" name="Frenzied" value=0><label for="11">Frenzied</label></td></tr>
+			<tr><td><input type="number" id="Frostweaver" name="Frostweaver" value=0><label for="12">Frostweaver</label></td>
+			<td><input type="number" id="Gargantuan" name="Gargantuan" value=0><label for="13">Gargantuan</label></td>
+			<td><input type="number" id="Hasted" name="Hasted" value=0><label for="14">Hasted</label></td></tr>
+			<tr><td><input type="number" id="Incendiary" name="Incendiary" value=0><label for="15">Incendiary</label></td>
+			<td><input type="number" id="Juggernaut" name="Juggernaut" value=0><label for="16">Juggernaut</label></td>
+			<td><input type="number" id="Malediction" name="Malediction" value=0><label for="17">Malediction</label></td></tr>
+			<tr><td><input type="number" id="Overcharged" name="Overcharged" value=0><label for="18">Overcharged</label></td>
+			<td><input type="number" id="Permafrost" name="Permafrost" value=0><label for="19">Permafrost</label></td>
+			<td><input type="number" id="Sentinel" name="Sentinel" value=0><label for="20">Sentinel</label></td></tr>
+			<tr><td><input type="number" id="Soul_Conduit" name="Soul_Conduit" value=0><label for="21">Soul Conduit</label></td>
+			<td><input type="number" id="Steel_infused" name="Steel_infused" value=0><label for="22">Steel-infused</label></td>
+			<td><input type="number" id="Stormweaver" name="Stormweaver" value=0><label for="23">Stormweaver</label></td></tr>
+			<tr><td><input type="number" id="Toxic" name="Toxic" value=0><label for="24">Toxic</label></td>
+			<td><input type="number" id="Vampiric" name="Vampiric" value=0><label for="25">Vampiric</label></td>
+			<td></td></tr>
+			
+			<tr><td colspan=3 style="background-color:#1B1E24;color:#D5DDE5;text-align:center;font-weight:bold;">Crafted</td>
+			<tr><td><input type="number" id="Assassin" name="Assassin" value=0><label for="26">Assassin</label></td>
+			<td><input type="number" id="Corpse_Detonator" name="Corpse_Detonator" value=0><label for="27">Corpse Detonator</label></td>
+			<td><input type="number" id="Corrupter" name="Corrupter" value=0><label for="28">Corrupter</label></td></tr>
+			<tr><td><input type="number" id="Crystal_skinned" name="Crystal_skinned" value=0><label for="29">Crystal-skinned</label></td>
+			<td><input type="number" id="Drought_Bringer" name="Drought_Bringer" value=0><label for="30">Drought Bringer</label></td>
+			<td><input type="number" id="Effigy" name="Effigy" value=0><label for="31">Effigy</label></td></tr>
+			<tr><td><input type="number" id="Empowered_Elements" name="Empowered_Elements" value=0><label for="32">Empowered Elements</label></td>
+			<td><input type="number" id="Empowering_Minions" name="Empowering_Minions" value=0><label for="33">Empowering Minions</label></td>
+			<td><input type="number" id="Entangler" name="Entangler" value=0><label for="34">Entangler</label></td></tr>
+			<tr><td><input type="number" id="Evocationist" name="Evocationist" value=0><label for="35">Evocationist</label></td>
+			<td><input type="number" id="Executioner" name="Executioner" value=0><label for="36">Executioner</label></td>
+			<td><input type="number" id="Flame_Strider" name="Flame_Strider" value=0><label for="37">Flame Strider</label></td></tr>
+			<tr><td><input type="number" id="Frost_Strider" name="Frost_Strider" value=0><label for="38">Frost Strider</label></td>
+			<td><input type="number" id="Heralding_Minions" name="Heralding_Minions" value=0><label for="39">Heralding Minions</label></td>
+			<td><input type="number" id="Hexer" name="Hexer" value=0><label for="40">Hexer</label></td></tr>
+			<tr><td><input type="number" id="Ice_Prison" name="Ice_Prison" value=0><label for="41">Ice Prison</label></td>
+			<td><input type="number" id="Invulnerable" name="Invulnerable" value=0><label for="42">Invulnerable</label></td>
+			<td><input type="number" id="Magma_Barrier" name="Magma_Barrier" value=0><label for="43">Magma Barrier</label></td></tr>
+			<tr><td><input type="number" id="Mana_Siphoner" name="Mana_Siphoner" value=0><label for="44">Mana Siphoner</label></td>
+			<td><input type="number" id="Mirror_Image" name="Mirror_Image" value=0><label for="45">Mirror Image</label></td>
+			<td><input type="number" id="Necromancer" name="Necromancer" value=0><label for="46">Necromancer</label></td></tr>
+			<tr><td><input type="number" id="Rejuvenating" name="Rejuvenating" value=0><label for="47">Rejuvenating</label></td>
+			<td><input type="number" id="Soul_Eater" name="Soul_Eater" value=0><label for="48">Soul Eater</label></td>
+			<td><input type="number" id="Storm_Strider" name="Storm_Strider" value=0><label for="49">Storm Strider</label></td></tr>
+			<tr><td><input type="number" id="Temporal_Bubble" name="Temporal_Bubble" value=0><label for="50">Temporal Bubble</label></td>
+			<td><input type="number" id="Treant_Horde" name="Treant_Horde" value=0><label for="51">Treant Horde</label></td>
+			<td><input type="number" id="Trickster" name="Trickster" value=0><label for="52">Trickster</label></td></tr>
+			
+			<tr><td colspan=3 style="background-color:#1B1E24;color:#D5DDE5;text-align:center;font-weight:bold;">Touches</td>
+			<tr><td><input type="number" id="Lunaris_touched" name="Lunaris_touched" value=0><label for="53">Lunaris-touched</label></td>
+			<td><input type="number" id="Solaris_touched" name="Solaris_touched" value=0><label for="54">Solaris-touched</label></td>
+			<td><input type="number" id="Arakaali_touched" name="Arakaali_touched" value=0><label for="55">Arakaali-touched</label></td></tr>
+			<tr><td><input type="number" id="Brine_King_touched" name="Brine_King_touched" value=0><label for="56">Brine King-touched</label></td>
+			<td><input type="number" id="Tukohama_touched" name="Tukohama_touched" value=0><label for="57">Tukohama-touched</label></td>
+			<td><input type="number" id="Abberath_touched" name="Abberath_touched" value=0><label for="58">Abberath-touched</label></td></tr>
+			<tr><td><input type="number" id="Shakari_touched" name="Shakari_touched" value=0><label for="59">Shakari-touched</label></td>
+			<td><input type="number" id="Innocence_touched" name="Innocence_touched" value=0><label for="60">Innocence-touched</label></td>
+			<td><input type="number" id="Kitava_touched" name="Kitava_touched" value=0><label for="61">Kitava-touched</label></td></tr>
+		</table>
+		 <br/><a href="javascript:;" onclick="$('.popupInv,.mask').fadeOut();">Close</a>
+		<!-- I didn't want to deal with this yet
+		<h1>You can craft:</h1>
+		<div id="craftable">Nothing</div>
+		-->
       </div>
       <h1 id="heading">Archnemesis Components</h1>
       <div class="buttonHold" style="text-align:center;">
          <p>Click crafted item names to display the number of required components.<br/>Brighter names marked with an asterisk are crafted only.<br/>Hide Nested only shows recipes that can be crafted without other crafting as a prerequisite.<br/>Click the text input below a mod to copy a regex to search the components in the Archnemesis window.</p>
-         <p style="font-size:125%;font-weight:bold;"><span style="color:red;">New!</span> Click crafted items to generate a shopping lift of total dropped materials for that recipe!</p>
+         <p style="font-size:125%;font-weight:bold;"><span style="color:red;">New!</span><br/>Click crafted items to generate a shopping lift of total dropped materials for that recipe!<br/>Set an inventory to get a list of drops you need for recipes!</p>
+		 <div class="swapButton" id="toggleInv">Inventory</div>
 		 <div class="swapButton" id="toggleDetails">Toggle Recipe Details</div>
          <div class="swapButton" id="swapFont">I Hate This Font</div>
 		 <!--
@@ -1487,213 +1595,297 @@
       <p class="footer">Full credit for details goes to <a target="_blank" href="https://poedb.tw/us/">PoEDB</a></p>
    </body>
    <script>
-      var requiredDrops = {}
-      var requiredCrafts = {}
-      var recipes = {
-      Arcane_Buffer: null,
-      Berserker: null,
-      Bloodletter: null,
-      Bombardier: null,
-      Bonebreaker: null,
-      Chaosweaver: null,
-      Consecrator: null,
-      Deadeye: null,
-      Dynamo: null,
-      Echoist: null,
-      Flameweaver: null,
-      Frenzied: null,
-      Frostweaver: null,
-      Gargantuan: null,
-      Hasted: null,
-      Incendiary: null,
-      Juggernaut: null,
-      Malediction: null,
-      Overcharged: null,
-      Permafrost: null,
-      Sentinel: null,
-      Soul_Conduit: null,
-      Steel_infused: null,
-      Stormweaver: null,
-      Toxic: null,
-      Vampiric: null,
-      Assassin: ['Deadeye','Vampiric'],
-      Corrupter: ['Bloodletter','Chaosweaver'],
-      Drought_Bringer: ['Malediction','Deadeye'],
-      Entangler: ['Toxic','Bloodletter'],
-      Treant_Horde: ['Toxic','Sentinel', 'Steel_infused'],
-      Evocationist: ['Flameweaver','Frostweaver','Stormweaver'],
-      Executioner: ['Frenzied','Berserker'],
-      Flame_Strider: ['Flameweaver','Hasted'],
-      Frost_Strider: ['Frostweaver','Hasted'],
-      Heralding_Minions: ['Dynamo','Arcane_Buffer'],
-      Hexer: ['Chaosweaver','Echoist'],
-      Ice_Prison: ['Permafrost','Sentinel'],
-      Invulnerable: ['Sentinel','Juggernaut','Consecrator'],
-      Magma_Barrier: ['Incendiary','Bonebreaker'],
-      Mana_Siphoner: ['Consecrator','Dynamo'],
-      Mirror_Image: ['Echoist','Soul_Conduit'],
-      Necromancer: ['Bombardier','Overcharged'],
-      Rejuvenating: ['Gargantuan','Vampiric'],
-      Storm_Strider: ['Stormweaver','Hasted'],
-      Corpse_Detonator: ['Necromancer','Incendiary'],
-      Empowering_Minions: ['Necromancer','Executioner','Gargantuan'],
-      Soul_Eater: ['Soul_Conduit','Necromancer','Gargantuan'],
-      Trickster: ['Overcharged','Assassin','Echoist'],
-      Temporal_Bubble: ['Juggernaut','Hexer','Arcane_Buffer'],
-      Crystal_skinned: ['Permafrost','Rejuvenating','Berserker'],
-      Empowered_Elements: ['Evocationist','Steel_infused','Chaosweaver'],
-      Effigy: ['Hexer','Malediction','Corrupter'],
-      Lunaris_touched: ['Invulnerable','Frost_Strider','Empowering_Minions'],
-      Solaris_touched: ['Invulnerable','Magma_Barrier','Empowering_Minions'],
-      Arakaali_touched: ['Corpse_Detonator','Entangler','Assassin'],
-      Brine_King_touched: ['Ice_Prison','Storm_Strider','Heralding_Minions'],
-      Tukohama_touched: ['Bonebreaker','Executioner','Magma_Barrier'],
-      Abberath_touched: ['Flame_Strider','Frenzied','Rejuvenating'],
-      Shakari_touched: ['Entangler','Soul_Eater','Drought_Bringer'],
-      Innocence_touched: ['Lunaris_touched','Solaris_touched','Mirror_Image','Mana_Siphoner'],
-      Kitava_touched: ['Tukohama_touched','Abberath_touched','Corrupter','Corpse_Detonator'],
-      }
-      
-      var text = ""
-      function getRequirements(recipe){
-      requiredDrops = {}
-        requiredCrafts = {}  
-      
-      var items = recipes[recipe];
-      items.forEach(countRequirements);
-      text = "<h1>Drops Needed</h1>";
-      Object.entries(requiredDrops).forEach(dropTotals);
-      
-      if(Object.keys(requiredCrafts).length > 0) {
-      text += "<h1>Crafts Needed</h1>";
-      Object.entries(requiredCrafts).forEach(craftTotals);
-      }		
-      text += "<br/><a href=\"javascript:;\" onclick=\"$('.popup,.mask').fadeOut();\">Close</div>";
-      $('.content').html(text);
-        $('.popup,.mask').fadeIn();
-      }	  
-      
-      function countRequirements(value, index, array){
-      var nest  = recipes[value];
-      if(nest != null){
-      if (requiredCrafts[value] == null){
-      requiredCrafts[value] = 1;
-      } else {
-      requiredCrafts[value] += 1;
-      }
-      nest.forEach(countRequirements);
-      } else {
-      if (requiredDrops[value] == null){
-      requiredDrops[value] = 1;
-      } else {
-      requiredDrops[value] += 1;
-      }
-      }
-      }
-      
-      
-      function dropTotals(value, index, array){
-      text += "<span class=\"modnamelist\">" + value[0].replaceAll("_touched", "-touched").replaceAll("_infused", "-infused").replaceAll("_skinned", "-skinned").replaceAll("_", " ") + " x " + value[1] + "<br/></span>\n";
-      }      
-      function craftTotals(value, index, array){
-      text += "<span class=\"modnamelist\">" + value[0].replaceAll("_touched", "-touched").replaceAll("_infused", "-infused").replaceAll("_skinned", "-skinned").replaceAll("_", " ") + " x " + value[1] + "</span><br/>\n";
-      text += "<span class=\"ingredients\">" + recipes[value[0]].toString().replaceAll(",", ", ").replaceAll("_touched", "-touched").replaceAll("_infused", "-infused").replaceAll("_skinned", "-skinned").replaceAll("_", " ") + "</span><br/>\n";;
-      }      
-      
-      $("#toggleDetails").click(function(){
-      	$("td:nth-child(n+2) .details span:nth-child(n+2)").toggle();
-      });	  
-      $("#swapFont").click(function(){
-      $("#swapFont").hide();
-      var style=document.createElement('style');
-      style.type='text/css';
-      if(style.styleSheet){
-      style.styleSheet.cssText='*{ font-family: Arial, Helvetica, sans-serif!important;font-variant: none;}';
-      }else{
-      style.appendChild(document.createTextNode('*{ font-family: Arial, Helvetica, sans-serif;font-variant: none;}'));
-      }
-      document.getElementsByTagName('head')[0].appendChild(style);
-      });	  
-      // case insensitive
-      $.expr[":"].contains = $.expr.createPseudo(function(arg) {
-      return function( elem ) {
-      return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
-      };
-      });
-      // delay function
-      function throttle(f, delay){
-      var timer = null;
-      return function(){
-      var context = this, args = arguments;
-      clearTimeout(timer);
-      timer = window.setTimeout(function(){
-      f.apply(context, args);
-      },
-      delay || 350);
-      };
-      }
-      $("#search,#searchTags").keyup(throttle(searchMods)); 
-      $('select').blur(searchMods);
-      $('select').change(searchMods);
-      $("#recipeSearch").change(searchMods);
-      $("#nestedHide").change(searchMods);
-      function searchMods(){
-      var term = $('#search').val().trim();	
-      if($("#recipeSearch").is(':checked') && term.length > 0){
-      $("td").parent().hide();
-      $("td:contains('" + term + "')").parent().show();
-      } else if(term.length > 0){
-      $("td").parent().hide();
-      $("td:nth-child(1):contains('" + term + "')").parent().show();
-      } else {
-      $("td:nth-child(1)").parent().show();	
-      }
-      if($("#nestedHide").is(':checked')){
-      $(".nested").hide();
-      }
-      };
-      
-      function copy() {
-      this.select();
-      document.execCommand("copy");
-      }
-      
-      function craft() {
-      var craftName = $(this).text().trim().replaceAll(" ", "_").replaceAll("-", "_");
-      getRequirements(craftName);
-      }
-        
-      
-      var elements = document.getElementsByClassName("copy");
-      for (var i = 0; i < elements.length; i++) {
-      elements[i].addEventListener('click', copy, false);
-      }
-      
-      var elements = document.getElementsByClassName("crafted");
-      for (var i = 0; i < elements.length; i++) {
-      elements[i].addEventListener('click', craft, false);
-      }
-      
-      
-      var off = $('#searchDiv').offset().top;
-      
-      $(window).scroll(function() {
-      if ($(window).scrollTop() - 10 >= off) {
-      $('#searchDiv').css({
-      position: 'fixed',
-      top: '0',
-      left: '0'
-      });
-      } else {
-      $('#searchDiv').css({
-      position: 'static'
-      });
-      }
-      });
-      
-      $('.mask,.close').click(function(){
-        $('.popup,.mask').fadeOut();
-      });
+		var requiredDrops = {}
+		var requiredCrafts = {}
+		var inventory = {}
+		var consumed = {}
+		var recipes = {
+			Arcane_Buffer: null,
+			Berserker: null,
+			Bloodletter: null,
+			Bombardier: null,
+			Bonebreaker: null,
+			Chaosweaver: null,
+			Consecrator: null,
+			Deadeye: null,
+			Dynamo: null,
+			Echoist: null,
+			Flameweaver: null,
+			Frenzied: null,
+			Frostweaver: null,
+			Gargantuan: null,
+			Hasted: null,
+			Incendiary: null,
+			Juggernaut: null,
+			Malediction: null,
+			Overcharged: null,
+			Permafrost: null,
+			Sentinel: null,
+			Soul_Conduit: null,
+			Steel_infused: null,
+			Stormweaver: null,
+			Toxic: null,
+			Vampiric: null,
+			Assassin: ['Deadeye', 'Vampiric'],
+			Corrupter: ['Bloodletter', 'Chaosweaver'],
+			Drought_Bringer: ['Malediction', 'Deadeye'],
+			Entangler: ['Toxic', 'Bloodletter'],
+			Treant_Horde: ['Toxic', 'Sentinel', 'Steel_infused'],
+			Evocationist: ['Flameweaver', 'Frostweaver', 'Stormweaver'],
+			Executioner: ['Frenzied', 'Berserker'],
+			Flame_Strider: ['Flameweaver', 'Hasted'],
+			Frost_Strider: ['Frostweaver', 'Hasted'],
+			Heralding_Minions: ['Dynamo', 'Arcane_Buffer'],
+			Hexer: ['Chaosweaver', 'Echoist'],
+			Ice_Prison: ['Permafrost', 'Sentinel'],
+			Invulnerable: ['Sentinel', 'Juggernaut', 'Consecrator'],
+			Magma_Barrier: ['Incendiary', 'Bonebreaker'],
+			Mana_Siphoner: ['Consecrator', 'Dynamo'],
+			Mirror_Image: ['Echoist', 'Soul_Conduit'],
+			Necromancer: ['Bombardier', 'Overcharged'],
+			Rejuvenating: ['Gargantuan', 'Vampiric'],
+			Storm_Strider: ['Stormweaver', 'Hasted'],
+			Corpse_Detonator: ['Necromancer', 'Incendiary'],
+			Empowering_Minions: ['Necromancer', 'Executioner', 'Gargantuan'],
+			Soul_Eater: ['Soul_Conduit', 'Necromancer', 'Gargantuan'],
+			Trickster: ['Overcharged', 'Assassin', 'Echoist'],
+			Temporal_Bubble: ['Juggernaut', 'Hexer', 'Arcane_Buffer'],
+			Crystal_skinned: ['Permafrost', 'Rejuvenating', 'Berserker'],
+			Empowered_Elements: ['Evocationist', 'Steel_infused', 'Chaosweaver'],
+			Effigy: ['Hexer', 'Malediction', 'Corrupter'],
+			Lunaris_touched: ['Invulnerable', 'Frost_Strider', 'Empowering_Minions'],
+			Solaris_touched: ['Invulnerable', 'Magma_Barrier', 'Empowering_Minions'],
+			Arakaali_touched: ['Corpse_Detonator', 'Entangler', 'Assassin'],
+			Brine_King_touched: ['Ice_Prison', 'Storm_Strider', 'Heralding_Minions'],
+			Tukohama_touched: ['Bonebreaker', 'Executioner', 'Magma_Barrier'],
+			Abberath_touched: ['Flame_Strider', 'Frenzied', 'Rejuvenating'],
+			Shakari_touched: ['Entangler', 'Soul_Eater', 'Drought_Bringer'],
+			Innocence_touched: ['Lunaris_touched', 'Solaris_touched', 'Mirror_Image', 'Mana_Siphoner'],
+			Kitava_touched: ['Tukohama_touched', 'Abberath_touched', 'Corrupter', 'Corpse_Detonator'],
+		}
+
+		var text = ""	
+		var missing = "";
+		var have = "";
+		var hasInventory = false;
+		function getInventory(value) {
+			hasInventory = false;
+			inventory = {}
+			consumed = {}
+			missing = "";
+		    have = "";
+			Object.entries(recipes).forEach(getInventoryQuantity);
+			if (hasInventory){
+				checkRecipe([value]);
+				Object.entries(consumed).forEach(invStatus);
+				
+				if (missing.length > 0){
+					missing = "<h1>Missing:</h1><p class=\"modnamelist\">" + missing + "</p>";
+				}
+				if (have.length > 0){
+					have = "<h1>Owned:</h1><p class=\"modnamelist\">" + have + "</p>";
+				}
+				$(".contentResult").html("<hr>" + have + missing);
+			} else {
+			
+				$(".contentResult").html("");
+			}
+		}
+		
+		function invStatus(value, index, array) {
+			
+			//alert(value + " is a drop [" + consumed[value[0]] +  "/" + inventory[value[0]] + "]");
+			
+			if(inventory[value[0]] >= consumed[value[0]]){
+				have += value[0] + " [" + inventory[value[0]] +  "/" + consumed[value[0]] + "]<br/>";
+			} else {
+				missing += value[0] + " [" + inventory[value[0]] +  "/" + consumed[value[0]] + "]<br/>";
+			}
+		}
+		
+		function getInventoryQuantity(value, index, array) {
+			var el = document.getElementById(value[0]);
+			inventory[value[0]] = el.valueAsNumber;
+			if (el.valueAsNumber != 0){
+			hasInventory = true;
+			}
+			//alert(value[0] + ":" + el.valueAsNumber); 
+		}
+		
+		
+		function checkRecipe(value, index, array) {
+			var nest = recipes[value];
+			if (nest == null) {
+				if (consumed[value] == null) {
+					consumed[value] = 1;
+				} else {
+					consumed[value] += 1;
+				}
+			} else {
+				var used = 1;
+				if (consumed[value] != null) {
+					used += consumed[value];
+				}
+				// have in inventory
+				if(inventory[value] > used){					
+					if (consumed[value] == null) {
+						consumed[value] = 1;
+					} else {
+						consumed[value] += 1;
+					}
+				} else {
+					var items = recipes[value];
+					items.forEach(checkRecipe);
+				}
+			}
+		}
+		
+		function getRequirements(recipe) {
+			requiredDrops = {}
+			requiredCrafts = {}
+
+			var items = recipes[recipe];
+			items.forEach(countRequirements);
+			text = "<h1>Drops Needed</h1><p>";
+			Object.entries(requiredDrops).forEach(dropTotals);
+			text += "</p>"
+			if (Object.keys(requiredCrafts).length > 0) {
+				text += "<h1>Crafts Needed</h1><p>";
+				Object.entries(requiredCrafts).forEach(craftTotals);
+				text += "</p>"
+			}
+			$('.content').html(text);
+			$('.popup,.mask').fadeIn();
+		}
+
+		function countRequirements(value, index, array) {
+			var nest = recipes[value];
+			if (nest != null) {
+				if (requiredCrafts[value] == null) {
+					requiredCrafts[value] = 1;
+				} else {
+					requiredCrafts[value] += 1;
+				}
+				nest.forEach(countRequirements);
+			} else {
+				if (requiredDrops[value] == null) {
+					requiredDrops[value] = 1;
+				} else {
+					requiredDrops[value] += 1;
+				}
+			}
+		}
+
+
+		function dropTotals(value, index, array) {
+			text += "<span class=\"modnamelist\">" + value[0].replaceAll("_touched", "-touched").replaceAll("_infused", "-infused").replaceAll("_skinned", "-skinned").replaceAll("_", " ") + " x " + value[1] + "<br/></span>\n";
+		}
+
+		function craftTotals(value, index, array) {
+			text += "<span class=\"modnamelist\">" + value[0].replaceAll("_touched", "-touched").replaceAll("_infused", "-infused").replaceAll("_skinned", "-skinned").replaceAll("_", " ") + " x " + value[1] + "</span><br/>\n";
+			text += "<span class=\"ingredients\">" + recipes[value[0]].toString().replaceAll(",", ", ").replaceAll("_touched", "-touched").replaceAll("_infused", "-infused").replaceAll("_skinned", "-skinned").replaceAll("_", " ") + "</span><br/>\n";;
+		}
+
+		$("#toggleInv").click(function() {
+			$(".popupInv,.mask").fadeIn();
+		});
+		$("#toggleDetails").click(function() {
+			$("td:nth-child(n+2) .details span:nth-child(n+2)").toggle();
+		});
+		$("#swapFont").click(function() {
+			$("#swapFont").hide();
+			var style = document.createElement('style');
+			style.type = 'text/css';
+			if (style.styleSheet) {
+				style.styleSheet.cssText = '*{ font-family: Arial, Helvetica, sans-serif!important;font-variant: none;}';
+			} else {
+				style.appendChild(document.createTextNode('*{ font-family: Arial, Helvetica, sans-serif;font-variant: none;}'));
+			}
+			document.getElementsByTagName('head')[0].appendChild(style);
+		});
+		// case insensitive
+		$.expr[":"].contains = $.expr.createPseudo(function(arg) {
+			return function(elem) {
+				return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+			};
+		});
+		// delay function
+		function throttle(f, delay) {
+			var timer = null;
+			return function() {
+				var context = this,
+					args = arguments;
+				clearTimeout(timer);
+				timer = window.setTimeout(function() {
+						f.apply(context, args);
+					},
+					delay || 350);
+			};
+		}
+		$("#search,#searchTags").keyup(throttle(searchMods));
+		$('select').blur(searchMods);
+		$('select').change(searchMods);
+		$("#recipeSearch").change(searchMods);
+		$("#nestedHide").change(searchMods);
+
+		function searchMods() {
+			var term = $('#search').val().trim();
+			if ($("#recipeSearch").is(':checked') && term.length > 0) {
+				$("td").parent().hide();
+				$("td:contains('" + term + "')").parent().show();
+			} else if (term.length > 0) {
+				$("td").parent().hide();
+				$("td:nth-child(1):contains('" + term + "')").parent().show();
+			} else {
+				$("td:nth-child(1)").parent().show();
+			}
+			if ($("#nestedHide").is(':checked')) {
+				$(".nested").hide();
+			}
+		};
+
+		function copy() {
+			this.select();
+			document.execCommand("copy");
+		}
+
+		function craft() {
+			var craftName = $(this).text().trim().replaceAll(" ", "_").replaceAll("-", "_");
+			getRequirements(craftName);
+			getInventory(craftName);
+		}
+
+
+		var elements = document.getElementsByClassName("copy");
+		for (var i = 0; i < elements.length; i++) {
+			elements[i].addEventListener('click', copy, false);
+		}
+
+		var elements = document.getElementsByClassName("crafted");
+		for (var i = 0; i < elements.length; i++) {
+			elements[i].addEventListener('click', craft, false);
+		}
+
+
+		var off = $('#searchDiv').offset().top;
+
+		$(window).scroll(function() {
+			if ($(window).scrollTop() - 10 >= off) {
+				$('#searchDiv').css({
+					position: 'fixed',
+					top: '0',
+					left: '0'
+				});
+			} else {
+				$('#searchDiv').css({
+					position: 'static'
+				});
+			}
+		});
+
+		$('.mask,.close,.closeInv').click(function() {
+			$('.popup,.mask,.popupInv').fadeOut();
+		});
       
    </script>
 </html>
