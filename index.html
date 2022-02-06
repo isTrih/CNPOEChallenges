@@ -1396,7 +1396,7 @@
       $("#recipeSearch").change(searchMods);
       $("#nestedHide").change(searchMods);
       function searchMods(){
-      var term = $('#search').val();	
+      var term = $('#search').val().trim();	
       if($("#recipeSearch").is(':checked') && term.length > 0){
       $("td").parent().hide();
       $("td:contains('" + term + "')").parent().show();
