@@ -33,12 +33,6 @@
          td:nth-child(n+2) .details span:nth-child(n+2){
          display:none;
          }
-         td:nth-child(n+2) .modname.crafted:after		 
-         { 
-         content:"*";
-         font-size:75%;	
-         color:#D6D1AA;	 
-         }
          td:nth-child(n+2) .modname.crafted{
          color:#D6D1AA;
          }
@@ -67,9 +61,19 @@
          td:nth-child(n+2) .modname{
          color:#B4B4B4;	 
          }
-         .modname{
+         .modname{		 
+		 cursor:pointer;
          font-size:110%;
          font-weight:bold;
+         transition: all 0.25s ease;
+         }
+		 
+         td .modname:not(.crafted):hover{
+		 color:#FFFFFF;
+         transition: all 0.25s ease;
+         }
+         td .modname.crafted:hover{
+		 color:#FEF39A;
          transition: all 0.25s ease;
          }
          h1{
@@ -326,16 +330,18 @@
       <div class="maskInv"></div>
       <div class="popup">
          <div class="close">&#x2715;</div>
-         <div class="contentHead" style="font-size:140%">Lorem</div>
-         <div class="content">Lorem</div>
-         <div class="contentUsage">Lorem</div>
-         <div class="contentResult">Lorem</div>
+         <div class="contentHead" style="font-size:140%"></div>
+         <div class="content"></div>
+         <div class="contentUsage"></div>
+         <div class="contentResult"></div>
 		 <br/><a href="javascript:;" onclick="$('.popup,.mask').fadeOut();">Close</a>
       </div>
       <div class="popupInv">
          <div class="closeInv">&#x2715;</div>
 		 <table>
-			<p><span class="spanButton" id="saveInventory">Save Inventory</span> | <span class="spanButton" id="loadInventory">Load Saved Inventory</span><br/>Recipe shopping lists will have a missing and owned section if you enter values here.</p>
+			<p><span class="spanButton" id="saveInventory">Save Inventory</span> | <span class="spanButton" id="loadInventory">Load Saved Inventory</span>
+			<br/>Recipe shopping lists will have a missing and owned section if you enter values here.
+			<br/>Calculate all possible recipes at the bottom of the page.</p>
 			
 			
 			<tr><td colspan=3 style="background-color:#1B1E24;color:#D5DDE5;text-align:center;font-weight:bold;">Drops</td>
@@ -410,7 +416,7 @@
 		
         <div class="swapButton" id="craftCheck">What can I craft?</div>
 		<h1>You can craft:</h1>
-		<div id="craftable">Nothing</div>
+		<div id="craftable">Press the button</div>
 		
 		 <br/><a href="javascript:;" onclick="$('.popupInv,.maskInv').fadeOut();">Close</a>
 
@@ -418,18 +424,15 @@
       </div>
       <h1 id="heading">Archnemesis Components</h1>
       <div class="buttonHold" style="text-align:center;">
-         <p>Click crafted item names to display the number of required components.<br/>Brighter names marked with an asterisk are crafted only.<br/>Hide Nested only shows recipes that can be crafted without other crafting as a prerequisite.<br/>Click the text input below a mod to copy a regex to search the components in the Archnemesis window.</p>
-         <p style="font-size:125%;font-weight:bold;"><span style="color:red;">New!</span><br/>Click crafted items to generate a shopping lift of total dropped materials for that recipe!<br/>Set an inventory to get a list of drops you need for recipes!<br/>Inventory can show all possible crafting results based on what you own.</p>		 
+         <p>Click mod names to display details about them such as components to craft and uses in crafting.
+		 <br/>Brighter, dotted underlined names are crafted only.
+		 <br/>Hide Nested only shows recipes that can be crafted without other crafting as a prerequisite.
+		 <br/>Click the text input below a mod to copy a regex to search the components in the Archnemesis window.
+		 <br/>Inventory lets you calculate recipes and tells you what you need if you lack it in various places.
+		 <br/>Inventory also generates a list of everything you could make across all recipes with what you have.</p>
+         <p style="font-size:125%;font-weight:bold;"><span style="color:red;">New!</span><br/>Clicking mod names (both crafted and non-crafted) shows details on everything they are used in.</p>		 
 		 
-         <div class="swapButton" id="swapFont">I Hate This Font</div>
-		 <!--
-		 <div id="inventory">
-		 <table>
-		
-		 </table>
-		 </div>
-		 -->
-		 
+         <div class="swapButton" id="swapFont">I Hate This Font</div>		 
          <div id="searchDiv">
             </p>
             <p>Search <input id="search" length="24" /> <input type="checkbox" id="recipeSearch" name="srecipes" checked><label for="srecipes">Search Recipes?</label> <input type="checkbox" id="nestedHide" name="nhide"><label for="nhide">Hide Nested?</label> | <span class="spanButton" id="toggleInv">Configure Inventory</span> | <span class="spanButton" id="toggleDetails">Toggle Recipe Details</span>
@@ -1892,8 +1895,6 @@
 				Object.entries(requiredCrafts).forEach(craftTotals);
 				text += "</p>"
 			}
-			$('.content').html(text);
-			$('.popup,.mask').fadeIn();
 		}
 
 		function countRequirements(value, index, array) {
@@ -2005,7 +2006,24 @@
 			elements = document.getElementsByClassName("crafted");
 			for (var i = 0; i < elements.length; i++) {
 				elements[i].addEventListener('click', craft, false);
-			}	
+			}
+			
+			$('.content').html(text);
+			$('.popup,.mask').fadeIn();
+		}
+		function drop() {
+			var craftName = $(this).text().trim().replaceAll(" ", "_").replaceAll("-", "_");
+			var craftDetails = $("p.details:contains('" + $(this).text() + "')").parent().html();
+			$(".contentHead").html(craftDetails.replace(" crafted", ""));
+			
+			usedIn(craftName);			
+			elements = document.getElementsByClassName("crafted");
+			for (var i = 0; i < elements.length; i++) {
+				elements[i].addEventListener('click', craft, false);
+			}
+			
+			$('.content').html(text);
+			$('.popup,.mask').fadeIn();
 		}
 
 
@@ -2019,6 +2037,10 @@
 			elements[i].addEventListener('click', craft, false);
 		}
 
+		var elements = $(".modname:not(.crafted)");
+		for (var i = 0; i < elements.length; i++) {
+			elements[i].addEventListener('click', drop, false);
+		}
 
 		var off = $('#searchDiv').offset().top;
 
