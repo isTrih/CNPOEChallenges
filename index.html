@@ -328,6 +328,7 @@
          <div class="close">&#x2715;</div>
          <div class="contentHead" style="font-size:140%">Lorem</div>
          <div class="content">Lorem</div>
+         <div class="contentUsage">Lorem</div>
          <div class="contentResult">Lorem</div>
 		 <br/><a href="javascript:;" onclick="$('.popup,.mask').fadeOut();">Close</a>
       </div>
@@ -880,7 +881,7 @@
                <p class="details"><span class="modname crafted">Soul Eater</span>
                   <br/><span class="modeffect">Monster empowers when nearby allies die. Periodically summons Phantasms</span>
                   <br/><span class="modreward">Maps Maps </span>
-                  <br/><input class="copy" value="^(soul c|nec|gar)" readonly>
+                  <br/><input class="copy" value="^(soul.c|nec|gar)" readonly>
                   <br/><a target="_blank" href="https://poedb.tw/us/Soul_Eater#Recipe">PoeDB Flow Chart</a>
                </p>
             </td>
@@ -1513,7 +1514,7 @@
                   <br/><span class="modeffect">Monster uses the abilities of Shakari</span>
                   <br/><span class="modreward">Uniques </span>
                   <br/><span class="modextra">All Reward Types are Uniques </span>
-                  <br/><input class="copy" value="^(ent|soul e|dro)" readonly>
+                  <br/><input class="copy" value="^(ent|soul.e|dro)" readonly>
                   <br/><a target="_blank" href="https://poedb.tw/us/Shakari-touched#Recipe">PoeDB Flow Chart</a>
                </p>
             </td>
@@ -1633,8 +1634,11 @@
       <p class="footer">Full credit for details goes to <a target="_blank" href="https://poedb.tw/us/">PoEDB</a></p>
    </body>
    <script>
+		var currentRecipe = ""
+		var checkingRecipe = ""
 		var requiredDrops = {}
 		var requiredCrafts = {}
+		var checkedCrafts = {}
 		var inventory = {}
 		var consumed = {}
 		var recipes = {
@@ -1706,6 +1710,7 @@
 		var missing = "";
 		var have = "";
 		var canCraft = "";
+		var usedInRecipes = "";
 		var hasInventory = false;
 		function getInventory(value) {
 			hasInventory = false;
@@ -1757,12 +1762,16 @@
 			if(missing.length == 0){
 				var nest = recipes[value[0]];
 				if (nest != null) {
-				var craftName = value[0].replaceAll("_touched", "-touched").replaceAll("_infused", "-infused").replaceAll("_skinned", "-skinned").replaceAll("_", " ");
+					var craftName = cleanName(value[0], true)
 					//canCraft += "<span class=\"modnamelist crafted\">" + craftName  + "</span><br/>\n";
 					var craftDetails = $("p.details:contains('" + craftName + "')").parent();
 					//var img = "<img style=\"height:20px; width=20px; margin:-5px 5px;\" src=\"" + craftDetails.find('img').attr("src") + "\"/>";
 					var modName = "<span class=\"modnamelist crafted\">" + craftName + "</span>"
 					var rewards = "<br/><span class=\"modreward\">" + craftDetails.find('.modreward').first().text() + "</span><br/>"
+					var specialText = craftDetails.find('.modextra').first().text();
+					if (specialText.length > 0){
+						rewards += "<span class=\"modextra\">" + craftDetails.find('.modextra').first().text() + "</span><br/>"
+					}
 					canCraft += modName + rewards;
 				}
 			}				
@@ -1815,6 +1824,42 @@
 			}
 		}
 		
+		function usedIn(value){
+			checkedCrafts = {}
+			currentRecipe = ""
+			checkingRecipe = value;
+			usedInRecipes = "";
+			Object.entries(recipes).forEach(usedInRecipe);
+			if(usedInRecipes.length > 0){
+				$(".contentUsage").html("<hr/><h1>Used In</h1><p>" + usedInRecipes + "</p>");
+			} else {
+				$(".contentUsage").html("<hr/><h1>Used In</h1><p><span class=\"modname\">Nothing</span>");
+			}
+			
+		}
+		
+		
+		function usedInRecipe(value, index, array) {
+			var nest = recipes[value[0]];
+			if (nest != null) {
+				currentRecipe = cleanName(value[0], false);
+				
+				Object.entries(nest).forEach(function(value, index, array){
+					if(checkedCrafts[currentRecipe] == null && value[1] == checkingRecipe){
+						var craftName = cleanName(currentRecipe, true);
+						var craftDetails = $("p.details:contains('" + craftName + "')").parent();
+						var modName = "<span class=\"modnamelist crafted\">" + craftName + "</span>"
+						var rewards = "<br/><span class=\"modreward\">" + craftDetails.find('.modreward').first().text() + "</span><br/>"
+						var specialText = craftDetails.find('.modextra').first().text();
+						if (specialText.length > 0){
+							rewards += "<span class=\"modextra\">" + craftDetails.find('.modextra').first().text() + "</span><br/>"
+						}
+						usedInRecipes += modName + rewards;
+					}
+				});
+				checkedCrafts[currentRecipe] = true;
+			}
+		}
 		
 		function inventorySaveOperation(isSaving) {
 			if(!isSaving && (confirm("Load saved inventory?") == true)){
@@ -1871,12 +1916,12 @@
 
 
 		function dropTotals(value, index, array) {
-			text += "<span class=\"modnamelist\">" + value[0].replaceAll("_touched", "-touched").replaceAll("_infused", "-infused").replaceAll("_skinned", "-skinned").replaceAll("_", " ") + " x " + value[1] + "<br/></span>\n";
+			text += "<span class=\"modnamelist\">" + cleanName(value[0], true) + " x " + value[1] + "<br/></span>\n";
 		}
 
 		function craftTotals(value, index, array) {
-			text += "<span class=\"modnamelist\">" + value[0].replaceAll("_touched", "-touched").replaceAll("_infused", "-infused").replaceAll("_skinned", "-skinned").replaceAll("_", " ") + " x " + value[1] + "</span><br/>\n";
-			text += "<span class=\"ingredients\">" + recipes[value[0]].toString().replaceAll(",", ", ").replaceAll("_touched", "-touched").replaceAll("_infused", "-infused").replaceAll("_skinned", "-skinned").replaceAll("_", " ") + "</span><br/>\n";;
+			text += "<span class=\"modnamelist\">" + cleanName(value[0], true) + " x " + value[1] + "</span><br/>\n";
+			text += "<span class=\"ingredients\">" + cleanName(recipes[value[0]].toString(), true) + "</span><br/>\n";;
 		}
 
 		$("#toggleInv").click(function() {
@@ -1942,12 +1987,25 @@
 			document.execCommand("copy");
 		}
 
+		function cleanName(value, readable){
+			if (readable){
+				return value.replaceAll("_touched", "-touched").replaceAll("_infused", "-infused").replaceAll("_skinned", "-skinned").replaceAll("_", " ")			
+			} else {
+				return value.trim().replaceAll(" ", "_").replaceAll("-", "_")
+			}
+		}
+	
 		function craft() {
 			var craftName = $(this).text().trim().replaceAll(" ", "_").replaceAll("-", "_");
 			var craftDetails = $("p.details:contains('" + $(this).text() + "')").parent().html();
 			$(".contentHead").html(craftDetails.replace(" crafted", "") + "<hr/>");
 			getRequirements(craftName);
 			getInventory(craftName);
+			usedIn(craftName);			
+			elements = document.getElementsByClassName("crafted");
+			for (var i = 0; i < elements.length; i++) {
+				elements[i].addEventListener('click', craft, false);
+			}	
 		}
 
 
