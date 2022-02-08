@@ -255,18 +255,21 @@
          }
 		 .popup{
          z-index:5;
-		 
-		 }
-		 .popupInv{
-         z-index:3;
-		 }
-         .popup,.popupInv{
-         display:none;
-         position:fixed;
          width:70%;
          height:50%;
          top:25%;
          left:15%;
+		 }
+		 .popupInv{
+         z-index:3;
+         width:90%;
+         height:90%;
+         top:5%;
+         left:5%;
+		 }
+         .popup,.popupInv{
+         display:none;
+         position:fixed;
          border-radius: 10px;
          color: #B4B4B4;
          background: #404040;
@@ -345,73 +348,73 @@
 			
 			
 			<tr><td colspan=3 style="background-color:#1B1E24;color:#D5DDE5;text-align:center;font-weight:bold;">Drops</td>
-			<tr><td><input type="number" id="Arcane_Buffer" name="Arcane_Buffer" value=0><label for="0">Arcane Buffer</label></td>
-			<td><input type="number" id="Berserker" name="Berserker" value=0><label for="1">Berserker</label></td>
-			<td><input type="number" id="Bloodletter" name="Bloodletter" value=0><label for="2">Bloodletter</label></td></tr>
-			<tr><td><input type="number" id="Bombardier" name="Bombardier" value=0><label for="3">Bombardier</label></td>
-			<td><input type="number" id="Bonebreaker" name="Bonebreaker" value=0><label for="4">Bonebreaker</label></td>
-			<td><input type="number" id="Chaosweaver" name="Chaosweaver" value=0><label for="5">Chaosweaver</label></td></tr>
-			<tr><td><input type="number" id="Consecrator" name="Consecrator" value=0><label for="6">Consecrator</label></td>
-			<td><input type="number" id="Deadeye" name="Deadeye" value=0><label for="7">Deadeye</label></td>
-			<td><input type="number" id="Dynamo" name="Dynamo" value=0><label for="8">Dynamo</label></td></tr>
-			<tr><td><input type="number" id="Echoist" name="Echoist" value=0><label for="9">Echoist</label></td>
-			<td><input type="number" id="Flameweaver" name="Flameweaver" value=0><label for="10">Flameweaver</label></td>
-			<td><input type="number" id="Frenzied" name="Frenzied" value=0><label for="11">Frenzied</label></td></tr>
-			<tr><td><input type="number" id="Frostweaver" name="Frostweaver" value=0><label for="12">Frostweaver</label></td>
-			<td><input type="number" id="Gargantuan" name="Gargantuan" value=0><label for="13">Gargantuan</label></td>
-			<td><input type="number" id="Hasted" name="Hasted" value=0><label for="14">Hasted</label></td></tr>
-			<tr><td><input type="number" id="Incendiary" name="Incendiary" value=0><label for="15">Incendiary</label></td>
-			<td><input type="number" id="Juggernaut" name="Juggernaut" value=0><label for="16">Juggernaut</label></td>
-			<td><input type="number" id="Malediction" name="Malediction" value=0><label for="17">Malediction</label></td></tr>
-			<tr><td><input type="number" id="Overcharged" name="Overcharged" value=0><label for="18">Overcharged</label></td>
-			<td><input type="number" id="Permafrost" name="Permafrost" value=0><label for="19">Permafrost</label></td>
-			<td><input type="number" id="Sentinel" name="Sentinel" value=0><label for="20">Sentinel</label></td></tr>
-			<tr><td><input type="number" id="Soul_Conduit" name="Soul_Conduit" value=0><label for="21">Soul Conduit</label></td>
-			<td><input type="number" id="Steel_infused" name="Steel_infused" value=0><label for="22">Steel-infused</label></td>
-			<td><input type="number" id="Stormweaver" name="Stormweaver" value=0><label for="23">Stormweaver</label></td></tr>
-			<tr><td><input type="number" id="Toxic" name="Toxic" value=0><label for="24">Toxic</label></td>
-			<td><input type="number" id="Vampiric" name="Vampiric" value=0><label for="25">Vampiric</label></td>
+			<tr><td><input type="number" id="Arcane_Buffer" name="Arcane_Buffer" value=0><label class="modname" for="0">Arcane Buffer</label></td>
+			<td><input type="number" id="Berserker" name="Berserker" value=0><label class="modname" for="1">Berserker</label></td>
+			<td><input type="number" id="Bloodletter" name="Bloodletter" value=0><label class="modname" for="2">Bloodletter</label></td></tr>
+			<tr><td><input type="number" id="Bombardier" name="Bombardier" value=0><label class="modname" for="3">Bombardier</label></td>
+			<td><input type="number" id="Bonebreaker" name="Bonebreaker" value=0><label class="modname" for="4">Bonebreaker</label></td>
+			<td><input type="number" id="Chaosweaver" name="Chaosweaver" value=0><label class="modname" for="5">Chaosweaver</label></td></tr>
+			<tr><td><input type="number" id="Consecrator" name="Consecrator" value=0><label class="modname" for="6">Consecrator</label></td>
+			<td><input type="number" id="Deadeye" name="Deadeye" value=0><label class="modname" for="7">Deadeye</label></td>
+			<td><input type="number" id="Dynamo" name="Dynamo" value=0><label class="modname" for="8">Dynamo</label></td></tr>
+			<tr><td><input type="number" id="Echoist" name="Echoist" value=0><label class="modname" for="9">Echoist</label></td>
+			<td><input type="number" id="Flameweaver" name="Flameweaver" value=0><label class="modname" for="10">Flameweaver</label></td>
+			<td><input type="number" id="Frenzied" name="Frenzied" value=0><label class="modname" for="11">Frenzied</label></td></tr>
+			<tr><td><input type="number" id="Frostweaver" name="Frostweaver" value=0><label class="modname" for="12">Frostweaver</label></td>
+			<td><input type="number" id="Gargantuan" name="Gargantuan" value=0><label class="modname" for="13">Gargantuan</label></td>
+			<td><input type="number" id="Hasted" name="Hasted" value=0><label class="modname" for="14">Hasted</label></td></tr>
+			<tr><td><input type="number" id="Incendiary" name="Incendiary" value=0><label class="modname" for="15">Incendiary</label></td>
+			<td><input type="number" id="Juggernaut" name="Juggernaut" value=0><label class="modname" for="16">Juggernaut</label></td>
+			<td><input type="number" id="Malediction" name="Malediction" value=0><label class="modname" for="17">Malediction</label></td></tr>
+			<tr><td><input type="number" id="Overcharged" name="Overcharged" value=0><label class="modname" for="18">Overcharged</label></td>
+			<td><input type="number" id="Permafrost" name="Permafrost" value=0><label class="modname" for="19">Permafrost</label></td>
+			<td><input type="number" id="Sentinel" name="Sentinel" value=0><label class="modname" for="20">Sentinel</label></td></tr>
+			<tr><td><input type="number" id="Soul_Conduit" name="Soul_Conduit" value=0><label class="modname" for="21">Soul Conduit</label></td>
+			<td><input type="number" id="Steel_infused" name="Steel_infused" value=0><label class="modname" for="22">Steel-infused</label></td>
+			<td><input type="number" id="Stormweaver" name="Stormweaver" value=0><label class="modname" for="23">Stormweaver</label></td></tr>
+			<tr><td><input type="number" id="Toxic" name="Toxic" value=0><label class="modname" for="24">Toxic</label></td>
+			<td><input type="number" id="Vampiric" name="Vampiric" value=0><label class="modname" for="25">Vampiric</label></td>
 			<td></td></tr>
 			
 			<tr><td colspan=3 style="background-color:#1B1E24;color:#D5DDE5;text-align:center;font-weight:bold;">Crafted</td>
-			<tr><td><input type="number" id="Assassin" name="Assassin" value=0><label for="26">Assassin</label></td>
-			<td><input type="number" id="Corpse_Detonator" name="Corpse_Detonator" value=0><label for="27">Corpse Detonator</label></td>
-			<td><input type="number" id="Corrupter" name="Corrupter" value=0><label for="28">Corrupter</label></td></tr>
-			<tr><td><input type="number" id="Crystal_skinned" name="Crystal_skinned" value=0><label for="29">Crystal-skinned</label></td>
-			<td><input type="number" id="Drought_Bringer" name="Drought_Bringer" value=0><label for="30">Drought Bringer</label></td>
-			<td><input type="number" id="Effigy" name="Effigy" value=0><label for="31">Effigy</label></td></tr>
-			<tr><td><input type="number" id="Empowered_Elements" name="Empowered_Elements" value=0><label for="32">Empowered Elements</label></td>
-			<td><input type="number" id="Empowering_Minions" name="Empowering_Minions" value=0><label for="33">Empowering Minions</label></td>
-			<td><input type="number" id="Entangler" name="Entangler" value=0><label for="34">Entangler</label></td></tr>
-			<tr><td><input type="number" id="Evocationist" name="Evocationist" value=0><label for="35">Evocationist</label></td>
-			<td><input type="number" id="Executioner" name="Executioner" value=0><label for="36">Executioner</label></td>
-			<td><input type="number" id="Flame_Strider" name="Flame_Strider" value=0><label for="37">Flame Strider</label></td></tr>
-			<tr><td><input type="number" id="Frost_Strider" name="Frost_Strider" value=0><label for="38">Frost Strider</label></td>
-			<td><input type="number" id="Heralding_Minions" name="Heralding_Minions" value=0><label for="39">Heralding Minions</label></td>
-			<td><input type="number" id="Hexer" name="Hexer" value=0><label for="40">Hexer</label></td></tr>
-			<tr><td><input type="number" id="Ice_Prison" name="Ice_Prison" value=0><label for="41">Ice Prison</label></td>
-			<td><input type="number" id="Invulnerable" name="Invulnerable" value=0><label for="42">Invulnerable</label></td>
-			<td><input type="number" id="Magma_Barrier" name="Magma_Barrier" value=0><label for="43">Magma Barrier</label></td></tr>
-			<tr><td><input type="number" id="Mana_Siphoner" name="Mana_Siphoner" value=0><label for="44">Mana Siphoner</label></td>
-			<td><input type="number" id="Mirror_Image" name="Mirror_Image" value=0><label for="45">Mirror Image</label></td>
-			<td><input type="number" id="Necromancer" name="Necromancer" value=0><label for="46">Necromancer</label></td></tr>
-			<tr><td><input type="number" id="Rejuvenating" name="Rejuvenating" value=0><label for="47">Rejuvenating</label></td>
-			<td><input type="number" id="Soul_Eater" name="Soul_Eater" value=0><label for="48">Soul Eater</label></td>
-			<td><input type="number" id="Storm_Strider" name="Storm_Strider" value=0><label for="49">Storm Strider</label></td></tr>
-			<tr><td><input type="number" id="Temporal_Bubble" name="Temporal_Bubble" value=0><label for="50">Temporal Bubble</label></td>
-			<td><input type="number" id="Treant_Horde" name="Treant_Horde" value=0><label for="51">Treant Horde</label></td>
-			<td><input type="number" id="Trickster" name="Trickster" value=0><label for="52">Trickster</label></td></tr>
+			<tr><td><input type="number" id="Assassin" name="Assassin" value=0><label class="modinfo crafted" for="26">Assassin</label></td>
+			<td><input type="number" id="Corpse_Detonator" name="Corpse_Detonator" value=0><label class="modinfo crafted" for="27">Corpse Detonator</label></td>
+			<td><input type="number" id="Corrupter" name="Corrupter" value=0><label class="modinfo crafted" for="28">Corrupter</label></td></tr>
+			<tr><td><input type="number" id="Crystal_skinned" name="Crystal_skinned" value=0><label class="modinfo crafted" for="29">Crystal-skinned</label></td>
+			<td><input type="number" id="Drought_Bringer" name="Drought_Bringer" value=0><label class="modinfo crafted" for="30">Drought Bringer</label></td>
+			<td><input type="number" id="Effigy" name="Effigy" value=0><label class="modinfo crafted" for="31">Effigy</label></td></tr>
+			<tr><td><input type="number" id="Empowered_Elements" name="Empowered_Elements" value=0><label class="modinfo crafted" for="32">Empowered Elements</label></td>
+			<td><input type="number" id="Empowering_Minions" name="Empowering_Minions" value=0><label class="modinfo crafted" for="33">Empowering Minions</label></td>
+			<td><input type="number" id="Entangler" name="Entangler" value=0><label class="modinfo crafted" for="34">Entangler</label></td></tr>
+			<tr><td><input type="number" id="Evocationist" name="Evocationist" value=0><label class="modinfo crafted" for="35">Evocationist</label></td>
+			<td><input type="number" id="Executioner" name="Executioner" value=0><label class="modinfo crafted" for="36">Executioner</label></td>
+			<td><input type="number" id="Flame_Strider" name="Flame_Strider" value=0><label class="modinfo crafted" for="37">Flame Strider</label></td></tr>
+			<tr><td><input type="number" id="Frost_Strider" name="Frost_Strider" value=0><label class="modinfo crafted" for="38">Frost Strider</label></td>
+			<td><input type="number" id="Heralding_Minions" name="Heralding_Minions" value=0><label class="modinfo crafted" for="39">Heralding Minions</label></td>
+			<td><input type="number" id="Hexer" name="Hexer" value=0><label class="modinfo crafted" for="40">Hexer</label></td></tr>
+			<tr><td><input type="number" id="Ice_Prison" name="Ice_Prison" value=0><label class="modinfo crafted" for="41">Ice Prison</label></td>
+			<td><input type="number" id="Invulnerable" name="Invulnerable" value=0><label class="modinfo crafted" for="42">Invulnerable</label></td>
+			<td><input type="number" id="Magma_Barrier" name="Magma_Barrier" value=0><label class="modinfo crafted" for="43">Magma Barrier</label></td></tr>
+			<tr><td><input type="number" id="Mana_Siphoner" name="Mana_Siphoner" value=0><label class="modinfo crafted" for="44">Mana Siphoner</label></td>
+			<td><input type="number" id="Mirror_Image" name="Mirror_Image" value=0><label class="modinfo crafted" for="45">Mirror Image</label></td>
+			<td><input type="number" id="Necromancer" name="Necromancer" value=0><label class="modinfo crafted" for="46">Necromancer</label></td></tr>
+			<tr><td><input type="number" id="Rejuvenating" name="Rejuvenating" value=0><label class="modinfo crafted" for="47">Rejuvenating</label></td>
+			<td><input type="number" id="Soul_Eater" name="Soul_Eater" value=0><label class="modinfo crafted" for="48">Soul Eater</label></td>
+			<td><input type="number" id="Storm_Strider" name="Storm_Strider" value=0><label class="modinfo crafted" for="49">Storm Strider</label></td></tr>
+			<tr><td><input type="number" id="Temporal_Bubble" name="Temporal_Bubble" value=0><label class="modinfo crafted" for="50">Temporal Bubble</label></td>
+			<td><input type="number" id="Treant_Horde" name="Treant_Horde" value=0><label class="modinfo crafted" for="51">Treant Horde</label></td>
+			<td><input type="number" id="Trickster" name="Trickster" value=0><label class="modinfo crafted" for="52">Trickster</label></td></tr>
 			
 			<tr><td colspan=3 style="background-color:#1B1E24;color:#D5DDE5;text-align:center;font-weight:bold;">Touches</td>
-			<tr><td><input type="number" id="Lunaris_touched" name="Lunaris_touched" value=0><label for="53">Lunaris-touched</label></td>
-			<td><input type="number" id="Solaris_touched" name="Solaris_touched" value=0><label for="54">Solaris-touched</label></td>
-			<td><input type="number" id="Arakaali_touched" name="Arakaali_touched" value=0><label for="55">Arakaali-touched</label></td></tr>
-			<tr><td><input type="number" id="Brine_King_touched" name="Brine_King_touched" value=0><label for="56">Brine King-touched</label></td>
-			<td><input type="number" id="Tukohama_touched" name="Tukohama_touched" value=0><label for="57">Tukohama-touched</label></td>
-			<td><input type="number" id="Abberath_touched" name="Abberath_touched" value=0><label for="58">Abberath-touched</label></td></tr>
-			<tr><td><input type="number" id="Shakari_touched" name="Shakari_touched" value=0><label for="59">Shakari-touched</label></td>
-			<td><input type="number" id="Innocence_touched" name="Innocence_touched" value=0><label for="60">Innocence-touched</label></td>
-			<td><input type="number" id="Kitava_touched" name="Kitava_touched" value=0><label for="61">Kitava-touched</label></td></tr>
+			<tr><td><input type="number" id="Lunaris_touched" name="Lunaris_touched" value=0><label class="modinfo crafted" for="53">Lunaris-touched</label></td>
+			<td><input type="number" id="Solaris_touched" name="Solaris_touched" value=0><label class="modinfo crafted" for="54">Solaris-touched</label></td>
+			<td><input type="number" id="Arakaali_touched" name="Arakaali_touched" value=0><label class="modinfo crafted" for="55">Arakaali-touched</label></td></tr>
+			<tr><td><input type="number" id="Brine_King_touched" name="Brine_King_touched" value=0><label class="modinfo crafted" for="56">Brine King-touched</label></td>
+			<td><input type="number" id="Tukohama_touched" name="Tukohama_touched" value=0><label class="modinfo crafted" for="57">Tukohama-touched</label></td>
+			<td><input type="number" id="Abberath_touched" name="Abberath_touched" value=0><label class="modinfo crafted" for="58">Abberath-touched</label></td></tr>
+			<tr><td><input type="number" id="Shakari_touched" name="Shakari_touched" value=0><label class="modinfo crafted" for="59">Shakari-touched</label></td>
+			<td><input type="number" id="Innocence_touched" name="Innocence_touched" value=0><label class="modinfo crafted" for="60">Innocence-touched</label></td>
+			<td><input type="number" id="Kitava_touched" name="Kitava_touched" value=0><label class="modinfo crafted" for="61">Kitava-touched</label></td></tr>
 		</table>
 		
         <div class="swapButton" id="craftCheck">What can I craft?</div>
@@ -1922,7 +1925,7 @@
 
 		function craftTotals(value, index, array) {
 			text += "<span class=\"modnamelist\">" + cleanName(value[0], true) + " x " + value[1] + "</span><br/>\n";
-			text += "<span class=\"ingredients\">" + cleanName(recipes[value[0]].toString(), true) + "</span><br/>\n";;
+			text += "<span class=\"ingredients\">" + cleanName(recipes[value[0]].toString().replaceAll(",", ", "), true) + "</span><br/>\n";;
 		}
 
 		$("#toggleInv").click(function() {
@@ -1998,7 +2001,7 @@
 	
 		function craft() {
 			var craftName = $(this).text().trim().replaceAll(" ", "_").replaceAll("-", "_");
-			var craftDetails = $("p.details:contains('" + $(this).text() + "')").parent().html();
+			var craftDetails = $("p.details span.modname:contains('" + $(this).text() + "')").parent().parent().html();
 			$(".contentHead").html(craftDetails.replace(" crafted", "") + "<hr/>");
 			getRequirements(craftName);
 			getInventory(craftName);
@@ -2013,7 +2016,7 @@
 		}
 		function drop() {
 			var craftName = $(this).text().trim().replaceAll(" ", "_").replaceAll("-", "_");
-			var craftDetails = $("p.details:contains('" + $(this).text() + "')").parent().html();
+			var craftDetails = $("p.details span.modname:contains('" + $(this).text() + "')").parent().parent().html();
 			$(".contentHead").html(craftDetails.replace(" crafted", ""));
 			
 			usedIn(craftName);			
