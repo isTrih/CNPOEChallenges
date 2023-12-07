@@ -102,6 +102,9 @@ html{background:#202020}
 .scourgeMod{color:#ff6e25}
 .crucibleMod{color:#ff7339}
 .poe-item:hover{background-color:#a38d6d;border-radius:4px;transition:.2s}
+.faded { opacity: 0.2 }
+#header { display: flex; justify-content: center; align-items: center; margin: 20px 0; }
+#search { min-width: 60%; line-height: 2em; padding: 0 10px; font-size: 1em; @media screen and (max-width: 600px) { min-width: 100%; } }
 		</style>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	</head>
@@ -564,6 +567,9 @@ html{background:#202020}
 			<div data-item="item-450" class="itemPopupContainer newItemPopup gemPopup" style="position: absolute; display: none;"><div class="itemBoxContent"><div class="itemHeader"><span class="l "></span><div class="itemName typeLine">   <span class="lc">Power Siphon</span></div><span class="r "></span></div><div class="content"><div class="property"><span class="lc"><span>Critical, Attack, Projectile, Vaal</span></span></div><div class="property"><span class="lc"><span>Level:</span><span class="colourDefault">20 (Max)</span></span></div><div class="property"><span class="lc"><span>Cost:</span><span class="colourDefault">11 Mana</span></span></div><div class="property"><span class="lc"><span>Attack Damage:</span><span class="colourDefault">159% of base</span></span></div><div class="property"><span class="lc"><span>Effectiveness of Added Damage:</span><span class="colourDefault">159%</span></span></div><div class="property"><span class="lc"><span>Quality:</span><span class="colourAugmented">+20%</span></span></div><div class="separator"></div><div class="requirements"> <span class="lc"> Requires <span><span>Level</span><span class="colourDefault">70</span></span>, <span><span class="colourDefault">155</span> <span>Int</span></span></span></div><div class="separator"></div><div class="secDescrText"><span>Fires your wand simultaneously at all nearby enemies, culling those close to death and granting you a power charge for each. Cannot be supported by Volley.</span></div><div class="separator"></div><div class="explicitMod"><span class="lc">Fires a Projectile at up to 7 targets<br>Modifiers to number of Projectiles instead apply to number of targets fired at</span></div><div class="explicitMod"><span class="lc">Culling Strike</span></div><div class="explicitMod"><span class="lc">20% chance to gain a Power Charge when Projectile Hits a Rare or Unique Enemy</span></div><div class="explicitMod"><span class="lc">10% more Critical Strike Chance per Power Charge</span></div><div class="explicitMod"><span class="lc">+30% to Critical Strike Multiplier per Power Charge</span></div>  <div class="separator"></div><div class="vaalHeader"><div class="itemName typeLine"> <span class="lc">Vaal Power Siphon</span></div></div><div class="separator"></div><div class="property"><span class="lc"><span>Souls Per Use:</span><span class="colourDefault">15</span></span></div><div class="property"><span class="lc">Can Store <span class="colourDefault">3</span> Uses</span></div><div class="property"><span class="lc"><span>Soul Gain Prevention:</span><span class="colourDefault">2 sec</span></span></div><div class="property"><span class="lc"><span>Attack Damage:</span><span class="colourDefault">184.2% of base</span></span></div><div class="property"><span class="lc"><span>Effectiveness of Added Damage:</span><span class="colourDefault">184%</span></span></div><div class="separator"></div><div class="secDescrText"><span>Fires your wand simultaneously at all nearby enemies, culling those close to death and granting you a power charge for each. Cannot be supported by Volley.</span></div><div class="separator"></div><div class="explicitMod"><span class="lc">Fires Projectiles at each nearby Enemy</span></div><div class="explicitMod"><span class="lc">Culling Strike</span></div><div class="explicitMod"><span class="lc">Can't be Evaded</span></div><div class="explicitMod"><span class="lc">Gain a Power Charge when Projectile Hits a Rare or Unique Enemy</span></div><div class="explicitMod"><span class="lc">20% more Critical Strike Chance per Power Charge</span></div><div class="explicitMod"><span class="lc">+35% to Critical Strike Multiplier per Power Charge</span></div><div class="separator"></div><div class="unmet"><span class="lc">Corrupted</span></div>   <div class="separator"></div><div class="descrText"><span>Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.</span></div></div></div></div>
 		</div>
 		<div id="wrapper">
+			<div id="header">
+				<input id="search" type="search" autofocus placeholder="Search gems by name and tag" />
+			</div>
 			<div class="poe-item" id="item-137"><img src="./img/Absolution.png" alt=""></div>
 			<div class="poe-item" id="item-265"><img src="./img/VaalAbsolution.png" alt=""></div>
 			<div class="poe-item" id="item-1"><img src="./img/AbsolutionofInspiring.png" alt=""></div>
@@ -1029,6 +1035,62 @@ $(".poe-item").hover(function(){
 function(){
 	$(".itemPopupContainer").hide();
 });
+
+/**
+ * Extract all text content from popups and match them with the item IDs
+ */
+const gemData = [...document.querySelectorAll(".itemPopupContainer")].map((node) => {
+	const id = node.dataset.item;
+	const element = document.querySelector(`.poe-item#${id}`);
+	const name = node.querySelector('.itemName');
+
+	/**
+	 * `.content` has multiple `.property` elements, but the first one seems to be the tags.
+	 */
+	const tags = node.querySelector('.content .property .lc');
+
+	const searchText = [name, tags].map(el => el.textContent.trim()).join(' ').replace(/,/g, '').toLowerCase();
+
+	return { element, searchText };
+
+});
+
+const input = document.querySelector("#search");
+
+function debounce(fn) {
+	let timeout;
+	return function (...args) {
+		clearTimeout(timeout);
+		timeout = setTimeout(() => fn(...args), 100);
+	}
+}
+
+input.addEventListener('input', debounce(function (ev) {
+	const query = input.value.toLowerCase();
+	const regexp = new RegExp(query, 'i');
+	/**
+	 * If the query is empty, then show all gems.
+	 */
+	if (query === '') {
+		gemData.forEach(({ element }) => {
+			if (element.classList.contains('faded')) {
+				requestAnimationFrame(() => element.classList.remove('faded'));
+			}
+		});
+
+		return;
+	}
+
+	gemData.forEach(({ element, searchText }) => {
+		if (regexp.test(searchText)) {
+			if (element.classList.contains('faded')) {
+				requestAnimationFrame(() => element.classList.remove('faded'));
+			}
+		} else {
+			requestAnimationFrame(() => element.classList.add('faded'));
+		}
+	});
+}));
 </script>
 </body>
 </html>
