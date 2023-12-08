@@ -23,7 +23,7 @@
 		<title>Path of Exile Affliction Gems</title>
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 		<style>
-*{font-family:FontinSmallCaps,Verdana,Arial,Helvetica,sans-serif;}
+*{font-family:FontinSmallCaps,Verdana,Arial,Helvetica,sans-serif;box-sizing: border-box;}
 a,a:hover,a:visited{color:rgba(0,100,255)}
 .gemPopup,.top,.bottom{text-align:center}
 .newItemPopup .colourDefault,.newItemPopup .colourPhysicalDamage,.newItemPopup .colourRewardQuantity,.newItemPopup .value,.top,.bottom{color:#fff}
@@ -111,7 +111,7 @@ html{background:#202020}
 	<body>
 		<div class="top">
 			<p>Everything is taken from the <a href="https://www.pathofexile.com/forum/view-thread/3452554">four part transfigured gems posts</a> and the <a href="https://www.pathofexile.com/forum/view-thread/3452093">Changed Gems in Path of Exile: Affliction page</a>.</p>
-			<p>Hover gems for information on them. Gems are ordered Alphabetically.</p>
+			<p>Hover gems for information on them. Gems are ordered Alphabetically. Hold Ctrl to compare.</p>
 		</div>
 		<div class="popups">
 			<div data-item="item-1" class="itemPopupContainer newItemPopup gemPopup" style="position: absolute; display: none;"><div class="itemBoxContent"><div class="itemHeader"><span class="l "></span><div class="itemName typeLine">   <span class="lc">Absolution of Inspiring</span></div><span class="r "></span></div><div class="content"><div class="property"><span class="lc"><span>Spell, Minion, Duration, Physical, Lightning, AoE</span></span></div><div class="property"><span class="lc"><span>Level:</span><span class="colourDefault">20 (Max)</span></span></div><div class="property"><span class="lc"><span>Cost:</span><span class="colourDefault">26 Mana</span></span></div><div class="property"><span class="lc"><span>Cast Time:</span><span class="colourDefault">0.75 sec</span></span></div><div class="property"><span class="lc"><span>Critical Strike Chance:</span><span class="colourDefault">6.00%</span></span></div><div class="property"><span class="lc"><span>Effectiveness of Added Damage:</span><span class="colourDefault">200%</span></span></div><div class="property"><span class="lc"><span>Quality:</span><span class="colourAugmented">+20%</span></span></div><div class="separator"></div><div class="requirements"> <span class="lc"> Requires <span><span>Level</span><span class="colourDefault">70</span></span>, <span><span class="colourDefault">98</span> <span>Str</span></span>, <span><span class="colourDefault">68</span> <span>Int</span></span></span></div><div class="separator"></div><div class="secDescrText"><span>Damages enemies in an area, applying a debuff for a short duration. If a non-unique enemy dies while affected by the debuff, the corpse will be consumed to summon a Sentinel of Absolution for a secondary duration, or to refresh the duration and life of an existing one instead if you have the maximum number of them.</span></div><div class="separator"></div><div class="explicitMod"><span class="lc">Deals 873 to 1310 Physical Damage</span></div><div class="explicitMod"><span class="lc">Base duration is 1.00 seconds</span></div><div class="explicitMod"><span class="lc">Base secondary duration is 10.00 seconds</span></div><div class="explicitMod"><span class="lc">Increases and Reductions to Minion Damage also apply<br>to this Skill's Damage at 250% of their value</span></div><div class="explicitMod"><span class="lc">+0.6 metres to radius</span></div><div class="explicitMod"><span class="lc">25% chance to Summon a Sentinel of Absolution on Hitting a Rare or Unique Enemy</span></div><div class="explicitMod"><span class="lc">Maximum 2 Summoned Sentinels of Absolution</span></div><div class="explicitMod"><span class="lc">This Spell and Minions Convert 50% of Physical Damage to Lightning Damage</span></div>   <div class="separator"></div><div class="descrText"><span>Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.</span></div></div></div></div>
@@ -1027,14 +1027,41 @@ html{background:#202020}
 	<p>Old <a href="./scourge.html">Scourge</a> and <a href="./archnemesis.html">Archnemesis</a> pages are available here if you wanted them for some reason.</p>
 </div>
 <script>
-$(".poe-item").hover(function(){
+$(".poe-item").hover(function(evt){
 	let item = $(this).attr("id");
 	$(".itemPopupContainer:not([data-item='"+item+"'])").hide();
-	$(".itemPopupContainer[data-item='"+item+"']").fadeIn(250);
+	const itemToShow = $(".itemPopupContainer[data-item='"+item+"']");
+	itemToShow.css('left', '50%').css('width', 'initial');
+
+	const gemName = normalizeGemName(itemToShow[0]);
+	const gemGroup = gemsGrouping[gemName];
+	let leftPos = 0;
+	if (evt.ctrlKey && gemGroup.length > 1) {
+		gemGroup.forEach((dataItem, idx) => {
+			const itemWidth = window.outerWidth / gemGroup.length;
+			leftPos = leftPos ? (leftPos + itemWidth - 1) : (itemWidth / 2) - 10 - (gemGroup.length * 1);
+			item = $(".itemPopupContainer[data-item='"+dataItem+"']");
+			item.css('width', `${itemWidth}px`).css('left', leftPos);
+			item.show();
+		})
+	} else {
+		itemToShow.fadeIn(250);
+	}
 },
 function(){
 	$(".itemPopupContainer").hide();
 });
+
+const normalizeGemName = (el) => el.querySelector('.itemName').textContent.trim().split(' of')[0]
+
+const gemsGrouping = [...document.querySelectorAll(".itemPopupContainer")].reduce((acc, node) => {
+	const gemName = normalizeGemName(node);
+	if (!acc[gemName]) {
+		acc[gemName] = [];
+	}
+	acc[gemName].push(node.dataset.item);
+	return acc;
+}, {})
 
 /**
  * Extract all text content from popups and match them with the item IDs
