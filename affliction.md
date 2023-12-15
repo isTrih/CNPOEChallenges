@@ -93,13 +93,13 @@ Simply playing through acts naturally will complete this.
 ## Very Easy
 Complete each of the following encounters.
 - Activate a Shrine
-	- Shrines can spawn from Act 1 onwards
+    - Shrines can spawn from Act 1 onwards
 - Defeat a Monster holding an Essence
-	- Essences can spawn from Act 1 onwards
+    - Essences can spawn from Act 1 onwards
 - Capture a Red Beast
-	- Einhar can spawn from Act 2 onwards
+    - Einhar can spawn from Act 2 onwards
 - Pass through a Mirror of Delirium
-	- Delirium Mirrors can spawn from Act 5 onwards
+    - Delirium Mirrors can spawn from Act 5 onwards
 
 # 6 Whispering Wildwood Wisps
 ## Very Easy
@@ -136,11 +136,11 @@ All of these quests are simply ones which grant extra Passive Points.
 Complete each of the following Torment encounters.
 - Defeat Touched monsters x300
 - Defeat Possessed Monsters x40
-	- **Seance** on the Atlas Tree causes up to five rares per map to be Possessed.
+    - **Seance** on the Atlas Tree causes up to five rares per map to be Possessed.
 - Be Possessed by a Tormented Spirit
-	- **Speaker of the Dead** on the Atlas Tree or the Unique **Fairgraves' Tricorne** enable this interaction
+    - **Speaker of the Dead** on the Atlas Tree or the Unique **Fairgraves' Tricorne** enable this interaction
 - Defeat a Map Boss that has been Possessed by 3 Tormented Spirits in a Tier 16 Map
-	- **Unrelenting Torment** on the Atlas Tree has a 10% chance to surround a boss with Tormented Spirits.
+    - **Unrelenting Torment** on the Atlas Tree has a 10% chance to surround a boss with Tormented Spirits.
 
 # 10 Archaic Anarchy 
 ## Easy
@@ -149,8 +149,8 @@ Complete each of the following Anarchy encounters.
 - Defeat Possessed Rogue Exiles x60
     - **Exiled Will** on the Atlas Tree guarantees all Rogue Exiles are Possessed.
 - Kill 3 Rogue Exiles within 10 seconds of the first one dying
-	- **Royal Guard** can spawn two guaranteed exiles
-	- **Strongboxes** can spawn exiles, you can roll multiple strongboxes in a small area such as in the The Temple of Atzoatl to guarantee three at once.
+    - **Royal Guard** can spawn two guaranteed exiles
+    - **Strongboxes** can spawn exiles, you can roll multiple strongboxes in a small area such as in the The Temple of Atzoatl to guarantee three at once.
 - Defeat at least 15 Rogue Exiles in a single Tier 16 Map
     - **Ruckus** on the Atlas Tree gives an 8% chance of 20 extra exiles
 
@@ -158,17 +158,17 @@ Complete each of the following Anarchy encounters.
 ## Easy
 Complete each of the following Ambush encounters.
 - Open Strongboxes x120
-	- Use Scarabs, Atlas Tree and Sextants if you want to speed this up
+    - Use Scarabs, Atlas Tree and Sextants if you want to speed this up
 - Open Corrupted and Rare Strongboxes x90
-	- **Tamper-Proof** from the Atlas Tree guarantees this
+    - **Tamper-Proof** from the Atlas Tree guarantees this
 - Open a Unique Strongbox
     - Oba's trial guarantees unique strongboxes at the end
 - Open at least 18 Strongboxes in a single Tier 16 Map
-	- Vaal Temple **10** Vaal Vessel's count as strongboxes
+    - Vaal Temple **10** Vaal Vessel's count as strongboxes
     - Winged Ambush Scarabs add **9** Strongboxes
-	- Gilded Ambush Scarabs add **5** Strongboxes
-	- Ambush Modifier adds **4** Strongboxes
-	- Monstrous Treasure from Shaping the Skies adds **24-36** Strongboxes which will instantly clear this
+    - Gilded Ambush Scarabs add **5** Strongboxes
+    - Ambush Modifier adds **4** Strongboxes
+    - Monstrous Treasure from Shaping the Skies adds **24-36** Strongboxes which will instantly clear this
 
 # 12 Ryslatha's Ravenous Rage
 ## Very Easy
@@ -197,9 +197,9 @@ The **Viridian Wildwood** can have beyond encounters which spawn a boss.
 ## Average
 Complete each of the following Blight encounters.
 - Complete Blights x30
-	- Scarabs and Map Enchants can force a blight encounters
+    - Scarabs and Map Enchants can force a blight encounters
 - Defeat Blight Bosses x50
-	- **Distilled Fungus** adds up to one additional boss to blights in maps
+    - **Distilled Fungus** adds up to one additional boss to blights in maps
 - Complete Tier 14 or higher Blighted Maps with at least 80% Item Quantity x10
 - Complete a Rare Tier 16 Blight-Ravaged Map with at least 5 Modifiers
 
@@ -222,11 +222,11 @@ Straight forward, you might want to run random Level 83 logbooks and hope for a 
 Complete each of the following Ultimatum encounters.
 - Complete Ultimatum Waves x200
 - Fully Complete Ultimatums in Red Tier Maps x20
-	- Tier 11 upwards count for this, you can run these maps at normal rarity if needed
+    - Tier 11 upwards count for this, you can run these maps at normal rarity if needed
 - Complete Red Tier Inscribed Ultimatums x10
-	- Area Level 79 or higher are Red Tier
+    - Area Level 79 or higher are Red Tier
 - Defeat the Trialmaster in a Tier 16 Map that is at least Rare
-	- There are no quantity or corruption requirements so you can regal maps to make very easy Tier 16s if you need the extra breathing room for this
+    - There are no quantity or corruption requirements so you can regal maps to make very easy Tier 16s if you need the extra breathing room for this
 
 **Survive the Assault**, **Slaughter Them All**, **Conquer The Stones** and **Protect The Altar** all make content easier. Applying only some of these lowers the chance of the ones you don't want but also means they are baseline difficulty.
 **Brave the Tower** and its associated wheel grant increase chance of encountering the Trialmaster.
@@ -273,44 +273,44 @@ Playing normally should complete this for most people.
 ### Buyable
 Turn in any four Divination Card sets which specifically grant one of the following reward types.
 - Two-Implicit Unique item
-	- ![][div-card] Echoes of Love (3 stack)
-	- ![][div-card] The Shepherd's Sandals (3 stack)
-	- ![][div-card] Unchained (4 stack)
+    - ![][div-card] Echoes of Love (3 stack)
+    - ![][div-card] The Shepherd's Sandals (3 stack)
+    - ![][div-card] Unchained (4 stack)
 - Uncorrupted Rare or Unique Jewel
-	- ![][div-card] Bijoux (3 stack)
-	- ![][div-card] Peaceful Moments (5 stack)
-	- ![][div-card] The Primordial (5 stack)
+    - ![][div-card] Bijoux (3 stack)
+    - ![][div-card] Peaceful Moments (5 stack)
+    - ![][div-card] The Primordial (5 stack)
 - Six-link item
-	- ![][div-card] The Warlord (6 stack)
-	- ![][div-card] Immortal Resolve (6 stack)
-	- ![][div-card] The Porcupine (6 stack)
+    - ![][div-card] The Warlord (6 stack)
+    - ![][div-card] Immortal Resolve (6 stack)
+    - ![][div-card] The Porcupine (6 stack)
 - Level 21 or 23 Quality gem
-	- ![][div-card] The Skeleton (6 stack)
-	- ![][div-card] Rite of Elements (5 stack)
-	- ![][div-card] The Bitter Blossom (3 stack)
+    - ![][div-card] The Skeleton (6 stack)
+    - ![][div-card] Rite of Elements (5 stack)
+    - ![][div-card] The Bitter Blossom (3 stack)
 - Double-Influenced Item
-	- ![][div-card] Duality (2 stack)
-	- ![][div-card] Further Invention (4 stack)
-	- ![][div-card] Costly Curio (6 stack)
+    - ![][div-card] Duality (2 stack)
+    - ![][div-card] Further Invention (4 stack)
+    - ![][div-card] Costly Curio (6 stack)
 - Exalted or Divine Orb
-	- ![][div-card] The Sephiroth (11 stack)
-	- ![][div-card] Divine Beauty (12 stack)
-	- ![][div-card] The Fortunate (12 stack)
-	
+    - ![][div-card] The Sephiroth (11 stack)
+    - ![][div-card] Divine Beauty (12 stack)
+    - ![][div-card] The Fortunate (12 stack)
+
 There are more divination cards than those listed, the ones here are a selection of low stack size and cost at the time of writing.
 
 # 20 Peddler's Produce II
 ## Easy
 Complete vendor recipes to receive each of the following items. A vendor recipe is when you trade a specific combination of items to a vendor, not when you buy items from their purchase screen.
 - Inscribed Ultimatum
-	- Five Inscribed Ultimatums
+    - Five Inscribed Ultimatums
 - Gilded Scarab
-	- Orb of Horizons and Two Gilded Scarabs of the same type
-	- Three Polished Scrabs of the same type
+    - Orb of Horizons and Two Gilded Scarabs of the same type
+    - Three Polished Scrabs of the same type
 - Catalyst
-	- Three Catalysts of the same type
+    - Three Catalysts of the same type
 - Tier 16 Map
-	- Three Tier 15 Maps of the same type
+    - Three Tier 15 Maps of the same type
 
 Inscribed Ultimatums are the only thing stopping this being basically free.
 
@@ -319,17 +319,17 @@ Inscribed Ultimatums are the only thing stopping this being basically free.
 ### Buyable
 Use each of the following types of crafts.
 - Any "Modify Mods on an Item" Bestiary Recipe
-	- There is a specific **Modify Mods on an Item** header for these crafts.
-		- Farric Lynx Alpha is cheap and only needs one beast
+    - There is a specific **Modify Mods on an Item** header for these crafts.
+    - Farric Lynx Alpha is cheap and only needs one beast
 - Tier 3 Incursion Crafting Bench
-	- Doryani’s Institute
-	- Locus of Corruption
-	- Sacrificial Chamber, Hall of Offerings, Apex of Ascension might count?
+    - Doryani’s Institute
+    - Locus of Corruption
+    - Sacrificial Chamber, Hall of Offerings, Apex of Ascension might count?
 - Rank 3 or 4 Betrayal Crafting Bench
-	- Transport with Hillock or Vorici
-	- Research with Aisling, Hillock, It That Fled, Jorgin, Tora, Vorici
+    - Transport with Hillock or Vorici
+    - Research with Aisling, Hillock, It That Fled, Jorgin, Tora, Vorici
 - Powerful or Prime Chaotic Resonator
-	- Delving gets you these and Fossils to go in them come from various sources
+    - Delving gets you these and Fossils to go in them come from various sources
 
 # 22 Viridi's Verdant Vessel
 ## Easy
@@ -347,15 +347,15 @@ You only need to complete one of the three.
 ## Easy
 Complete each of the following Unique Maps.
 - Vaults of Atziri 
-	- ![divination card][div-card] Treasure Hunter
-	- ![divination card][div-card] The Wolf's Legacy
+    - ![divination card][div-card] Treasure Hunter
+    - ![divination card][div-card] The Wolf's Legacy
 - Maelström of Chaos
 - The Coward's Trial
 - Acton's Nightmare
 - Poorjoy's Asylum
-	- ![has divination card][div-card] The Dreamland
+    - ![has divination card][div-card] The Dreamland
 - Mao Kun
-	- ![has divination card][div-card] 	Scholar of the Seas
+    - ![has divination card][div-card] Scholar of the Seas
 - Oba's Cursed Trove
 - Olmec's Sanctum
 - Death and Taxes
@@ -363,10 +363,10 @@ Complete each of the following Unique Maps.
 - The Vinktar Square
 - Caer Blaidd, Wolfpack's Den
 - The Putrid Cloister
-	- ![has divination card][div-card] The Professor
+    - ![has divination card][div-card] The Professor
 - Hallowed Ground
 - The Twilight Temple
-	- ![has divination card][div-card] The Twilight Moon
+    - ![has divination card][div-card] The Twilight Moon
 - Pillars of Arun
 - Doryani's Machinarium
 
@@ -388,6 +388,7 @@ Equip any eight of the following types of equipment.
 - Corrupted
 - Qualitied
 - Veiled
+    - Literally veiled, equip it before unveiling
 - Split
 
 Straight forward. Enchanted will be covered by Anointed with the Labyrinth changes. You can buy cheap items to cover all of these but you will likely encoutner them naturally by the time you are done with other challenges.
@@ -397,20 +398,20 @@ Straight forward. Enchanted will be covered by Anointed with the Labyrinth chang
 ### Grind Heavy
 Use the Divine Font in the Lord's Labyrinth in any five of the following ways.
 - Add at least 50m experience to a Gem
-	- Merciless or higher
+    - Merciless or higher
 - Add at least 10% quality to a Gem
-	- Cruel or higher
+    - Cruel or higher
 - Sacrifice a Gem to gain at least 40% of the gem's total experience stored as a Facetor's Lens
-	- Merciless or higher
+    - Merciless or higher
 - Sacrifice a Gem to gain at least 25% of the gem's total experience stored as your own experience
-	- Merciless or higher, disabled currently
+    - Merciless or higher, disabled currently
 - Sacrifice a Gem for Treasure Keys
-	- Any Labyrinth
+    - Any Labyrinth
 - Sacrifice a Gem for Currency Items
-	- Any Labyrinth
+    - Any Labyrinth
 - Transform a Skill Gem to be a random Transfigured version
-	- Any Labyrinth
-	
+    - Any Labyrinth
+
 This is simply lab running, you probably already know how you feel about this. The own experience mod is currently disabled which lowers your choices.
 
 The difficulty the Labyrinth matters, the difficulty requirements are assumed based on [PoeDB's content](https://poedb.tw/us/Divine_Font).
@@ -422,26 +423,26 @@ You only need to complete five of the seven.
 ## Easy
 Complete any four of the following past league content encounters.
 - Defeat 5 Possessed Rogue Exiles in a single Map
-	- **Exiled Will** and **Ruckus** on the Atlas Tree gives an 8% chance of 20 extra possessed exiles
+    - **Exiled Will** and **Ruckus** on the Atlas Tree gives an 8% chance of 20 extra possessed exiles
 - Open a Cartographer's Strongbox while affected by a Tempest
-	- Temple of Atzoatl with Tier 3 Maps room **Atlas of Worlds** and any of **Tempest Generator**, ** Hurricane Engine** or **Storm of Corruption** are probably your best chance
+    - Temple of Atzoatl with Tier 3 Maps room **Atlas of Worlds** and any of **Tempest Generator**, ** Hurricane Engine** or **Storm of Corruption** are probably your best chance
 - Defeat a Blight Boss while affected by a Shrine
-	- **Distilled Fungus** and **Supplication** on the Atlas Tree give Blight Bosses and an extra Shrine respectively
-	- **Polished Blight Scarabs** and upwards force an extra Boss to spawn
-	- **Sextants** can add Blight Encounters
-	- **Blight** is on the Map Device
+    - **Distilled Fungus** and **Supplication** on the Atlas Tree give Blight Bosses and an extra Shrine respectively
+    - **Polished Blight Scarabs** and upwards force an extra Boss to spawn
+    - **Sextants** can add Blight Encounters
+    - **Blight** is on the Map Device
 - Complete an Expedition while you are in a Breach
-	- **Heavy Breach** extends breach encounters.
-	- **Sextants** can add additional Breaches.
-	- Vaal Portal might work
+    - **Heavy Breach** extends breach encounters.
+    - **Sextants** can add additional Breaches.
+    - Vaal Portal might work
 - Defeat a Syndicate Member that is Possessed
-	- **Torment Scarabs** and **Paranormal Haunting** on the Atlas Tree can spawn Tormented Spirits
-	- **Sextants** can roll mods to add a **Tormented Betrayer**
+    - **Torment Scarabs** and **Paranormal Haunting** on the Atlas Tree can spawn Tormented Spirits
+    - **Sextants** can roll mods to add a **Tormented Betrayer**
 - Complete an Ultimatum while Delirious
-	- Delirium will pause while doing an Ultimatum
-	- **Ultimatum** is on the Map Device
-	- **Unending Nightmare** will stop Fog ever dissipating
-	
+    - Delirium will pause while doing an Ultimatum
+    - **Ultimatum** is on the Map Device
+    - **Unending Nightmare** will stop Fog ever dissipating
+
 You only need to complete four of the seven.
 
 
@@ -480,22 +481,22 @@ Straight forward mapping while using masters. Kirac's will probably require the 
 ## Average
 Complete Maps with any two of the following combinations of Sextant Modifiers while they have at least 80% Item Quantity and are Tier 16.
 - Map Bosses drop an additional Unique Item and are accompanied by Bodyguards and a Mysterious Harbinger
-	- Map Bosses drop an additional Unique Item
-	- Map Bosses are accompanied by Bodyguards
-	- Map Bosses are accompanied by a mysterious Harbinger
+    - Map Bosses drop an additional Unique Item
+    - Map Bosses are accompanied by Bodyguards
+    - Map Bosses are accompanied by a mysterious Harbinger
 - Your Maps contain additional packs of Corrupted Vaal Monsters, packs with Mirrored Rare Monsters and packs of Monsters that Convert when Killed
-	- Players gain an additional Vaal Soul on Kill, Your Maps contain X additional packs of Corrupted Vaal Monsters
-	- Players and their Minions cannot take Reflected Damage, Your Maps contain X additional Packs with Mirrored Rare Monsters
-	- Your Maps contain X additional packs of Monsters that Convert when Killed
+    - Players gain an additional Vaal Soul on Kill, Your Maps contain X additional packs of Corrupted Vaal Monsters
+    - Players and their Minions cannot take Reflected Damage, Your Maps contain X additional Packs with Mirrored Rare Monsters
+    - Your Maps contain X additional packs of Monsters that Convert when Killed
 - Players and Monsters take increased Fire, Cold, Lightning and Chaos damage
-	- Players and Monsters take X% increased Fire Damage
-	- Players and Monsters take X% increased Cold Damage
-	- Players and Monsters take X% increased Lightning Damage
-	- Players and Monsters take X% increased Chaos Damage
+    - Players and Monsters take X% increased Fire Damage
+    - Players and Monsters take X% increased Cold Damage
+    - Players and Monsters take X% increased Lightning Damage
+    - Players and Monsters take X% increased Chaos Damage
 - Increased Magic Pack Size, Pack Size in your Unidentified Maps and Beyond Demon Pack Size in your Maps
-	- X% increased Magic Pack Size
-	- Items found in your Identified Maps are Identified, X% increased Pack Size in your Unidentified Maps
-	- Slaying Enemies close together can attract monsters from Beyond this realm, 25% increased Beyond Demon Pack Size in your Maps
+    - X% increased Magic Pack Size
+    - Items found in your Identified Maps are Identified, X% increased Pack Size in your Unidentified Maps
+    - Slaying Enemies close together can attract monsters from Beyond this realm, 25% increased Beyond Demon Pack Size in your Maps
 
 You can get 30% quantity from the Atlas Tree.
 
@@ -521,17 +522,17 @@ This is in the region of 10 memory chains top end assuming averagely rolled rare
 ### Luck Based
 Complete any four of the following Wildwood encounters in level 78 or higher areas.
 - Defeat The Black Mórrigan while it is Enraged
-	- An Argus-esque monster found in a circular arena
+    - An Argus-esque monster found in a circular arena
 - Defeat The Bleak, Bitter and Biting Bíle within 10 seconds of the first one dying
-	- Three Goat Shaman monsters in a ritual circle
+    - Three Goat Shaman monsters in a ritual circle
 - Defeat the Wildwood Abomination without being hit by any Vicious Vines
-	- A tree monster, that walks on four legs
+    - A tree monster, that walks on four legs
 - Defeat the Troll Shaman without being hit by any Shamanic Vines
 - Survive an encounter with The Incarnation of Agony without gaining more than 5 Aura of Death stacks
 - Defeat a Map Boss affected by at least two Wisp types
-	- Get all three colours of wisps in the Woods
+    - Get all three colours of wisps in the Woods
 - Defeat a Rare monster affected by all three Wisp types
-	- Get all three colours of wisps in the Woods
+    - Get all three colours of wisps in the Woods
 
 Most of these come down to 'do the league mechanic a bunch'. Level 78 covers Tier 11 or higher maps.
 
@@ -561,7 +562,7 @@ You only need to complete six of the four of the ten.
 ### Grind Heavy
 Reach a total of 100 completed Elder Guardian, Shaper Guardian or Elderslayer Maps.
 
-Grind maps. There's nothing more to this.
+Grind Guardian and Elderslayer maps. There's nothing more to this.
 
 # 35 Eldritch Endgame
 ## Easy
@@ -571,30 +572,33 @@ Use Eldritch Altars or defeat Witnessed Map Bosses with their respective Atlas P
 - Eater of Worlds Altars with Eldritch Gaze Allocated x250
 - Witnessed Map Bosses with Destructive Play Allocated x200
 
+Grind maps with Maven, Exarch or Eater active alongside the appropriate nodes. This is a fair amount of maps and will vary depending on how many altars and bosses you end up getting. You will likely need to run somewhere in the region of 250 maps total.
+
 # 36 Awakened Atlas
 ## Average
 ### Partially Buyable
-Allocate all acquirable Atlas Passive Points.
+Allocate all acquirable Atlas Passive Points
 
 Requires you to complete all maps, all Maven invites including the Feared
+
 - All white maps (T1 to 5) at Magic rarity
 - All yellow maps (T6 to 1) at Rare rarity
 - All Red maps (T11 to 16) at Rare rarity while corrupted
 - All Atlas progression bosses
-	- The Infinite Hunger
-	- The Black Star
-	- The Eater of Worlds
-	- The Searing Exarch
-	- The Maven
-	- Uber Elder
+    - The Infinite Hunger
+    - The Black Star
+    - The Eater of Worlds
+    - The Searing Exarch
+    - The Maven
+    - Uber Elder
 - All Maven invitations
-	- All boss invites up to 10-bosses
-	- The Formed
-	- The Twisted
-	- The Elderslayers
-	- The Forgotten
-	- The Hidden
-	- The Feared
+    - All boss invites up to 10-bosses
+    - The Formed
+    - The Twisted
+    - The Elderslayers
+    - The Forgotten
+    - The Hidden
+    - The Feared
 
 You can check missing passive points with the command `/atlaspassives`.
 
@@ -651,23 +655,28 @@ Only four of the seven are required.
 ### Grind Heavy
 Complete any four of these encounters the specified number of times.
 - Level 100
-	- Buying Five Way runs
-	- Pure Chayula and other higher end Breachstones
-	- Coward's Trial
-	- T15 Beachheads
+    - Buying Five Way runs
+    - Pure Chayula and other higher end Breachstones
+    - Coward's Trial
+    - T15 Beachheads
 - Open Chests at the end of the Endgame Labyrinth x250
-	- Run Labs. If you are not a lab runner this will probably equate to around 100 labs
-	- You can sacrifice random gems to get more keys
+    - Run Labs. If you are not a lab runner this will probably equate to around 100 labs
+    - You can sacrifice random gems to get more keys
 - Defeat any: Delve Boss, Syndicate Mastermind, Bestiary Boss or Vaal Omnitect x80
-	- Straight forward, Vaal Omnitect and Bestiary Bosses are easiest to purchase
+    - Straight forward, Vaal Omnitect and Bestiary Bosses are easiest to purchase
 - Defeat Rare monsters with at least 4 Modifiers x300
-	- Simply do maps, you can use mechanics such as Essence to spawn more Rares
+    - Simply do maps, you can use mechanics such as Essence to spawn more Rares
 - Complete Maps with Tiers of Scarabs x1000
-	- Gilded is Tier 3 (333), presumably
-	- Winged is Tier 4 (250), presumably
+    - Scrabs are additional and all count by tier
+    - Bronze are Tier 1 and +1
+    - Polished are Tier 2 and +2
+    - Gilded are Tier 3 and +3
+    - Winged are Tier 4 and +4
+    - 4x Gilded is 84 maps and 334 scarabs
+    - 4x winged is 63 maps and 252 scarabs
 - Defeat Rare or Unique monsters with Types of Wisps in Tier 16 maps x500
-	- This is presumably meant to be 'Three types'
-	
+    - Per type, if a mob is solely 'Vivid Empowered' it will grant one towards this.
+
 It's the large scale grind challenge. You probably already know if you are going to do this and what you are getting into.
 
 # Credits
