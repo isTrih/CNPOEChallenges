@@ -166,7 +166,7 @@ Complete each of the following Ambush encounters.
 - Open at least 18 Strongboxes in a single Tier 16 Map
     - Vaal Temple **10** Vaal Vessel's count as strongboxes
     - Winged Ambush Scarabs add **9** Strongboxes
-    - Gilded Ambush Scarabs add **5** Strongboxes
+    - Polished Ambush Scarabs add **4** Strongboxes
     - Ambush Modifier adds **4** Strongboxes
     - Monstrous Treasure from Shaping the Skies adds **24-36** Strongboxes which will instantly clear this
 
@@ -187,7 +187,7 @@ Complete each of the following Beyond encounters.
 - Defeat Beyond Bosses x3
 - Defeat a Beyond boss in a Tier 16 Map with at least 80% Item Quantity
 
-You can get 30% quantity from the Atlas Tree.
+The 20% Quantity from Quality, the 30% quantity from the Atlas Tree (Wandering Path) and 8% from the map device all count towards the quantity requirement.
 Completing **Niko's Memory of Chasms** memory guarantees a lot of beyond monsters without needing to group monsters.
 **Slaying Enemies close together can attract monsters from Beyond this realm** can be found either on Maps, as a modifier or from a Sextant or from Kirac for 5 Chaos.
 **Torn Veil** increases your chances at encountering a boss in normal maps.
@@ -471,11 +471,13 @@ Complete Master missions in Maps that are Tier 16 with at least 80% Item Quantit
 - Jun x10
 - Kirac x10
 
-You can get 30% quantity from the Atlas Tree and 38% on the map Device which lowers the amount you need to roll
+Straight forward mapping while using masters.
+
+The 20% Quantity from Quality, the 30% quantity from the Atlas Tree (Wandering Path) and 8% from the map device all count towards the quantity requirement.
+
+For Kirac, you can use Wandering Path to get +40% Quantity from Quality.
 
 Be sure to keep in mind that this is **completing missions**, not the map!
-
-Straight forward mapping while using masters. Kirac's will probably require the use of **Vaal Scouting Reports**.
 
 # 29 Selective Sextants
 ## Average
