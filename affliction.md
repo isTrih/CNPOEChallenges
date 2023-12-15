@@ -685,6 +685,7 @@ It's the large scale grind challenge. You probably already know if you are going
 
 # Credits
 [PoeDB](https://poedb.tw/us/) for easily accessible information on divination cards and labyrinth enchants.
+
 [PoeWiki](https://www.poewiki.net/wiki/) for some general information such The Temple of Atzoatl room names.
 
 [div-card]: ./img/DivCard.png
