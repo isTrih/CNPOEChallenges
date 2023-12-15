@@ -614,6 +614,8 @@ Defeat The King in the Mists in the Crux of Nothingness in any three of the spec
 - Without taking damage from Ritual of Meditation or Ritual of Dance
 - Without being hit by any Exploding Toads
 
+If you have more specific information on how to actually avoid these consistently, please get in touch.
+
 Encountering the King is moderately rare, you can buy a carry or a service for this as you can make a portal before entering the actual encounter.
 
 # 38 Ultimate Undertaking
