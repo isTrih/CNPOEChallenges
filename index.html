@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<!--
 	░░░░█─────────────█──▀──
 	░░░░▓█───────▄▄▀▀█──────
@@ -17,13 +17,15 @@
 	▓▓█▓▒▒▒▒▒▒▓▒▒█░░░░░█────
 	░▒▒▀▀▄▄▄▄█▄▄▀░░░░░░░█─
 	-->
-	<META NAME="ROBOTS" CONTENT="noarchive" />
-	<meta name="Description" content="Path of Exile Challenge Guide" />
-	<meta name="Keywords" content="path of exile, challenge guide" />
+	<META NAME="ROBOTS" CONTENT="noarchive">
+	<meta name="Description" content="Path of Exile Challenge Guide">
+	<meta name="Keywords" content="path of exile, challenge guide">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
 	<script src="./js/showdown.min.js"></script>
 	<title>Path of Exile Affliction Challenge Guide</title>
 	<style>
+	:root{--toggle-left:340px;--sidebar-left:0px;}
+	[data-sidebar="hidden"]{--toggle-left:4px;--sidebar-left: -336px;}
 	*{font-family:Verdana,Arial,Helvetica,sans-serif;box-sizing: border-box;}
 	html{background:#363636;}
 	a,a:visited{color:#EE983C;text-decoration:none;}
@@ -42,34 +44,49 @@
 	h3[id^="partiallybuyable"],h3[id^="buyable"],h3[id^="luckbased"]{color:#00C6D8;font-size:75%;margin:2px 0px;}
 	em img,li img{max-height:18px;margin-bottom:-3px;}
 	#footer{position: fixed;left:0;bottom:0;height:20px;width:100%;text-align:center;background:#292929;border-top:1px solid black;font-size:90%;}
+	#navigation{position:fixed;left:var(--sidebar-left);top:0px;height:100vh;display:var(--sidebar-display);max-height:100vh;overflow-y:scroll;background:rgb(40,40,40);padding-right:10px;width:336px;transition:all 0.2s linear;}
+	#toggle{position:fixed;left:var(--toggle-left);top:5px;cursor:pointer;transition: all 0.2s linear;font-size:30px;padding-bottom: 20px;}
 	</style>
 	</head>
 <body>
-	</div>
-	<div id="contents">
-	</div>
+	<div id="toggle" onclick="switchSidebar()">☰</div>
+	<div id="navigation"></div>
+	<div id="contents"></div>
 	<div id="footer">Other pages: <a href="./transgems.html">Transfigured Gem Information</a></div>
-</body>
+	<script>
+		var converter = new showdown.Converter();
+		$.ajax({
+			url:'affliction.txt',
+			success: function (data){ document.getElementById("contents").innerHTML = converter.makeHtml(data); }
+		});
 
-<script>
-  var converter = new showdown.Converter();
-  var md;
-  $.ajax({
-    url:'affliction.md',
-    success: function (data){
-		document.getElementById("contents").innerHTML = converter.makeHtml(data);
-		{		
-			var toc = "";
-			$('h1').each(function () {
-				let section = $(this).text();
-				let id = $(this).attr("id");
-				toc += "- ["+section+"](#"+id+")";
-			});
-			console.log(toc);
+		$.ajax({
+			url:'affliction-toc.txt',
+			success: function (data){ document.getElementById("navigation").innerHTML = converter.makeHtml(data); }
+		});
+
+		function switchSidebar(e) {
+			let sidebar = localStorage.getItem("data-sidebar");
+			if (sidebar === "visible" || sidebar === null) {
+				localStorage.setItem("data-sidebar", "hidden");
+				document.documentElement.setAttribute('data-sidebar', 'hidden');
+			} else {
+				localStorage.setItem("data-sidebar", "visible");
+				document.documentElement.setAttribute('data-sidebar', 'visible');
+			}
 		}
 		
-		
-    }
-  });
-</script>
+		function getSidebar(){
+			let sidebar = localStorage.getItem("data-sidebar");
+			if (sidebar === "visible" || sidebar === null) {
+				localStorage.setItem("data-sidebar", "visible");
+				document.documentElement.setAttribute('data-sidebar', 'visible');
+			} else {
+				localStorage.setItem("data-sidebar", "hidden");
+				document.documentElement.setAttribute('data-sidebar', 'hidden');
+			}
+		}
+		getSidebar();
+	</script>
+</body>
 </html>
