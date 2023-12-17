@@ -184,6 +184,7 @@ Complete each of the following Ultimatum encounters.
     - Area Level 79 or higher are Red Tier
 - Defeat the Trialmaster in a Tier 16 Map that is at least Rare
     - There are no quantity or corruption requirements so you can regal maps to make very easy Tier 16s if you need the extra breathing room for this
+    - This is fairly rare, assuming it remains at 1/50 baseline from Ultimatum League with all nodes this is still 1/30
 
 **Survive the Assault**, **Slaughter Them All**, **Conquer The Stones** and **Protect The Altar** all make content easier. Applying only some of these lowers the chance of the ones you don't want but also means they are baseline difficulty.
 **Brave the Tower** and its associated wheel grant increase chance of encountering the Trialmaster.
@@ -566,8 +567,7 @@ These do not require you to run them at any specific rarity so you can go with n
 You can buy carries for the harder invites here.
 
 # 37 Malignant Mist Manifestation
-## Hard
-### Luck Based
+## Average
 ### Buyable
 Defeat The King in the Mists in the Crux of Nothingness in any three of the specified ways.
 - Without gaining more than 3 stacks of Shadow Surge
@@ -575,9 +575,15 @@ Defeat The King in the Mists in the Crux of Nothingness in any three of the spec
 - Without taking damage from Ritual of Meditation or Ritual of Dance
 - Without being hit by any Exploding Toads
 
-If you have more specific information on how to actually avoid these consistently, please get in touch.
+The King in the Mists only spawns in T14 or higher maps. The true fight is triggered by activating three altars, if you find him in the woods it is the incorrect encounter.
 
-Encountering the King is moderately rare, you can buy a carry or a service for this as you can make a portal before entering the actual encounter.
+He seemingly spawns near your spawn in a cardinal direction, this is oriented to the world rather than your character and so is diagonal from your spawn point.
+
+![][spawn-paths]
+
+You should immediately drop a portal when you enter so you can backtrack, run in one of these directions for a couple of seconds until you hit a world event or a wall, and then check other directions.
+
+You can buy a carry or a service for this as you can make a portal before entering the actual encounter.
 
 # 38 Ultimate Undertaking
 ## Hard
@@ -629,6 +635,7 @@ Complete any four of these encounters the specified number of times.
     - Straight forward, Vaal Omnitect and Bestiary Bosses are easiest to purchase
 - Defeat Rare monsters with at least 4 Modifiers x300
     - Simply do maps, you can use mechanics such as Essence to spawn more Rares
+    - Fairly Easy as far as grinds go
 - Complete Maps with Tiers of Scarabs x1000
     - Scrabs are additional and all count by tier
     - Bronze are Tier 1 and +1
@@ -639,6 +646,7 @@ Complete any four of these encounters the specified number of times.
     - 4x winged is 63 maps and 252 scarabs
 - Defeat Rare or Unique monsters with Types of Wisps in Tier 16 maps x500
     - Per type, if a mob is solely 'Vivid Empowered' it will grant one towards this.
+    - Fairly Easy as far as grinds go
 
 It's the large scale grind challenge. You probably already know if you are going to do this and what you are getting into.
 
@@ -668,3 +676,4 @@ For only **38** challenges I would consider skipping **Grand Gripping Grail** an
 [PoeWiki](https://www.poewiki.net/wiki/) for some general information such The Temple of Atzoatl room names.
 
 [div-card]: ./img/DivCard.png
+[spawn-paths]: ./img/SpawnPaths.png
