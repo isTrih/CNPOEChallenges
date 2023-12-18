@@ -1,4 +1,4 @@
-- [1 Beginner's Basics](#1beginnersbasics)
+	- [1 Beginner's Basics](#1beginnersbasics)
 - [2 Ancient Azmeri Ancestry](#2ancientazmeriancestry)
 - [3 Peddler's Produce I](#3peddlersproducei)
 - [4 Act Adversaries I](#4actadversariesi)
@@ -38,5 +38,5 @@
 - [38 Ultimate Undertaking](#38ultimateundertaking)
 - [39 Peak Pinnacles](#39peakpinnacles)
 - [40 Grand Gripping Grail](#40grandgrippinggrail)
-- [Unlocks and Skipping](#skipsuggestions)
-- [Credits](#40grandgrippinggrail)
+- [Unlocks and Skipping](#unlocksandskipping)
+- [Credits](#credits)
