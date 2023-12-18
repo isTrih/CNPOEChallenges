@@ -97,7 +97,10 @@ Complete each of the following Torment encounters.
 - Be Possessed by a Tormented Spirit
     - **Speaker of the Dead** on the Atlas Tree or the Unique **Fairgraves' Tricorne** enable this interaction
 - Defeat a Map Boss that has been Possessed by 3 Tormented Spirits in a Tier 16 Map
-    - **Unrelenting Torment** on the Atlas Tree has a 10% chance to surround a boss with Tormented Spirits.
+    - **Unrelenting Torment** on the Atlas Tree has a 10% chance to surround a boss with Tormented Spirits
+	- Maps with an explicit arena make it easier to avoid the spirits going AWOL and not actually possessing the boss
+
+Be aware that **Speaker of the Dead** also explicitly disables monsters being possessed, which would stop all Map Bosses being possessed!
 
 # 10 Archaic Anarchy 
 ## Easy
