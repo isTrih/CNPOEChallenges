@@ -159,6 +159,7 @@ The **Viridian Wildwood** can have beyond encounters which spawn a boss.
 Complete each of the following Blight encounters.
 - Complete Blights x30
     - Scarabs and Map Enchants can force a blight encounters
+	- Blighted Maps don't count towards this
 - Defeat Blight Bosses x50
     - **Distilled Fungus** adds up to one additional boss to blights in maps
     - The reward indicator will have a ![][blight-boss] special icon if there is a Blight Boss set to spawn
@@ -172,11 +173,17 @@ Complete each of the following Blight encounters.
 	
 Ring anoint for Meteor Burning Ground and Chilling Towers Freeze Enemies.
 
+Grey lanes are inactive, yellow ones are actively spawning monsters.
+
 Leave Seismic, Empowering and Ice towers at Level 3. 
 
 Minions should go to Scout Towers, Fire should go to Meteor Towers.
 
-Build multiple damage types in each lane to cover immunities.
+Build multiple damage types in each lane to cover immunities. Try to build towers around actual lane chokepoints.
+
+Towers are active within about two screens of your character's current location.
+
+Leave the portal near the pump so you if you die you load back in to activating towers, especially true if you have slow loads.
 
 Avoid immune to stun, chance to avoid elemental ailments and cannot be slowed below base speed as modifiers.
 
