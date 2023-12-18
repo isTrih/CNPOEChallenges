@@ -159,7 +159,7 @@ The **Viridian Wildwood** can have beyond encounters which spawn a boss.
 Complete each of the following Blight encounters.
 - Complete Blights x30
     - Scarabs and Map Enchants can force a blight encounters
-	- Blighted Maps don't count towards this
+	- Blighted or Blight Ravaged Maps don't count towards this
 - Defeat Blight Bosses x50
     - **Distilled Fungus** adds up to one additional boss to blights in maps
     - The reward indicator will have a ![][blight-boss] special icon if there is a Blight Boss set to spawn
@@ -167,6 +167,7 @@ Complete each of the following Blight encounters.
 - Complete Tier 14 or higher Blighted Maps with at least 80% Item Quantity x10
 	- 8% Quantity on the map device counts towards this
 	- Vaal Fragment Quantity counts towards this
+	- Blight Ravaged maps count towards this
 - Complete a Rare Tier 16 Blight-Ravaged Map with at least 5 Modifiers
 	- 3 x Clear, Sepia and Amber Oils to slow monsters and maximise your ability to build towers.
 	- You need incredibly high DPS to deal with these without playing them as Tower Defence maps
