@@ -98,7 +98,7 @@ Complete each of the following Torment encounters.
     - **Speaker of the Dead** on the Atlas Tree or the Unique **Fairgraves' Tricorne** enable this interaction
 - Defeat a Map Boss that has been Possessed by 3 Tormented Spirits in a Tier 16 Map
     - **Unrelenting Torment** on the Atlas Tree has a 10% chance to surround a boss with Tormented Spirits
-	- Maps with an explicit arena make it easier to avoid the spirits going AWOL and not actually possessing the boss
+    - Maps with an explicit arena make it easier to avoid the spirits going AWOL and not actually possessing the boss
 
 Be aware that **Speaker of the Dead** also explicitly disables monsters being possessed, which would stop all Map Bosses being possessed!
 
@@ -160,12 +160,17 @@ Complete each of the following Blight encounters.
     - Scarabs and Map Enchants can force a blight encounters
 - Defeat Blight Bosses x50
     - **Distilled Fungus** adds up to one additional boss to blights in maps
+    - The reward indicator will have a ![][blight-boss] special icon if there is a Blight Boss set to spawn
 - Complete Tier 14 or higher Blighted Maps with at least 80% Item Quantity x10
 - Complete a Rare Tier 16 Blight-Ravaged Map with at least 5 Modifiers
 
 Meteor Towers with burning ground were nerfed, freezing chilled towers seem to be good. 
 
 For Blight-Ravaged you can use 3 x Clear, Sepia and Amber Oils to slow monsters and maximise your ability to build towers.
+
+Boss icon as it appears above a reward icon:
+
+![][blight-boss]
 
 # 15 Explorative Expeditions
 ## Average
@@ -680,3 +685,4 @@ For only **38** challenges I would consider skipping **Grand Gripping Grail** an
 
 [div-card]: ./img/DivCard.png
 [spawn-paths]: ./img/SpawnPaths.png
+[blight-boss]: ./img/BlightBoss.png

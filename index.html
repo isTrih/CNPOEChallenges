@@ -56,13 +56,19 @@
 	<script>
 		var converter = new showdown.Converter();
 		$.ajax({
-			url:'affliction.txt',
-			success: function (data){ document.getElementById("contents").innerHTML = converter.makeHtml(data); }
-		});
-
-		$.ajax({
 			url:'affliction-toc.txt',
-			success: function (data){ document.getElementById("navigation").innerHTML = converter.makeHtml(data); }
+			success: function(data){ document.getElementById("navigation").innerHTML = converter.makeHtml(data);}
+		});
+		
+		$.ajax({
+			url:'affliction.txt',
+			success: function(data){ 
+				$("#contents").html(converter.makeHtml(data));
+				if (location.hash) {
+					let target = location.hash;				
+					$('html, body').animate({scrollTop: $(target).offset().top}, 'fast');
+				}
+			}
 		});
 
 		function switchSidebar(e) {
