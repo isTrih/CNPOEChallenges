@@ -101,6 +101,7 @@ Complete each of the following Torment encounters.
     - Maps with an explicit arena make it easier to avoid the spirits going AWOL and not actually possessing the boss
     - If you are wanting to do this as soon as possible, simply spam something like Mesa with a fixed, enclosed boss spawn
 	- You can load up a map with Tormented Spirits in general and try to guide the boss these spirits
+	- To make this as easy as possible you can run a normal rarity map and avoid the Wildwood and any Atlas options that could make the map stronger (Maven, Shrines)
 
 Be aware that **Speaker of the Dead** also explicitly disables monsters being possessed, which would stop all Map Bosses being possessed!
 
