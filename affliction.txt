@@ -97,13 +97,13 @@ Complete each of the following Torment encounters.
 - Be Possessed by a Tormented Spirit
     - **Speaker of the Dead** on the Atlas Tree or the Unique **Fairgraves' Tricorne** enable this interaction
 - Defeat a Map Boss that has been Possessed by 3 Tormented Spirits in a Tier 16 Map
-	- The **Shore Map** spawns a ghost at 50% and 25% respectively, rolling Map Boss is Possesssed will guarantee this if you can control your DPS
-	- **Niko's Memory of Tormented Souls** can spawn Unique Monsters with Spirits already
+    - The **Shore Map** spawns a ghost at 50% and 25% respectively, rolling Map Boss is Possesssed will guarantee this if you can control your DPS
+    - **Niko's Memory of Tormented Souls** can spawn Unique Monsters with Spirits already
     - You can load up a map with Tormented Spirits in general and try to guide the boss these spirits
-	- **Unrelenting Torment** on the Atlas Tree has a 10% chance to surround a boss with Tormented Spirits
+    - **Unrelenting Torment** on the Atlas Tree has a 10% chance to surround a boss with Tormented Spirits
     - Maps with an explicit arena make it easier to avoid the spirits going AWOL and not actually possessing the boss
     - If you are wanting to do this as soon as possible, simply spam something like Mesa with a fixed, enclosed boss spawn
-	- To make this as easy as possible you can run a normal rarity map and avoid the Wildwood and any Atlas options that could make the map stronger (Maven, Shrines)
+    - To make this as easy as possible you can run a normal rarity map and avoid the Wildwood and any Atlas options that could make the map stronger (Maven, Shrines)
 
 Be aware that **Speaker of the Dead** also explicitly disables monsters being possessed, which would stop all Map Bosses being possessed!
 
@@ -545,13 +545,13 @@ Use any six of the following types of crafting currency the specified number of 
     - Essence of Horror
     - Essence of Delirium
     - Essence of Hysteria
-	- You can spam a single type for this
+    - You can spam a single type for this
 - Golden Oil
 - Tempering or Tailoring Orb
 - Sacred lifeforce
 - Fracturing Orb
 - Catalyst x40
-	- Any type of Catalyst contributes
+    - Any type of Catalyst contributes
 - Tainted Exalted orb, Chaos Orb or Divine Teardrop
 - Eldritch Exalted, Annulment or Chaos orb
 - Elderslayer Exalted Orb
@@ -617,8 +617,8 @@ Defeat The King in the Mists in the Crux of Nothingness in any three of the spec
 - Without gaining more than 3 stacks of Shadow Surge
 - While you are affected by Mystic Miasma
 - Without taking damage from Ritual of Meditation or Ritual of Dance
-	- Red means stop
-	- Purple means move
+    - Red means stop
+    - Purple means move
 - Without being hit by any Exploding Toads
 
 The King in the Mists only spawns in T14 or higher maps. The true fight is triggered by activating three altars, if you find him in the woods it is the incorrect encounter.
