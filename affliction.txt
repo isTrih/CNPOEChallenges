@@ -424,7 +424,8 @@ Complete any four of the following past league content encounters.
 - Defeat 5 Possessed Rogue Exiles in a single Map
     - **Exiled Will** and **Ruckus** on the Atlas Tree gives an 8% chance of 20 extra possessed exiles
 - Open a Cartographer's Strongbox while affected by a Tempest
-    - Temple of Atzoatl with Tier 3 Maps room **Atlas of Worlds** and any of **Tempest Generator**, ** Hurricane Engine** or **Storm of Corruption** are probably your best chance
+    - Cartographer's Strongboxes cannot spawn at highest tiers of maps, run your lowest tier maps for best chances
+    - Temple of Atzoatl with Tier 3 Maps room **Atlas of Worlds** or **Court of Sealed Death** and any of **Tempest Generator**, **Hurricane Engine** or **Storm of Corruption** are a potential option
 - Defeat a Blight Boss while affected by a Shrine
     - **Distilled Fungus** and **Supplication** on the Atlas Tree give Blight Bosses and an extra Shrine respectively
     - **Polished Blight Scarabs** and upwards force an extra Boss to spawn
@@ -434,7 +435,7 @@ Complete any four of the following past league content encounters.
     - **Heavy Breach** extends breach encounters.
     - **Sextants** can add additional Breaches.
     - Vaal Portal might work
-    - **Niko's Memory of Demonic Onslaught** might work also
+    - **Niko's Memory of Demonic Onslaught** works, but you will need an natural Expedition spawn
 - Defeat a Syndicate Member that is Possessed
     - **Torment Scarabs** and **Paranormal Haunting** on the Atlas Tree can spawn Tormented Spirits
     - **Sextants** can roll mods to add a **Tormented Betrayer**
@@ -445,6 +446,8 @@ Complete any four of the following past league content encounters.
     - Any **Players are Delirious** map has permanent fog (1x Delirium Orb)
 
 You only need to complete four of the seven.
+
+I would recommend Possessed Rogues, Blight Boss Shrine and Delirious Ultimatum as obvious picks and then whichever of the leftovers you are most comfortable with.
 
 
 # 27 Mórrigan's Mystic Marvels
