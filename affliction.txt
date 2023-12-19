@@ -400,8 +400,8 @@ Use the Divine Font in the Lord's Labyrinth in any five of the following ways.
     - Cruel or higher
 - Sacrifice a Gem to gain at least 40% of the gem's total experience stored as a Facetor's Lens
     - Merciless or higher
-- Sacrifice a Gem to gain at least 25% of the gem's total experience stored as your own experience
-    - Merciless or higher, disabled currently
+- Transform a Corrupted Transfigured Skill Gem to be a random Corrupted Transfigured Skill Gem of the same colour
+    - Dedication to the Goddess
 - Sacrifice a Gem for Treasure Keys
     - Any Labyrinth
 - Sacrifice a Gem for Currency Items
@@ -410,6 +410,8 @@ Use the Divine Font in the Lord's Labyrinth in any five of the following ways.
     - Any Labyrinth
 
 This is simply lab running, you probably already know how you feel about this. The own experience mod is currently disabled which lowers your choices.
+
+This previously had `Sacrifice a Gem to gain at least 25% of the gem's total experience stored as your own experience` as an option, but it was disabled.
 
 The difficulty the Labyrinth matters, the difficulty requirements are assumed based on [PoeDB's content](https://poedb.tw/us/Divine_Font).
 
@@ -568,6 +570,7 @@ You only need to complete six of the four of the ten.
 ## Average
 ### Grind Heavy
 Reach a total of 100 completed Elder Guardian, Shaper Guardian or Elderslayer Maps.
+    - **Destructive Play** alongside **Remnants of the Past** and **Conquered Conquerors** and a lot of **Map Drop Duplication** generates large amounts of these fairly easily.
 
 Grind Guardian and Elderslayer maps. There's nothing more to this.
 
@@ -716,6 +719,8 @@ It's not too bad in the grand scheme of things, the Rare mods and Rare Wisps ove
 32. Night Lotus Gloves Tier 3 (Flower Death Effect)
 35. Night Lotus Body Armour Tier 4
 38. Night Lotus Helmet Tier 3 (Life Globe and Flask effect)
+
+Despite the unlock tiers there are more visual tier options on the MTX than there are unlocks.
 
 ## Skips
 For only **38** challenges I would consider skipping some combination of **Grand Gripping Grail**, **Eldritch Endgame** and **Dominated Domains** depending on how you play.
