@@ -615,6 +615,8 @@ Defeat The King in the Mists in the Crux of Nothingness in any three of the spec
 - Without gaining more than 3 stacks of Shadow Surge
 - While you are affected by Mystic Miasma
 - Without taking damage from Ritual of Meditation or Ritual of Dance
+	- Red means stop
+	- Purple means move
 - Without being hit by any Exploding Toads
 
 The King in the Mists only spawns in T14 or higher maps. The true fight is triggered by activating three altars, if you find him in the woods it is the incorrect encounter.
@@ -699,10 +701,10 @@ It's not too bad in the grand scheme of things, the Rare mods and Rare Wisps ove
 4. Night Lotus Boots Tier 1
 8. Night Lotus Gloves Tier 1
 12. Night Lotus Body Armour Tier 1
-16. Night Lotus Helmet Tier 1 (Flower Only)
+16. Night Lotus Helmet Tier 1 (Flower, Hat)
 20. Night Lotus Gloves Tier 2
 22. Night Lotus Body Armour Tier 2
-24. Night Lotus Helmet Tier 2 (Hat)
+24. Night Lotus Helmet Tier 2 (Full Head, 3 visuals total)
 26. Night Lotus Boots Tier 2 (Flower Trail)
 28. Night Lotus Body Armour Tier 3 (Flower Blood)
 32. Night Lotus Gloves Tier 3 (Flower Death Effect)
