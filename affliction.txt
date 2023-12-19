@@ -79,7 +79,7 @@ Complete each of the following encounters.
 
 Simply playing through acts naturally will complete this.
 
-# 8 Very Easy
+# 8 Quality Quandaries
 ## Very Easy
 Complete each of the following quests.
 - The Marooned Mariner
@@ -96,7 +96,7 @@ Complete each of the following Torment encounters.
 - Defeat Possessed Monsters x40
     - **Seance** on the Atlas Tree causes up to five rares per map to be Possessed.
 - Be Possessed by a Tormented Spirit
-    - **Speaker of the Dead** on the Atlas Tree or the Unique **Fairgraves' Tricorne** enable this interaction
+    - **Speaker of the Dead** on the Atlas Tree enables this interaction
 - Defeat a Map Boss that has been Possessed by 3 Tormented Spirits in a Tier 16 Map
     - The **Shore Map** spawns a ghost at 50% and 25% respectively, rolling Map Boss is Possesssed will guarantee this if you can control your DPS
     - **Niko's Memory of Tormented Souls** can spawn Unique Monsters with Spirits already
@@ -135,6 +135,7 @@ Complete each of the following Ambush encounters.
     - Polished Ambush Scarabs add **4** Strongboxes
     - Ambush Modifier adds **4** Strongboxes
     - Monstrous Treasure from Shaping the Skies adds **24-36** Strongboxes which will instantly clear this
+	- **Alva's Memory of Cascading Fortunes** ends with exactly **18** boxes (6 sets of 3)
 
 # 12 Ryslatha's Ravenous Rage
 ## Very Easy
@@ -291,6 +292,8 @@ Turn in any four Divination Card sets which specifically grant one of the follow
 
 There are more divination cards than those listed, the ones here are a selection of low stack size and cost at the time of writing.
 
+There are reports of Level 21 turn in not working, maybe go for a 23% Quality until a hotfix.
+
 # 20 Peddler's Produce II
 ## Easy
 Complete vendor recipes to receive each of the following items. A vendor recipe is when you trade a specific combination of items to a vendor, not when you buy items from their purchase screen.
@@ -385,7 +388,7 @@ Equip any eight of the following types of equipment.
     - Literally veiled, equip it before unveiling
 - Split
 
-Straight forward. Enchanted will be covered by Anointed with the Labyrinth changes. You can buy cheap items to cover all of these but you will likely encoutner them naturally by the time you are done with other challenges.
+Straight forward. Enchanted will be covered by Anointed with the Labyrinth changes. You can buy cheap items to cover all of these but you will likely encounter them naturally by the time you are done with other challenges.
 
 # 25 Tremendous Thaumaturgy
 ## Easy
@@ -434,11 +437,10 @@ Complete any four of the following past league content encounters.
     - **Torment Scarabs** and **Paranormal Haunting** on the Atlas Tree can spawn Tormented Spirits
     - **Sextants** can roll mods to add a **Tormented Betrayer**
 - Complete an Ultimatum while Delirious
-    - Completion is simply stopping, you can do one round and take your rewards just fine
     - Delirium will pause while doing an Ultimatum
     - **Ultimatum** is on the Map Device
     - **Unending Nightmare** will stop Fog ever dissipating
-    - Any **Players are Delirious** map has permanent fog
+    - Any **Players are Delirious** map has permanent fog (1x Delirium Orb)
 
 You only need to complete four of the seven.
 
@@ -641,6 +643,7 @@ Complete any four of the following Endgame League Content encounters.
 - The Sanctum in an area level of 83 with no Equipped Relics
 - Any Flawless Breachstone
 - Heist Blueprint in an area level of 83 with 4 wings and at least 100% Item Quantity
+    - Non-trivial amount of quantity necessitating either 6 very strong mods or vaaling and hoping
 - Infused Beachhead
 - Inscribed Ultimatum in an area level of 83 with at least 8 modifiers
 
@@ -715,7 +718,7 @@ It's not too bad in the grand scheme of things, the Rare mods and Rare Wisps ove
 38. Night Lotus Helmet Tier 3 (Life Globe and Flask effect)
 
 ## Skips
-For only **38** challenges I would consider skipping **Grand Gripping Grail** and **Eldritch Endgame** depending on how you play.
+For only **38** challenges I would consider skipping some combination of **Grand Gripping Grail**, **Eldritch Endgame** and **Dominated Domains** depending on how you play.
 
 # Credits
 [PoeDB](https://poedb.tw/us/) for easily accessible information on divination cards and labyrinth enchants.
