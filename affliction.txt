@@ -66,7 +66,7 @@ Collect 15,000 of each type of Wisp in the Viridian Wildwood.
 - Wild x15000
 - Vivid x15000
 
-Wisps are the brightly coloured icons in the Viridian Wildwood. You should get this pretty fast by interacting with the league mechanic at all.
+Wisps are the brightly coloured floating things in the Viridian Wildwood. You should get this pretty fast by interacting with the league mechanic at all.
 
 # 7 Act Adversaries II
 ## Very Easy
@@ -83,9 +83,13 @@ Simply playing through acts naturally will complete this.
 ## Very Easy
 Complete each of the following quests.
 - The Marooned Mariner
+	- Act 1 Fairgraves
 - Victario's Secrets
+	- Act 3 Sewer Busts
 - In Service to Science
+	- Act 5 Miasmeter
 - The Puppet Mistress
+	- Act 6 Ryslatha, Wetlands Boss
 
 All of these quests are simply ones which grant extra Passive Points.
 
@@ -207,7 +211,9 @@ Complete each of the following Expedition encounters.
 - Complete Logbooks with at least 10 active Remnants x10
 - Defeat an Expedition Boss in a level 83 area with at least 10 Remnants active
 
-Straight forward, you might want to run random Level 83 logbooks and hope for a boss before buying one with a boss as your tenth just in case you don't need to.
+Straight forward without actual tier requirements for the non-Logbook portions.
+
+You might want to run random Level 83 logbooks and hope for a boss before buying one with a boss as your tenth just in case you don't need to.
 
 # 16 Unreal Ultimatum
 ## Hard
@@ -219,7 +225,7 @@ Complete each of the following Ultimatum encounters.
     - Area Level 79 or higher are Red Tier
 - Defeat the Trialmaster in a Tier 16 Map that is at least Rare
     - There are no quantity or corruption requirements so you can regal maps to make very easy Tier 16s if you need the extra breathing room for this
-    - This is fairly rare, assuming it remains at 1/50 baseline from Ultimatum League with all nodes this is still 1/30
+    - This is fairly rare, assuming it remains at 1/50 baseline from Ultimatum League even with all of the new Atlas nodes this ends up at 1/30 spawn chance
 
 **Survive the Assault**, **Slaughter Them All**, **Conquer The Stones** and **Protect The Altar** all make content easier. Applying only some of these lowers the chance of the ones you don't want but also means they are baseline difficulty.
 **Brave the Tower** and its associated wheel grant increase chance of encountering the Trialmaster.
@@ -249,7 +255,7 @@ Purchase any 11 of the following items from the Denizens of the Wildwood.
 
 You only need to buy 11 of the 17 listed.
 
-Corpses come from the Breaker of Oaths, tinctures come from the Warden of Eaves and Charms
+Corpses come from the Breaker of Oaths, Tinctures come from the Warden of Eaves and Charms come from the Primalist
 
 # 18 Achieve Ascension
 ## Very Easy
@@ -390,7 +396,7 @@ Equip any eight of the following types of equipment.
     - Literally veiled, equip it before unveiling
 - Split
 
-Straight forward. Enchanted will be covered by Anointed with the Labyrinth changes. You can buy cheap items to cover all of these but you will likely encounter them naturally by the time you are done with other challenges.
+Straight forward. Enchanted will be covered by Anointed Jewellery or Harvest Crafts with the Labyrinth changes. You can buy cheap items to cover all of these but you will likely encounter them naturally by the time you are done with other challenges.
 
 # 25 Tremendous Thaumaturgy
 ## Easy
@@ -506,7 +512,7 @@ Complete Maps with any two of the following combinations of Sextant Modifiers wh
     - Items found in your Identified Maps are Identified, X% increased Pack Size in your Unidentified Maps
     - Slaying Enemies close together can attract monsters from Beyond this realm, 25% increased Beyond Demon Pack Size in your Maps
 
-You can get 30% quantity from the Atlas Tree.
+You can get 30% quantity from the Atlas Tree, 8% from the Map Device, 5% from each part of a Sacrifice Fragment Set and 10% from each part of a Mortal Fragment Set.
 
 These need three Voidstones except the Elemental increase one which requires four.
 
@@ -522,6 +528,8 @@ This is quite literally just killing a whole bunch of rare monsters.
 # 31 Memory Madness
 ## Easy
 Reach a total of 2,500% Item Quantity from completing Atlas Memory Maps.
+
+Completing the maps is simply killing the bosses, if you are buying cheaper memories and don't mind a lack of returns you can simply rush to bosses for this.
 
 This is in the region of 10 memory chains top end assuming averagely rolled rare maps.
 
@@ -595,7 +603,6 @@ Grind maps with Maven, Exarch or Eater active alongside the appropriate nodes. T
 Allocate all acquirable Atlas Passive Points
 
 Requires you to complete all maps, all Maven invites including the Feared
-
 - All white maps (T1 to 5) at Magic rarity
 - All yellow maps (T6 to 1) at Rare rarity
 - All Red maps (T11 to 16) at Rare rarity while corrupted
