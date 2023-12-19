@@ -3,6 +3,8 @@
 # Affliction Challanges
 Please get in touch through [Github](https://github.com/CraniumViolence/craniumviolence.github.io) or on [Reddit](https://www.reddit.com/user/TrainCarMoney) if any information here is incorrect, absent or you simply have better strategies or information!
 
+This guide makes the assumption that you have a baseline understanding of Path of Exile and does not include complex instructions for a lot of aspects such as explaining what a mechanic is.
+
 # 1 Beginner's Basics
 ## Very Easy
 Complete each of the following tasks.
@@ -83,13 +85,13 @@ Simply playing through acts naturally will complete this.
 ## Very Easy
 Complete each of the following quests.
 - The Marooned Mariner
-	- Act 1 Fairgraves
+    - Act 1 Fairgraves
 - Victario's Secrets
-	- Act 3 Sewer Busts
+    - Act 3 Sewer Busts
 - In Service to Science
-	- Act 5 Miasmeter
+    - Act 5 Miasmeter
 - The Puppet Mistress
-	- Act 6 Ryslatha, Wetlands Boss
+    - Act 6 Ryslatha, Wetlands Boss
 
 All of these quests are simply ones which grant extra Passive Points.
 
@@ -139,7 +141,7 @@ Complete each of the following Ambush encounters.
     - Polished Ambush Scarabs add **4** Strongboxes
     - Ambush Modifier adds **4** Strongboxes
     - Monstrous Treasure from Shaping the Skies adds **24-36** Strongboxes which will instantly clear this
-	- **Alva's Memory of Cascading Fortunes** ends with exactly **18** boxes (6 sets of 3)
+    - **Alva's Memory of Cascading Fortunes** ends with exactly **18** boxes (6 sets of 3)
 
 # 12 Ryslatha's Ravenous Rage
 ## Very Easy
@@ -654,13 +656,18 @@ You can buy a carry or a service for this as you can make a portal before enteri
 ### Buyable
 Complete any four of the following Endgame League Content encounters.
 - Wave 30 of the Simulacrum
+    - Basically needs a dedicated build to be consistent
 - The Domain of Timeless Conflict with at least 30 rewards
+    - Can be done in a normal four way for unlocking full map device fairly easily on a lot of builds
 - The Sanctum in an area level of 83 with no Equipped Relics
 - Any Flawless Breachstone
+    - You can upgrade Breachstones with Blessings which is probably a bit cheaper than buying them already upgraded
 - Heist Blueprint in an area level of 83 with 4 wings and at least 100% Item Quantity
     - Non-trivial amount of quantity necessitating either 6 very strong mods or vaaling and hoping
 - Infused Beachhead
+    - Drops from T15 Beachheads, pretty expensive
 - Inscribed Ultimatum in an area level of 83 with at least 8 modifiers
+    - It's what it reads as
 
 The non-uber bosses aspirational content, easy enough to buy carries or kills if you aren't confident in the content.
 
