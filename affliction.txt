@@ -1,6 +1,6 @@
 # Affliction Challanges
 
-Please get in touch through [Github](https://github.com/CraniumViolence/craniumviolence.github.io) or on [Reddit](https://www.reddit.com/user/TrainCarMoney) if any information here is incorrect, absent or you simply have better strategies or information! 
+Please get in touch through [Github](https://github.com/CraniumViolence/craniumviolence.github.io) or on [Reddit](https://www.reddit.com/user/TrainCarMoney) if any information here is incorrect, absent or you simply have better strategies or information!
 
 # 1 Beginner's Basics
 ## Very Easy
@@ -24,7 +24,7 @@ Interacting with the League Mechanic at all will naturally complete this.
 
 # 3 Peddler's Produce I
 ## Very Easy
-Complete vendor recipes to receive each of the following items. 
+Complete vendor recipes to receive each of the following items.
 A vendor recipe is when you trade a specific combination of items to a vendor, not when you buy items from their purchase screen.
 - Life Flask
     - Vendor three of the same type of life flask
@@ -99,10 +99,12 @@ Complete each of the following Torment encounters.
 - Defeat a Map Boss that has been Possessed by 3 Tormented Spirits in a Tier 16 Map
     - **Unrelenting Torment** on the Atlas Tree has a 10% chance to surround a boss with Tormented Spirits
     - Maps with an explicit arena make it easier to avoid the spirits going AWOL and not actually possessing the boss
+    - If you are wanting to do this as soon as possible, simply spam something like Mesa with a fixed, enclosed boss spawn
+	- You can load up a map with Tormented Spirits in general and try to guide the boss these spirits
 
 Be aware that **Speaker of the Dead** also explicitly disables monsters being possessed, which would stop all Map Bosses being possessed!
 
-# 10 Archaic Anarchy 
+# 10 Archaic Anarchy
 ## Easy
 Complete each of the following Anarchy encounters.
 - Defeat Rogue Exiles x90
@@ -159,24 +161,24 @@ The **Viridian Wildwood** can have beyond encounters which spawn a boss.
 Complete each of the following Blight encounters.
 - Complete Blights x30
     - Scarabs and Map Enchants can force a blight encounters
-	- Blighted or Blight Ravaged Maps don't count towards this
+    - Blighted or Blight Ravaged Maps don't count towards this
 - Defeat Blight Bosses x50
     - **Distilled Fungus** adds up to one additional boss to blights in maps
     - The reward indicator will have a ![][blight-boss] special icon if there is a Blight Boss set to spawn
-	- You will be drowning in bosses while doing the blight map completions unless you buy the clears
+    - You will be drowning in bosses while doing the blight map completions unless you buy the clears
 - Complete Tier 14 or higher Blighted Maps with at least 80% Item Quantity x10
-	- 8% Quantity on the map device counts towards this
-	- Vaal Fragment Quantity counts towards this
-	- Blight Ravaged maps count towards this
+    - 8% Quantity on the map device counts towards this
+    - Vaal Fragment Quantity counts towards this
+    - Blight Ravaged maps count towards this
 - Complete a Rare Tier 16 Blight-Ravaged Map with at least 5 Modifiers
-	- 3 x Clear, Sepia and Amber Oils to slow monsters and maximise your ability to build towers.
-	- You need incredibly high DPS to deal with these without playing them as Tower Defence maps
-	
+    - 3 x Clear, Sepia and Amber Oils to slow monsters and maximise your ability to build towers.
+    - You need incredibly high DPS to deal with these without playing them as Tower Defence maps
+
 Ring anoint for Meteor Burning Ground and Chilling Towers Freeze Enemies.
 
 Grey lanes are inactive, yellow ones are actively spawning monsters.
 
-Leave Seismic, Empowering and Ice towers at Level 3. 
+Leave Seismic, Empowering and Ice towers at Level 3.
 
 Minions should go to Scout Towers, Fire should go to Meteor Towers.
 
@@ -310,7 +312,7 @@ Use each of the following types of crafts.
 - Tier 3 Incursion Crafting Bench
     - Doryani’s Institute
     - Locus of Corruption
-    - Sacrificial Chamber, Hall of Offerings, Apex of Ascension might count?
+    - Apex of Ascension
 - Rank 3 or 4 Betrayal Crafting Bench
     - Transport with Hillock or Vorici
     - Research with Aisling, Hillock, It That Fled, Jorgin, Tora, Vorici
@@ -327,12 +329,14 @@ Allocate eight Wildwood Passive Points in any of the following single Wildwood S
 
 You can farm the first 6 points in Act 10 at any point which can be faster than running maps. The final two points come from completing a T14+ King in the Mists while you are using that ascendancy.
 
+If you are bugged and stuck on 7/8, you can unspec your final point and reallocate it
+
 You only need to complete one of the three.
 
 # 23 Remarkable Realms
 ## Easy
 Complete each of the following Unique Maps.
-- Vaults of Atziri 
+- Vaults of Atziri
     - ![divination card][div-card] Treasure Hunter
     - ![divination card][div-card] The Wolf's Legacy
 - Maelström of Chaos
@@ -421,13 +425,16 @@ Complete any four of the following past league content encounters.
     - **Heavy Breach** extends breach encounters.
     - **Sextants** can add additional Breaches.
     - Vaal Portal might work
+    - **Niko's Memory of Demonic Onslaught** might work also
 - Defeat a Syndicate Member that is Possessed
     - **Torment Scarabs** and **Paranormal Haunting** on the Atlas Tree can spawn Tormented Spirits
     - **Sextants** can roll mods to add a **Tormented Betrayer**
 - Complete an Ultimatum while Delirious
+    - Completion is simply stopping, you can do one round and take your rewards just fine
     - Delirium will pause while doing an Ultimatum
     - **Ultimatum** is on the Map Device
     - **Unending Nightmare** will stop Fog ever dissipating
+    - Any **Players are Delirious** map has permanent fog
 
 You only need to complete four of the seven.
 
@@ -531,11 +538,17 @@ You only need to complete four of the four of the seven.
 ### Buyable
 Use any six of the following types of crafting currency the specified number of times.
 - Corrupted Essence x4
+    - Essence of Insanity
+    - Essence of Horror
+    - Essence of Delirium
+    - Essence of Hysteria
+	- You can spam a single type for this
 - Golden Oil
 - Tempering or Tailoring Orb
 - Sacred lifeforce
 - Fracturing Orb
 - Catalyst x40
+	- Any type of Catalyst contributes
 - Tainted Exalted orb, Chaos Orb or Divine Teardrop
 - Eldritch Exalted, Annulment or Chaos orb
 - Elderslayer Exalted Orb
@@ -617,7 +630,7 @@ You can buy a carry or a service for this as you can make a portal before enteri
 ## Hard
 ### Buyable
 Complete any four of the following Endgame League Content encounters.
-- Wave 30 of the Simulacrum 
+- Wave 30 of the Simulacrum
 - The Domain of Timeless Conflict with at least 30 rewards
 - The Sanctum in an area level of 83 with no Equipped Relics
 - Any Flawless Breachstone
@@ -702,6 +715,10 @@ For only **38** challenges I would consider skipping **Grand Gripping Grail** an
 [PoeDB](https://poedb.tw/us/) for easily accessible information on divination cards and labyrinth enchants.
 
 [PoeWiki](https://www.poewiki.net/wiki/) for some general information such The Temple of Atzoatl room names.
+
+Reddit users: Wendek for information on Cross Contamination, mr_madkeks for confirming Apex of Ascension counts as a T3 craft
+
+If you don't want to be here after I credit you for some reason, feel free to reach out
 
 [div-card]: ./img/DivCard.png
 [spawn-paths]: ./img/SpawnPaths.png
