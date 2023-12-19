@@ -369,7 +369,7 @@ Complete each of the following Unique Maps.
 
 Spamming **Singular Scouting Reports** rolls Unique Maps on Kirac, this can include higher tier maps in lower tiers resulting in very easy versions of bosses.
 
-You can also use **Comprehensive Scouting Report** that drop when using the **Planar Tactician** node which can also roll **Doryani's Machinarium** which is the most expensive unique map generally.
+You can also use **Comprehensive Scouting Report** that drop when using the **Planar Tactician** Atlas node which can also roll **Doryani's Machinarium** which is the most expensive unique map generally.
 
 Some Unique Maps have their own divination cards otherwise you can turn in sets of **The Encroaching Darkness** or simply buy the maps on trade.
 
