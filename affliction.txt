@@ -97,10 +97,12 @@ Complete each of the following Torment encounters.
 - Be Possessed by a Tormented Spirit
     - **Speaker of the Dead** on the Atlas Tree or the Unique **Fairgraves' Tricorne** enable this interaction
 - Defeat a Map Boss that has been Possessed by 3 Tormented Spirits in a Tier 16 Map
-    - **Unrelenting Torment** on the Atlas Tree has a 10% chance to surround a boss with Tormented Spirits
+	- The **Shore Map** spawns a ghost at 50% and 25% respectively, rolling Map Boss is Possesssed will guarantee this if you can control your DPS
+	- **Niko's Memory of Tormented Souls** can spawn Unique Monsters with Spirits already
+    - You can load up a map with Tormented Spirits in general and try to guide the boss these spirits
+	- **Unrelenting Torment** on the Atlas Tree has a 10% chance to surround a boss with Tormented Spirits
     - Maps with an explicit arena make it easier to avoid the spirits going AWOL and not actually possessing the boss
     - If you are wanting to do this as soon as possible, simply spam something like Mesa with a fixed, enclosed boss spawn
-	- You can load up a map with Tormented Spirits in general and try to guide the boss these spirits
 	- To make this as easy as possible you can run a normal rarity map and avoid the Wildwood and any Atlas options that could make the map stronger (Maven, Shrines)
 
 Be aware that **Speaker of the Dead** also explicitly disables monsters being possessed, which would stop all Map Bosses being possessed!
@@ -719,7 +721,7 @@ For only **38** challenges I would consider skipping **Grand Gripping Grail** an
 
 [PoeWiki](https://www.poewiki.net/wiki/) for some general information such The Temple of Atzoatl room names.
 
-Reddit users: Wendek for information on Cross Contamination, mr_madkeks for confirming Apex of Ascension counts as a T3 craft
+Reddit users: *Wendek* for information on Cross Contamination, *mr_madkeks* for confirming Apex of Ascension counts as a T3 craft, *cchiangs* for Shore suggestion
 
 If you don't want to be here after I credit you for some reason, feel free to reach out
 
