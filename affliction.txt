@@ -211,6 +211,7 @@ Complete each of the following Expedition encounters.
 - Complete Expeditions x30
 - Detonate Remnants x100
 - Complete Logbooks with at least 10 active Remnants x10
+    - Needs Area Level 81, apparently.
 - Defeat an Expedition Boss in a level 83 area with at least 10 Remnants active
 
 Straight forward without actual tier requirements for the non-Logbook portions.
@@ -668,6 +669,7 @@ Complete any four of the following Endgame League Content encounters.
     - Drops from T15 Beachheads, pretty expensive
 - Inscribed Ultimatum in an area level of 83 with at least 8 modifiers
     - It's what it reads as
+    - Except it's not and actually needs 10 modifiers
 
 The non-uber bosses aspirational content, easy enough to buy carries or kills if you aren't confident in the content.
 
