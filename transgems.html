@@ -105,6 +105,7 @@
 		.faded { opacity: 0.2 }
 		#header { display: flex; justify-content: center; align-items: center; margin: 20px 0; }
 		#search { min-width: 60%; line-height: 2em; padding: 0 10px; font-size: 1em; @media screen and (max-width: 600px) { min-width: 100%; } }
+		#footer{position: fixed;left:0;bottom:0;height:20px;width:100%;text-align:center;background:#292929;border-top:1px solid black;font-size:90%;}
 		</style>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	</head>
@@ -1113,6 +1114,8 @@
 	<p>Old <a href="./scourge.html">Scourge</a> and <a href="./archnemesis.html">Archnemesis</a> pages are available here if you wanted them for some reason.</p>
 	<p>Many thanks to Ridley for the regex search functionality and Joe Beane for the compare functionality!</p>
 </div>
+
+<div id="footer">Other pages: <a href="./">Challenge Guide</a> | <a href="./transgems.html">Gem Rewards &amp; Vendors </a></div>
 <script>
 $(".poe-item").hover(function(evt){
 	let item = $(this).attr("id");
