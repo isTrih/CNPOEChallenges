@@ -377,7 +377,7 @@
       {
          "name":"Arcane Surge Support",
          "rewards":[
-            "-",
+            "Starting Gem",
             "-",
             "-",
             "-",
@@ -1303,7 +1303,7 @@
          "rewards":[
             "-",
             "-",
-            "-",
+            "Starting Gem",
             "-",
             "-",
             "-",
@@ -1546,7 +1546,7 @@
             "-",
             "-",
             "-",
-            "-",
+            "Starting Gem",
             "A1: Mercy Mission",
             "A1: Mercy Mission",
             "A1: Mercy Mission"
@@ -1588,7 +1588,7 @@
          "name":"Chance to Poison Support",
          "rewards":[
             "A1: Mercy Mission",
-            "-",
+            "Starting Gem",
             "A1: Mercy Mission",
             "A1: Mercy Mission",
             "-",
@@ -2712,7 +2712,7 @@
             "-",
             "-",
             "-",
-            "-",
+            "Starting Gem",
             "-",
             "-",
             "-"
@@ -2956,7 +2956,7 @@
             "-",
             "-",
             "-",
-            "-",
+            "Starting Gem",
             "A1: Mercy Mission"
          ],
          "vendors":[
@@ -3435,7 +3435,7 @@
       {
          "name":"Fireball",
          "rewards":[
-            "-",
+            "Starting Gem",
             "-",
             "-",
             "-",
@@ -4188,7 +4188,7 @@
             "-",
             "-",
             "-",
-            "-",
+            "Starting Gem",
             "-"
          ],
          "vendors":[
@@ -4363,7 +4363,7 @@
             "-",
             "-",
             "-",
-            "-",
+            "Starting Gem",
             "-",
             "-"
          ],
@@ -6077,7 +6077,7 @@
          "rewards":[
             "-",
             "A1: Mercy Mission",
-            "-",
+            "Starting Gem",
             "A1: Mercy Mission",
             "A1: Mercy Mission",
             "-",
@@ -6587,7 +6587,7 @@
             "-",
             "-",
             "-",
-            "-"
+            "Starting Gem"
          ],
          "vendors":[
             "A1: Enemy at the Gate",
@@ -7135,7 +7135,7 @@
             "-",
             "-",
             "A1: Mercy Mission",
-            "-",
+            "Starting Gem",
             "A1: Mercy Mission",
             "A1: Mercy Mission"
          ],
@@ -7775,7 +7775,7 @@
             "-",
             "-",
             "-",
-            "-"
+            "Starting Gem"
          ],
          "vendors":[
             "Siosa",
@@ -9002,7 +9002,7 @@
          "name":"Viper Strike",
          "rewards":[
             "-",
-            "-",
+            "Starting Gem",
             "-",
             "-",
             "-",
