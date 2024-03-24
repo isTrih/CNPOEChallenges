@@ -22,7 +22,7 @@
 	<meta name="Keywords" content="path of exile, challenge guide">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
 	<script src="./js/showdown.min.js"></script>
-	<title>Path of Exile Affliction Challenge Guide</title>
+	<title>Path of Exile Necropolis Challenge Guide</title>
 	<style>
 	:root{--toggle-left:340px;--sidebar-left:0px;}
 	[data-sidebar="visible"]{--toggle-left:4px;--sidebar-left: -336px;}
@@ -53,16 +53,16 @@
 	<div id="toggle" onclick="switchSidebar()">☰</div>
 	<div id="navigation"></div>
 	<div id="contents"></div>
-	<div id="footer">Other pages: <a href="./transgems.html">Transfigured Gem Information</a></div>
+	<div id="footer">Other pages: <a href="./transgems.html">Gem Rewards &amp; Vendors </a> | <a href="./transgems.html">Transfigured Gem Information</a></div>
 	<script>
 		var converter = new showdown.Converter();
 		$.ajax({
-			url:'affliction-toc.txt',
+			url:'necropolis-toc.txt',
 			success: function(data){ document.getElementById("navigation").innerHTML = converter.makeHtml(data);}
 		});
 		
 		$.ajax({
-			url:'affliction.txt',
+			url:'necropolis.txt',
 			success: function(data){ 
 				$("#contents").html(converter.makeHtml(data));
 				if (location.hash) {

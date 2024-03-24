@@ -1,0 +1,16 @@
+## You can toggle navigation with the `☰` at the top left
+
+# Necropolis Challanges
+Please get in touch through [Github](https://github.com/CraniumViolence/craniumviolence.github.io) or on [Reddit](https://www.reddit.com/user/TrainCarMoney) if any information here is incorrect, absent or you simply have better strategies or information!
+
+This guide makes the assumption that you have a baseline understanding of Path of Exile and does not include complex instructions for a lot of aspects such as explaining what a mechanic is.
+
+There is nothing here yet for obvious reasons.
+
+# Credits
+[PoeDB](https://poedb.tw/us/) for easily accessible information on divination cards and labyrinth enchants.
+
+[PoeWiki](https://www.poewiki.net/wiki/) for some general information such The Temple of Atzoatl room names.
+
+[div-card]: ./img/DivCard.png
+[blight-boss]: ./img/BlightBoss.png
