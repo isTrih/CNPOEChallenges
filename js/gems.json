@@ -599,6 +599,29 @@
          "color":"blue"
       },
       {
+         "name":"Automation",
+         "rewards":[
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-"
+         ],
+         "vendors":[
+            "A3: Lost in Love",
+            "A3: Lost in Love",
+            "A3: Lost in Love",
+            "A3: Lost in Love",
+            "A3: Lost in Love",
+            "A3: Lost in Love",
+            "A3: Lost in Love"
+         ],
+         "cost":"Orb of Alteration",
+         "color":"Blue"
+      },
+      {
          "name":"Ball Lightning",
          "rewards":[
             "A3: Sever the Right Hand",
@@ -1404,6 +1427,29 @@
          "color":"red"
       },
       {
+         "name":"Call to Arms",
+         "rewards":[
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-"
+         ],
+         "vendors":[
+            "Siosa",
+            "Siosa",
+            "Siosa",
+            "A3: Lost in Love",
+            "A3: Lost in Love",
+            "A3: Lost in Love",
+            "A3: Lost in Love"
+         ],
+         "cost":"Orb of Alteration",
+         "color":"Red"
+      },
+      {
          "name":"Cast On Critical Strike Support",
          "rewards":[
             "-",
@@ -2119,7 +2165,7 @@
       {
          "name":"Convocation",
          "rewards":[
-            "A3: Lost in Love",
+            "-",
             "-",
             "-",
             "-",
@@ -2133,8 +2179,8 @@
             "Siosa",
             "Siosa",
             "Siosa",
-            "A3: Lost in Love",
-            "A3: Lost in Love"
+            "Siosa",
+            "Siosa"
          ],
          "cost":"Orb of Alteration",
          "color":"blue"
@@ -7497,6 +7543,29 @@
          ],
          "cost":"Orb of Chance",
          "color":"blue"
+      },
+      {
+         "name":"Sacred Wisp Support",
+         "rewards":[
+            "A2: Sharp and Cruel",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-",
+            "-"
+         ],
+         "vendors":[
+            "A2: Sharp and Cruel",
+            "A2: Sharp and Cruel",
+            "A2: Sharp and Cruel",
+            "Siosa",
+            "Siosa",
+            "A2: Sharp and Cruel",
+            "A2: Sharp and Cruel"
+         ],
+         "cost":"Orb of Alteration",
+         "color":"Blue"
       },
       {
          "name":"Sadism Support",
