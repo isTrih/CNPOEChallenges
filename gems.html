@@ -42,7 +42,7 @@
 	#toggle{position:fixed;left:var(--toggle-left);top:5px;cursor:pointer;transition: all 0.2s linear;font-size:30px;padding-bottom: 20px;color:#ffff00;text-shadow: 2px 2px 4px rgb(0, 0, 0, 1);}
 	#toggle:hover{color:#FFE28B}
 	table{width:100%;border-collapse:collapse;}
-	table img{max-height:16px;margin-bottom:-4px;}
+	table img{max-height:22px;margin-bottom:-6px;margin-top:-3px;}
 	table tr th{font-size:14px;border:1px solid #2d2d2d;background-color:black;color:white;}
 	table tr th:first-child{min-width:24%;max-width:24%}
 	table tr th:nth-child(n+2){min-width:11%;max-width:11%}
@@ -52,6 +52,12 @@
 	table tr td:nth-child(n+2).offpath{ color:#DF84E0;}
 	th input{background:none;width:100%;border:none;color:white;}
 	tr:first-child { position: sticky; top: 0px; background: black;}
+	.currency{float:right;}
+	.col-red{width:20px;float:left;background-color:red;color:white;border-radius:2em;padding-left:3px;padding-right:3px;}
+	.col-green{width:20px;float:left;background-color:green;color:white;border-radius:2em;padding-left:3px;padding-right:3px;}
+	.col-blue{width:20px;float:left;background-color:blue;color:white;border-radius:2em;padding-left:3px;padding-right:3px;}
+	.col-white{width:20px;float:left;background-color:white;color:black;border-radius:2em;padding-left:3px;padding-right:3px;}
+	table tr:hover td{background-color:rgb(40,40,40)
 	</style>
 	</head>
 <body>
@@ -70,19 +76,33 @@
 			.then((response) => response.json()).then((json) => {
 				for (var gem of json.gems) { 
 					const gemRow = document.createElement("tr")
-					let img;
+					let img; let col;
 					if (gem.cost == "Orb of Transmutation"){
-						img = '<img src="./img/currency/transmutation.png" alt=""/>'
+						img = '<img class="currency" src="./img/currency/transmutation.png" alt=""/>'
 					} else if (gem.cost == "Orb of Chance"){
-						img = '<img src="./img/currency/chance.png" alt=""/>'
+						img = '<img class="currency" src="./img/currency/chance.png" alt=""/>'
 					} else if (gem.cost == "Orb of Alteration"){
-						img = '<img src="./img/currency/alteration.png" alt=""/>'
+						img = '<img class="currency" src="./img/currency/alteration.png" alt=""/>'
 					} else if (gem.cost == "Orb of Alchemy"){
-						img = '<img src="./img/currency/alchemy.png" alt=""/>'
+						img = '<img class="currency" src="./img/currency/alchemy.png" alt=""/>'
 					} else if (gem.cost == "Scroll of Wisdom"){
-						img = '<img src="./img/currency/wisdom.png" alt=""/>'
-					}			
-					gemRow.appendChild(document.createElement("td")).innerHTML = img + " " + gem.name;
+						img = '<img class="currency" src="./img/currency/wisdom.png" alt=""/>'
+					}
+					
+					if (gem.color == "red"){
+						col = '<span class="col-' + gem.color + '">R</span>'
+					} else if (gem.color == "green"){
+						col = '<span class="col-' + gem.color + '">G</span>'
+					} else if (gem.color == "blue"){
+						col = '<span class="col-' + gem.color + '">B</span>'
+					} else if (gem.color == "white"){
+						col = '<span class="col-' + gem.color + '">W</span>'
+					}
+					console.log(col);
+					console.log(gem.name);
+					console.log(img);
+					
+					gemRow.appendChild(document.createElement("td")).innerHTML = col + " " + gem.name + " " + img;
 					for (let x = 0; x < 7; x++){
 						let td = document.createElement("td");
 						if (gem.rewards[x] != "-"){
