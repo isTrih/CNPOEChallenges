@@ -619,7 +619,7 @@
             "A3: Lost in Love"
          ],
          "cost":"Orb of Alteration",
-         "color":"Blue"
+         "color":"blue"
       },
       {
          "name":"Ball Lightning",
@@ -1447,7 +1447,7 @@
             "A3: Lost in Love"
          ],
          "cost":"Orb of Alteration",
-         "color":"Red"
+         "color":"red"
       },
       {
          "name":"Cast On Critical Strike Support",
@@ -7565,7 +7565,7 @@
             "A2: Sharp and Cruel"
          ],
          "cost":"Orb of Alteration",
-         "color":"Blue"
+         "color":"blue"
       },
       {
          "name":"Sadism Support",
