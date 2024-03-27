@@ -147,7 +147,7 @@
 				if(term.length > 0){
 					// skip header row
 					$("td").parent().hide();
-					$("tr td:nth-child(1):contains('" + term + "')").parent().show();
+					$('tr td:contains("' + term + '")').parent().show();
 				} else {
 					$("tr").show();
 				}
