@@ -5,7 +5,397 @@ Please get in touch through [Github](https://github.com/CraniumViolence/craniumv
 
 This guide makes the assumption that you have a baseline understanding of Path of Exile and does not include complex instructions for a lot of aspects such as explaining what a mechanic is.
 
-There is nothing here yet for obvious reasons.
+# 1 Beginner's Basics
+## Very Easy
+Complete each of the following tasks.
+- Allocate a Passive Mastery
+- Complete a Labyrinth Trial
+- Defeat an Act Boss
+- Use the Crafting Bench
+
+Free from simply completing campaign and making a normal character.
+
+# 2 Necrotic Necessity
+## Very Easy
+Complete each of the following Necropolis encounters.
+- Defeat a Monster with a Necropolis Modifier
+- Collect a Corpse
+- Craft an Item in The Necropolis
+
+Free from simply interacting with the league content.
+
+# 3 Peddler's Produce I
+## Very Easy
+Complete vendor recipes to receive each of the following items. A vendor recipe is when you trade a specific combination of items to a vendor, not when you buy items from their purchase screen.
+- Chromatic Orb
+	- Vendor a RGB linked items
+- Jeweller's Orb
+	- Vendor a Six Socket item
+- Any Hybrid Flask
+	- 1x Life Flask, 1x Mana Flask, 1x Orb of Fusing
+- Instilling or Enkindling Orb
+	- 4x Instilling Orb, 1x Trigger Gem, 1x Orb of Scouring
+	- 2x Enkindling Orb, 1x Trigger Gem, 1x Orb of Alchemy
+	
+Some standard basic vendor recipes, you'll probably not get the six socket one before maps but they are plentiful there.
+
+# 4 Act Adversaries I
+## Very Easy
+Complete each of the following encounters.
+- Act 1: Merveil, the Twisted
+- Act 2: Vaal Oversoul
+- Act 3: Dominus, Ascendant
+- Act 4: Malachai, The Nightmare
+- Act 5: Kitava, the Insatiable
+
+Free from simply completing campaign and making a normal character.
+
+# 5 Deadly Deeds
+## Very Easy
+Complete each of the following encounters.
+- Open a Breach
+- Defeat a Rare Beyond Monster
+- Defeat a Possessed Monster
+- Complete an Expedition
+
+Very easy from just interacting with the mechanics in question. 
+
+# 6 Significant Spirits
+## Unknown
+Complete each of the following Necropolis encounters.
+- Defeat Monsters with Necropolis Modifiers x250
+- Collect Corpses x50
+
+Free from simply interacting with the league content.
+
+# 7 Act Adversaries II
+## Unknown
+Complete each of the following encounters.
+- Act 6: Tsoagoth, The Brine King
+- Act 7: Arakaali, Spinner of Shadows
+- Act 8: Lunaris, Eternal Moon and Solaris, Eternal Sun
+- Act 9: The Depraved Trinity
+- Act 10: Kitava, the Insatiable
+
+Free from simply completing campaign and making a normal character.
+
+# 8 Regrettable Requests
+## Unknown
+Complete each of the following quests.
+- Through Sacred Ground
+- Fallen From Grace
+- Fastis Fortuna
+- No Love for Old Ghosts
+
+These are simply the optional quests for passive refund points during the campaign.
+
+# 9 Enigmatic Essences
+## Unknown
+Complete each of the following Essence encounters.
+- Defeat Monsters with Essences x60
+- Use Remnants of Corruption x30
+- Defeat a monster with at least 3 Deafening Essences
+- Defeat a Map Boss with at least 6 Essences in a Red or Purple Tier Map
+
+# 10 Abyssal Assailants 
+## Unknown
+Complete each of the following Abyss encounters.
+- Complete Abysses x30
+- Defeat Rare Abyssal monsters x100
+- Complete Abysses with 4 pits x10
+- Defeat Stygian Spires x5
+
+# 11 Divine Domination
+## Unknown
+Complete each of the following Domination encounters.
+- Activate Shrines x100
+- Defeat Map Bosses while under the effect of a Shrine x50
+- Activate an Echoing or Divine Shrine
+- Have 5 different Shrine effects on you at once
+
+# 12 Devout Disciples
+## Unknown
+Defeat Rare Monsters with any 7 of the following types of Devoted Modifiers
+- Devoted to Abberath
+- Devoted to Gruthkul
+- Devoted to Lunaris
+- Devoted to Prospero
+- Devoted to Ryslatha
+- Devoted to Solaris
+- Devoted to Tangmazu
+- Devoted to Thruldana
+- Devoted to Tsoagoth
+- Devoted to Viridi
+
+# 13 Tactful Thievery
+## Unknown
+Complete each of the following Heist encounters.
+- Open Smuggler's Caches x60
+- Level a Heist Job to level 5
+- Complete Item Level 78 or higher Priceless or Precious Target Value Contracts x15
+- Complete Item Level 78 or higher Blueprints with 4 wings x5
+
+# 14 Heralding Harbingers
+## Unknown
+Complete each of the following Harbinger encounters.
+- Defeat Harbingers x60
+- Use a Harbinger's Orb
+- Assemble a Harbinger Unique
+- Complete Red Tier Beachhead Maps x3
+
+# 15 Rapturous Rituals
+## Unknown
+Complete each of the following Ritual encounters.
+- Complete Rituals x100
+- Purchase a Ritual Base with Tribute
+- Spend Tribute x100000
+- Complete a single Ritual encounter with at least 6 Unique Map Bosses
+
+# 16 Hungering Harvests
+## Unknown
+Complete each of the following Harvest encounters.
+- Harvest Plots x100
+- Defeat Tier 4 Harvest Monsters x3
+- Spend Lifeforce x25000
+- Defeat Oshabi
+
+# 17 Eternal Exorcising 
+## Unknown
+Craft any 10 types of the following Equipment in The Necropolis while using at least 5 Crafting Modifiers and resulting in an item level 75 or higher item.
+- Amulet
+- Axe
+- Belt
+- Body Armour
+- Boots
+- Bow
+- Claw
+- Dagger
+- Gloves
+- Helmet
+- Mace/Sceptre
+- Quiver
+- Ring
+- Shield
+- Staff
+- Sword
+- Wand
+
+# 18 Achieve Ascension
+## Unknown
+Use the Ascendancy Device in each of the following Labyrinths.
+- The Labyrinth
+- The Cruel Labyrinth
+- The Merciless Labyrinth
+- The Eternal Labyrinth
+
+# 19 Divined Destiny
+## Unknown
+Complete each of the following Divination Card tasks.
+- Open Stacked Decks x30
+- Complete a Tier 16 or higher Map with a Divination Scarab applied
+- Turn in a set of Divination Cards that award an Exalted or Divine orb
+- Turn in a set of Divination Cards that have a stack size of at least 10
+
+# 20 Peddler's Produce II
+## Unknown
+Complete vendor recipes to receive each of the following items. A vendor recipe is when you trade a specific combination of items to a vendor, not when you buy items from their purchase screen.
+- Unique Item
+- Orb of Fusing
+- Exalted Shard
+- Influenced Item
+
+# 21 Alternate Atlases
+## Unknown
+Unlock all three Atlas Passive Trees.
+
+# 22 Abnormal Adversaries
+## Unknown
+Defeat Monsters affected by the following Necropolis Modifiers the specified number of times while they are level 68 or higher.
+- Servant-Haunted x50
+- Peasant-Haunted x50
+- Soldier-Haunted x50
+- Gemling-Haunted x50
+- Thaumaturgist-Haunted x50
+- Noble-Haunted x50
+- Magistrate-Haunted x50
+- Devoted x50
+
+# 23 Remarkable Realms
+## Unknown
+Complete each of the following Unique Maps.
+- Vaults of Atziri
+- Maelström of Chaos
+- The Coward's Trial
+- Acton's Nightmare
+- Poorjoy's Asylum
+- Mao Kun
+- Oba's Cursed Trove
+- Olmec's Sanctum
+- Death and Taxes
+- Whakawairua Tuahu
+- The Vinktar Square
+- Caer Blaidd, Wolfpack's Den
+- The Putrid Cloister
+- Hallowed Ground
+- The Twilight Temple
+- Pillars of Arun
+- Doryani's Machinarium
+
+# 24 Sanctified Scarabs I
+## Unknown
+Complete 200 Red or Purple Tier Maps with Scarabs applied to them.</div></div>
+
+# 25 Vigorous Virtue
+## Unknown
+Complete any six of the following Gem tasks.
+- Use a Facetor's Lens to add experience to a Gem
+- Corrupt a Gem to become either level 21 or 23% Quality
+- Use the Lapidary Lens
+- Have a Socketed Skill Gem reach level 26 or higher
+- Have at least 6 support effects applying to a single skill gem at once
+- Have a socketed Skill Gem reach 51% quality or higher
+- Transform a Gem into a Transfigured Version
+- Level an Awakened Gem to level 5
+
+# 26 Cross Contamination
+## Unknown
+Complete any four of the following past league content encounters.
+- Defeat a Unique Map Boss that is Possessed while in a Ritual
+- Capture a Beast holding an essence
+- Defeat a Tier 4 Harvest Monster while Delirious
+- Defeat a Rogue Exile that is possessed at least three times
+- Defeat a Blight Boss while in a Breach
+- Defeat a Stygian Spire while affected by a Shrine
+
+# 27 Generous Gravesites
+## Unknown
+Craft Equipment in The Necropolis while using any 10 of the following Crafting Modifiers resulting in an Item Level 81 or higher item.
+- Can roll Haunted Modifiers
+- Chance for corpses to not be consumed 
+- Chance to create a Split or Mirrored Copy
+- Chance to Fracture an Explicit Modifier
+- Exclusive Base Item Types
+- Has Influence
+- Increased chance for Prefix or Suffix Modifiers
+- Increased Chance of Modifers
+- Increased effect of Corpses
+- Item is Corrupted
+- Modifier Tier Rating
+- Modifiers are Scarcer
+- Reforge Socket Numbers or Links
+- Reroll Implicit or Explicit Modifier Values
+
+# 28 Masterful Monsters
+## Unknown
+Defeat 50 of any Delve Boss, Syndicate Mastermind, Bestiary Boss or Vaal Omnitect.</div></div>
+
+# 29 Sanctified Scarabs II
+## Unknown
+Complete Maps with any 11 of the following Scarab Types while there are at least 3 different Scarabs of the same type applied to the map while it has at least 80% Item Quantity and is at least Tier 16.
+- Bestiary
+- Influencing
+- Harbinger
+- Abyss
+- Essence
+- Domination
+- Incursion
+- Betrayal
+- Blight
+- Breach
+- Legion
+- Cartography
+- Beyond
+- Ambush
+- Ultimatum
+- Expedition
+- Delirium
+- Misc
+
+# 30 Map Magnificence
+## Unknown
+Reach a total of 10,000 Map Tiers completing maps.</div></div>
+
+# 31 Formidable Flashbacks
+## Unknown
+Reach a total of 150 Explicit Map Modifiers from completing Atlas Memory Maps.</div></div>
+
+# 32 Enigmatic Embers
+## Unknown
+Complete Tier 14 or higher Rare Maps with 100 Allflame Embers of monster level 81 or higher applied. Replacing multiple packs per Map contributes more progress.</div></div>
+
+# 33 Aggravated Antagonists
+## Unknown
+Defeat any eight of the following Bosses while they are level 83 or higher.
+- Any Beyond Boss
+- Any Delve Boss
+- Vaal Omnitect
+- The Syndicate Mastermind
+- Oshabi
+- The Trialmaster
+- Lycia
+- Any Expedition Boss
+- Any Abyssal Lich
+- Any Breachlord in their domain
+- The Twins
+- Any Delirium Boss
+
+# 34 Elevated Expanses
+## Unknown
+Complete each of the following tasks in Tier 17 Maps.
+- Defeat Rare monsters with at least 4 Modifiers x50
+- Complete Maps x30
+- Reach a total Increased Item Quantity from completed Maps x5000
+- Complete Maps with at least 50% Pack Size x15
+
+# 35 Otherworldly Obstacles
+## Unknown
+Complete each of the following invitations while they have at least 70% item Quantity.
+- Screaming 
+- Incandescent 
+- The Elderslayers
+- The Feared
+- The Forgotten
+- The Formed
+- The Hidden
+- The Twisted
+
+# 36 Favoured Figments
+## Unknown
+Unlock all Favoured Map Slots.</div></div>
+
+# 37 Arimor's Apex
+## Unknown
+Defeat 100 Rare Monsters in Tier 16 or higher Maps with at least 80% Item Quantity while they are affected by Magistrate-Haunted Modifiers.</div></div>
+
+# 38 Unfamiliar Undertakings
+## Unknown
+Defeat any three of the following Tier 17 Map Boss encounters in the specified ways.
+- Nightmare of Catarina without being affected by Lich's Beam
+- Nightmare of Uhtred without being affected by Glimpse of Infinity
+- Nightmare of the Unbreakable without being affected by Magnetic Storm
+- Nightmare of the Depraved Trinity without being affected by any Effluent
+- Nightmare of Lycia without being affected by Heretic's Ire
+
+# 39 Colossal Conditionals
+## Unknown
+Defeat any three of the following Pinnacle Boss Encounters while the area is level 85 in the specified ways.
+- The Shaper without being affected by the Shaper's Beam
+- The Uber Elder while affected by Vortex ground and Eldritch Decay
+- Cortex without being hit by Wormhole Slam
+- Sirus while being affected by Desolation of the Awakener
+- The Searing Exarch without being affected by Cauterised Flesh
+- The Eater of Worlds without beginning to drown
+- The Maven after successfully completing the Memory Game at least 5 times
+
+# 40 Gruelling Gauntlet Grinds
+## Unknown
+Complete any four of these encounters the specified number of times.
+- Reach Level 100
+- Defeat Argus in Endgame Labyrinth x100
+- Complete Red Tier Maps with 8 Modifiers x50
+- Complete Elder Guardian, Shaper Guardian or Elderslayer Maps x100
+- Defeat Uber Pinnacle Bosses x50
+- Collect Corpses in Tier 16 or higher Maps x250
 
 # Credits
 [PoeDB](https://poedb.tw/us/) for easily accessible information on divination cards and labyrinth enchants.
