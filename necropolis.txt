@@ -502,7 +502,7 @@ You can buy most of these and should probably complete most just progressing.
 ### Grind Heavy
 Defeat 100 Rare Monsters in Tier 16 or higher Maps with at least 80% Item Quantity while they are affected by Magistrate-Haunted Modifiers.
 
-This needs `Imperial Wraiths` allocated, these are indicated by VII from what I've seen. You probably also want `Eternal Torment` to boost rare rates.
+This needs `Imperial Wraiths` allocated, these are indicated by VII from what I've seen. You probably also want `Eternal Torment` to boost rare rates and to shuffle on each map to try and increase chances of rare Magistrates.
 
 # 38 Unfamiliar Undertakings
 ## Very Hard
