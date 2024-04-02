@@ -1,6 +1,6 @@
 ## You can toggle navigation with the `☰` at the top left
 
-# Necropolis Challanges
+# Necropolis Challenges
 Please get in touch through [Github](https://github.com/CraniumViolence/craniumviolence.github.io) or on [Reddit](https://www.reddit.com/user/TrainCarMoney) if any information here is incorrect, absent or you simply have better strategies or information!
 
 This guide makes the assumption that you have a baseline understanding of Path of Exile and does not include complex instructions for a lot of aspects such as explaining what a mechanic is.
@@ -564,9 +564,8 @@ Complete any four of these encounters the specified number of times.
 
 If you don't have an uber farmer skipping Uber Pinnacles is the sensible choice. Level 100 is also an easy skip if you don't want to pay for it or build for reaching it.
 
-## Skips
-Colossal Conditionals, 
-
+# Unlocks and Skipping
+There's nothing here yet.
 
 # Credits
 [PoeDB](https://poedb.tw/us/) for easily accessible information on divination cards and labyrinth enchants.
