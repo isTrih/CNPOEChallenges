@@ -174,7 +174,7 @@ Complete each of the following Ritual encounters.
 Six unique map bosses is pretty harsh, but you can use Blood-filled Vessels to add them to rituals instantly.
 
 # 16 Hungering Harvests
-## Hard
+## Normal
 ### Partially Buyable
 Complete each of the following Harvest encounters.
 - Harvest Plots x100
@@ -182,7 +182,8 @@ Complete each of the following Harvest encounters.
 - Spend Lifeforce x25000
 - Defeat Oshabi
 
-These are pretty rough or at least expensive historically, you can buy the kills and oshabi
+These are pretty rough or at least expensive historically, you can buy the kills and oshabi.
+Crop Rotation can get you Tier 4s relatively easy.
 
 # 17 Eternal Exorcising 
 ## Very Easy
@@ -504,8 +505,8 @@ You can buy most of these and should probably complete most just progressing.
 ### Grind Heavy
 Defeat 100 Rare Monsters in Tier 16 or higher Maps with at least 80% Item Quantity while they are affected by Magistrate-Haunted Modifiers.
 
-This seems like it really needs `Imperial Wraiths` allocated, these are indicated by VII from what I've seen. You probably also want `Eternal Torment` to boost rare rates and to shuffle on each map to try and increase chances of rare Magistrates.
-You can boost tiers of negative mods by using tier down on them.
+This seems like it really needs `Imperial Wraiths` allocated, these are indicated by VII from what I've seen. 
+You probably also want `Eternal Torment` to boost rare rates and to shuffle on each map to try and increase chances of rare Magistrates.
 
 # 38 Unfamiliar Undertakings
 ## Very Hard
@@ -584,3 +585,5 @@ If you don't have an uber farmer skipping Uber Pinnacles is a sensible choice. L
 [PoeDB](https://poedb.tw/us/) for easily accessible information on divination cards and labyrinth enchants.
 
 [PoeWiki](https://www.poewiki.net/wiki/) for some general information such The Temple of Atzoatl room names.
+
+[div-card]: ./img/DivCard.png
