@@ -95,10 +95,12 @@ Complete each of the following Essence encounters.
 - Defeat Monsters with Essences x60
 - Use Remnants of Corruption x30
 - Defeat a monster with at least 3 Deafening Essences
+	- Three different types
 - Defeat a Map Boss with at least 6 Essences in a Red or Purple Tier Map
+	- Six different types, avoid multi-boss and twinned maps, they will distribute the essences across the various bosses
 
 Pretty straight forward, you can use the atlas nodes and scarabs to increase the essences and level of them in a map.
-For the boss you need to take the node `Crystal Resonance` which can be pretty tough the basic Essence Scarab can add up to 6 modifiers to any map and doing it in a T11 with no mods should be easier than alternatives.
+For the six essence boss you need to take the node `Crystal Resonance` which can be pretty tough the basic Essence Scarab can add up to 6 modifiers to any map and doing it in a T11 with no mods should be easier than alternatives.
 
 # 10 Abyssal Assailants
 ## Easy
@@ -257,7 +259,7 @@ Defeat Monsters affected by the following Necropolis Modifiers the specified num
 - Magistrate-Haunted x50
 - Devoted x50
 
-Magistrate-Haunted enemies need `Imperial Wraiths` allocated, these are indicated by VII as their tier icon.
+Magistrate-Haunted enemies appear to need `Imperial Wraiths` allocated, these are indicated by VII as their tier icon.
 
 # 23 Remarkable Realms
 ## Easy
@@ -387,8 +389,8 @@ Complete Maps with any 11 of the following Scarab Types while there are at least
 
 Maps with matching sets of 3 mechanic Scarabs. 
 As a basic example this would be `Influencing Scarab of the Shaper` `Influencing Scarab of Hordes` and `Influencing Scarab of Conversion` in a Tier 16 map with 80% quantity.
-
-Will mostly come down to costs.
+You can use the Atlas's Item Quantity nodes to make it easier and basically allow alch and go with the extra +% Item Quantity from there and the Map Device itself.
+Best choices will simply come down to costs at the type you do it.
 
 # 30 Map Magnificence
 ## Normal
@@ -474,26 +476,26 @@ Complete each of the following invitations while they have at least 70% item Qua
 - The Twisted
 	- The Elder Guardians
 
-These can be pretty hard, you can't buy invitations any more so you'll need to roll them in Kirac.
+These can be pretty hard. You can't buy invitations any more so you'll need to roll them in Kirac. 
 
-There's no longer Invitation nodes on the Atlas but it's possible the middle 12% Quantity wheel works.
+There's no longer Invitation nodes on the Atlas and no Atlas Quantity in general works now because of them being on Kirac.
 
 
 # 36 Favoured Figments
 ## Easy
 ### Buyable
 Unlock all Favoured Map Slots.
-	- Tier 16+ map
-	- Elder Guardian
-	- Shaper Guardian
-	- Conqueror of the Atlas
-	- Sirus, Awakener of Worlds
-	- Cortex
-	- The Shaper
-	- Uber Elder
-	- The Maven
-	- The Eater of Worlds
-	- Maven Invitation: The Feared
+- Tier 16+ map
+- Elder Guardian
+- Shaper Guardian
+- Conqueror of the Atlas
+- Sirus, Awakener of Worlds
+- Cortex
+- The Shaper
+- Uber Elder
+- The Maven
+- The Eater of Worlds
+- Maven Invitation: The Feared
 	
 You can buy most of these and should probably complete most just progressing.
 
@@ -502,27 +504,41 @@ You can buy most of these and should probably complete most just progressing.
 ### Grind Heavy
 Defeat 100 Rare Monsters in Tier 16 or higher Maps with at least 80% Item Quantity while they are affected by Magistrate-Haunted Modifiers.
 
-This needs `Imperial Wraiths` allocated, these are indicated by VII from what I've seen. You probably also want `Eternal Torment` to boost rare rates and to shuffle on each map to try and increase chances of rare Magistrates.
+This seems like it really needs `Imperial Wraiths` allocated, these are indicated by VII from what I've seen. You probably also want `Eternal Torment` to boost rare rates and to shuffle on each map to try and increase chances of rare Magistrates.
+You can boost tiers of negative mods by using tier down on them.
 
 # 38 Unfamiliar Undertakings
 ## Very Hard
 Defeat any three of the following Tier 17 Map Boss encounters in the specified ways.
 - Nightmare of Catarina without being affected by Lich's Beam
-	- Presumably the totem beam
+	- The Lich's Beam is presumably the bouncing green beam
 - Nightmare of Uhtred without being affected by Glimpse of Infinity
 	- This is the beams that come from behind the glass in his arena
 - Nightmare of the Unbreakable without being affected by Magnetic Storm
-	- This is a 180 degree beam the boss fires
+	- These are the red beams he fires in all directions
 - Nightmare of the Depraved Trinity without being affected by any Effluent
 	- Ground Degen effects
 - Nightmare of Lycia without being affected by Heretic's Ire
 	- Not sure what this is, presumably her red waves attack?
 
 T17s are by all means very stupid right now, this is conditionals within those.
-The bosses are 'uber' versions of Catarina from Betrayal, Uhtred from Incursion, The Unbreakable from Heist, The Depreaved Trinity from the Campaign and Lycia from Sanctum
+The bosses are 'Uber' versions of various other bosses:
+- [Nightmare of Catarina](https://www.youtube.com/watch?v=3vStQxEiZoo)
+	- A version of Catarina without totem mechanics that spawns the Abyssal Liches
+- Nightmare of Uhtred 
+	- Uhtred from Expedition, he spawns all other expedition bosses throughout his fight
+- The Unbreakable from Heist
+	- 
+- The Depraved Trinity 
+	- The Act 9 final boss but heavily remixed
+	- Doedre, Maligaro and Shavronne start inside a smallish arena and are all active at once
+	- They all regain health as the others die in the same way the Atziri Trio do
+	- They leave lingering special effects as they all die that differ by each member
+from the Campaign and Lycia from Sanctum
 
 # 39 Colossal Conditionals
 ## Very Hard
+### Buyable
 Defeat any three of the following Pinnacle Boss Encounters while the area is level 85 in the specified ways.
 - The Shaper without being affected by the Shaper's Beam
 	- His beam is his beam
@@ -562,10 +578,7 @@ Complete any four of these encounters the specified number of times.
 - Collect Corpses in Tier 16 or higher Maps x250
 	- Pretty much free if you engage with the mechanic and just click corpses
 
-If you don't have an uber farmer skipping Uber Pinnacles is the sensible choice. Level 100 is also an easy skip if you don't want to pay for it or build for reaching it.
-
-# Unlocks and Skipping
-There's nothing here yet.
+If you don't have an uber farmer skipping Uber Pinnacles is a sensible choice. Level 100 is also an easy skip if you don't want to pay for it or build for reaching it.
 
 # Credits
 [PoeDB](https://poedb.tw/us/) for easily accessible information on divination cards and labyrinth enchants.
