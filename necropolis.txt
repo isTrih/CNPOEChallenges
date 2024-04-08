@@ -97,7 +97,8 @@ Complete each of the following Essence encounters.
 - Defeat a monster with at least 3 Deafening Essences
 	- Three different types
 - Defeat a Map Boss with at least 6 Essences in a Red or Purple Tier Map
-	- Six different types, avoid multi-boss and twinned maps, they will distribute the essences across the various bosses
+	- Avoid multi-boss and twinned maps, they will distribute the essences across the various bosses
+	- Might be six different types
 
 Pretty straight forward, you can use the atlas nodes and scarabs to increase the essences and level of them in a map.
 For the six essence boss you need to take the node `Crystal Resonance` which can be pretty tough the basic Essence Scarab can add up to 6 modifiers to any map and doing it in a T11 with no mods should be easier than alternatives.
@@ -108,7 +109,10 @@ Complete each of the following Abyss encounters.
 - Complete Abysses x30
 - Defeat Rare Abyssal monsters x100
 - Complete Abysses with 4 pits x10
+	- Just do Abyss, even without the '4 pits' nodes on the Atlas Tree this should be easy
 - Defeat Stygian Spires x5
+	- Various nodes and scarabs can help with this
+	- There's Allflames to get them also
 
 Take Abyss nodes and use scarabs. Not particularly difficult or complex.
 
@@ -117,11 +121,13 @@ Take Abyss nodes and use scarabs. Not particularly difficult or complex.
 Complete each of the following Domination encounters.
 - Activate Shrines x100
 - Defeat Map Bosses while under the effect of a Shrine x50
+	- Run easy maps like Glacier or Ashen Woods to ensure you get this every map
 - Activate an Echoing or Divine Shrine
+	- Semi-rare, historically only procs for the person activating the shrine
 - Have 5 different Shrine effects on you at once
+	- The atlas additional shrine nodes alongside Scarabs or the Map Device make this pretty trivial
 
 Take Shrine nodes and use scarabs. Not particularly difficult or complex. 
-
 
 # 12 Devout Disciples
 ## Easy
@@ -144,6 +150,8 @@ Simply doing maps will almost certainly naturally finish this.
 ### Partially Buyable
 Complete each of the following Heist encounters.
 - Open Smuggler's Caches x60
+	- Mildly tedious, there's no scarabs and atlas doesn't actually provide 100% of the mechanic.
+	- Taking all nodes provides around 1/3rd chance of a Cache and then 1/3rd of an extra.
 - Level a Heist Job to level 5
 - Complete Item Level 78 or higher Priceless or Precious Target Value Contracts x15
 - Complete Item Level 78 or higher Blueprints with 4 wings x5
@@ -171,7 +179,7 @@ Complete each of the following Ritual encounters.
 - Spend Tribute x100000
 - Complete a single Ritual encounter with at least 6 Unique Map Bosses
 
-Six unique map bosses is pretty harsh, but you can use Blood-filled Vessels to add them to rituals instantly.
+Despite how the '6 Unique Map Bosses' reads, it means six within the same map in isolation without using blood-filled vessels. Use the Twinned Boss mod on a map such as Arena or Courtyard to get this challenge done.
 
 # 16 Hungering Harvests
 ## Normal
@@ -183,7 +191,7 @@ Complete each of the following Harvest encounters.
 - Defeat Oshabi
 
 These are pretty rough or at least expensive historically, you can buy the kills and oshabi.
-Crop Rotation can get you Tier 4s relatively easy.
+Crop Rotation can get you Tier 4s relatively easy and makes Oshabi simple enough. 
 
 # 17 Eternal Exorcising 
 ## Very Easy
@@ -206,7 +214,7 @@ Craft any 10 types of the following Equipment in The Necropolis while using at l
 - Sword
 - Wand
 
-The crafting is pretty convoluted for good results but this is just using any 5 corpses and choosing a base type after hitting level 75 zones.
+The crafting is pretty involved for good results but this is just using any 5 corpses and choosing a base type after hitting level 75 zones.
 
 # 18 Achieve Ascension
 ## Very Easy
@@ -216,7 +224,7 @@ Use the Ascendancy Device in each of the following Labyrinths.
 - The Merciless Labyrinth
 - The Eternal Labyrinth
 
-Normal lab
+This is simply completing all labs for your normal Ascendancy points.
 
 # 19 Divined Destiny
 ## Very Easy
@@ -225,7 +233,27 @@ Complete each of the following Divination Card tasks.
 - Open Stacked Decks x30
 - Complete a Tier 16 or higher Map with a Divination Scarab applied
 - Turn in a set of Divination Cards that award an Exalted or Divine orb
+	- ![divination card][div-card] The Long Con
+	- ![divination card][div-card] The Sephirot
+	- ![divination card][div-card] Alluring Bounty
+	- ![divination card][div-card] The Fortunate
+	- ![divination card][div-card] Divine Beauty
+	- ![divination card][div-card] The Saint's Treasure
+	- ![divination card][div-card] The Scout
+	- ![divination card][div-card] Abandoned Wealth
+	- ![divination card][div-card] Brother's Stash
+	- ![divination card][div-card] Brother's Gift
+	- ![divination card][div-card] The Hoarder
 - Turn in a set of Divination Cards that have a stack size of at least 10
+	- ![divination card][div-card] Prosperity
+	- ![divination card][div-card] The Arena Champion
+	- ![divination card][div-card] Time-Lost Relic
+	- ![divination card][div-card] The Journalist
+	- ![divination card][div-card] Time-Lost Relic
+	- ![divination card][div-card] The Saint's Treasure
+	- ![divination card][div-card] The Innocent
+	- ![divination card][div-card] Dying Light
+	- ![divination card][div-card] The Celestial Stone
 
 You can buy every single one of these, the sets for divines or exalts might end up skewed partially by this challenge existing too.
 
@@ -297,7 +325,6 @@ Some Unique Maps have their own divination cards otherwise you can turn in sets 
 
 Still includes Doryani's Machinarium which can end up fairly pricey for a single throw away unique map with a bad reward pushing it slightly out of the 'Very Easy' rating.
 
-
 # 24 Sanctified Scarabs I
 ## Easy
 Complete 200 Red or Purple Tier Maps with Scarabs applied to them.
@@ -363,7 +390,7 @@ Just grab the rarer corpses when you are mapping in late reds and you should get
 Defeat 50 of any Delve Boss, Syndicate Mastermind, Bestiary Boss or Vaal Omnitect.
 	- Straight forward, Vaal Omnitect and Bestiary Bosses are easiest to purchase
 	
-This is an end-game grind with about 1/3rd cut off to pretend it's a normal challenge instead.
+This is an end-game grind from previous leagues with about 1/3rd cut off to pretend it's a normal challenge instead.
 
 # 29 Sanctified Scarabs II
 ## Normal
@@ -481,7 +508,6 @@ These can be pretty hard. You can't buy invitations any more so you'll need to r
 
 There's no longer Invitation nodes on the Atlas and no Atlas Quantity in general works now because of them being on Kirac.
 
-
 # 36 Favoured Figments
 ## Easy
 ### Buyable
@@ -569,6 +595,7 @@ Complete any four of these encounters the specified number of times.
     - T15 Beachheads
 - Defeat Argus in Endgame Labyrinth x100
 	- Wait for Argus to be in the first room and run 100 labs killing him and leaving
+	- You can buy Offerings or find them in Ritual very regularly
 - Complete Red Tier Maps with 8 Modifiers x50
 	- Corrupted 8 mod maps, you can force these to drop with a scarab now
 - Complete Elder Guardian, Shaper Guardian or Elderslayer Maps x100
@@ -579,7 +606,24 @@ Complete any four of these encounters the specified number of times.
 - Collect Corpses in Tier 16 or higher Maps x250
 	- Pretty much free if you engage with the mechanic and just click corpses
 
-If you don't have an uber farmer skipping Uber Pinnacles is a sensible choice. Level 100 is also an easy skip if you don't want to pay for it or build for reaching it.
+If you don't have an Uber Boss farmer skipping Uber Pinnacles is a sensible choice. Level 100 is also an easy skip if you don't want to pay for it or build for reaching it.
+
+
+# Skipping Considerations
+If you are wanting to do these SSF, everything around Tier 17 Maps and Ubers are very inaccessible on characters not intentionally ramped up for them and drop rates are really not there in general.
+Tier 17s themselves are also realistically harder than actual Uber Bosses and while GGG advertised the new scarabs as a way to counter their difficulty you are probably not going to get enough of (or potentially any of) these to enable the challenges.
+Gruelling Gauntlet Grinds is not actually that bad this time around, even SSF.
+
+If you're on trade league I would consider skipping Elevated Expanses and Gruelling Gauntlet Grinds and buying the Conditional Tier 17 and Uber Bosses if you can afford to.
+
+# Unlocks
+The base visuals unlock at 4, 8, 12 and 16 challenges for the Gloves, Body, Helmet and Boots respectively.
+The Tier 2 visuals unlock at 20, 22, 24 for the Gloves, Body and Helmet. These are only slightly different.
+The Tier 3 visuals unlock at 26 and 28 for the Body Armour and Helmet. This adds some extra golden decorations.
+The last tier of Gloves unlocks at 32 which adds more golden decorations and has the effect of changing the visuals of dropped items.
+The last tier of the Body unlocks at 35 which adds more golden decorations and has the effect of causing a rain of rubbish on top of trade partners when trading.
+The last tier of the Helmet unlocks at 38 which adds more golden decorations and has the effect of changing the UI of your trade window for yourself and the trading partner when trading.
+
 
 # Credits
 [PoeDB](https://poedb.tw/us/) for easily accessible information on divination cards and labyrinth enchants.

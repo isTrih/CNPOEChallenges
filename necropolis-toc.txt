@@ -38,5 +38,6 @@
 - [38 Unfamiliar Undertakings](#38unfamiliarundertakings)
 - [39 Colossal Conditionals](#39colossalconditionals)
 - [40 Gruelling Gauntlet Grinds](#40gruellinggauntletgrinds)
-- [Unlocks and Skipping](#unlocksandskipping)
+- [Skipping Considerations](#skippingconsiderations)
+- [Unlocks](#unlocks)
 - [Credits](#credits)
