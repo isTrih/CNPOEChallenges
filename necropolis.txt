@@ -335,13 +335,24 @@ Semi-grindy, use the new tree options to max out your scarab drops. You only nee
 ## Easy
 Complete any six of the following Gem tasks.
 - Use a Facetor's Lens to add experience to a Gem
+	- You can get these from Lab or on trade
 - Corrupt a Gem to become either level 21 or 23% Quality
+	- Slam Vaal Orbs on Lv20 or 20% quality gems
+	- Use the Lapidary Lens for better odds
 - Use the Lapidary Lens
+	- Found in Doryani's Institute, double corrupts a gem
 - Have a Socketed Skill Gem reach level 26 or higher
+	- Socket a Level 21 Movement Skill into a Bronn's Lithe or a Lv21 Skill into Voideye
+	- Crest of Desire adds 5-8 levels and 30-50% quality to any inserted Skill Gem
 - Have at least 6 support effects applying to a single skill gem at once
+	- Socket any Skill into Bitterdream
 - Have a socketed Skill Gem reach 51% quality or higher
+	- Crest of Desire adds 5-8 levels and 30-50% quality to any inserted Skill Gem
 - Transform a Gem into a Transfigured Version
+	- Use the Lab font to do this, absolutely free
 - Level an Awakened Gem to level 5
+	- If you use one you will probably do this eventually 
+	- You can also buy one very close to levelling if there's one on the market
 
 Not terribly hard but needs specific uniques I have yet to detail for some mechanics.
 
