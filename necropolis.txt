@@ -549,14 +549,19 @@ You probably also want `Eternal Torment` to boost rare rates and to shuffle on e
 ## Very Hard
 Defeat any three of the following Tier 17 Map Boss encounters in the specified ways.
 - Nightmare of Catarina without being affected by Lich's Beam
+	- Ziggurat Boss
 	- The Lich's Beam is presumably the bouncing green beam
 - Nightmare of Uhtred without being affected by Glimpse of Infinity
+	- Citadel Boss
 	- This is the beams that come from behind the glass in his arena
 - Nightmare of the Unbreakable without being affected by Magnetic Storm
+	- Fortress Boss
 	- These are the red beams he fires in all directions
 - Nightmare of the Depraved Trinity without being affected by any Effluent
+	- Abomination Boss
 	- Ground Degen effects
 - Nightmare of Lycia without being affected by Heretic's Ire
+	- Sanctuary Boss
 	- Not sure what this is, presumably her red waves attack?
 
 T17s are by all means very stupid right now, this is conditionals within those.
