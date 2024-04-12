@@ -361,6 +361,8 @@ Not terribly hard but needs specific uniques I have yet to detail for some mecha
 Complete any four of the following past league content encounters.
 - Defeat a Unique Map Boss that is Possessed while in a Ritual
 	- Roll map boss is possessed and hope you get it in a ritual
+	- You can do this easily by using a Shore Map and kiting the boss into a ritual, they release a tormented spirit at low HP
+		- Kiting can be awkward, try to maintain a path free of obstacles to kite him along, rocks etc. can cause him to retreat or wander off
 - Capture a Beast holding an essence
 	- Get 100% einhar and harvest and it will happen naturally
 - Defeat a Tier 4 Harvest Monster while Delirious
@@ -554,12 +556,14 @@ Defeat any three of the following Tier 17 Map Boss encounters in the specified w
 - Nightmare of Uhtred without being affected by Glimpse of Infinity
 	- Citadel Boss
 	- This is the beams that come from behind the glass in his arena
+	- Pretty hard to pull off because the beams can take up the entire arena outside of small areas you can't see
 - Nightmare of the Unbreakable without being affected by Magnetic Storm
 	- Fortress Boss
 	- These are the red beams he fires in all directions
 - Nightmare of the Depraved Trinity without being affected by any Effluent
 	- Abomination Boss
-	- Ground Degen effects
+	- Ground Degen effects from second phase
+	- Relatively easy if you can burst the boss down
 - Nightmare of Lycia without being affected by Heretic's Ire
 	- Sanctuary Boss
 	- Not sure what this is, presumably her red waves attack?
