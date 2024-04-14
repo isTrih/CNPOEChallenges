@@ -155,6 +155,7 @@ Complete each of the following Heist encounters.
 - Level a Heist Job to level 5
 - Complete Item Level 78 or higher Priceless or Precious Target Value Contracts x15
 - Complete Item Level 78 or higher Blueprints with 4 wings x5
+	- You cannot die during this process or you will not get credit towards this encounter.
 
 A lot of people hate heist, this isn't too bad but it isn't very good either. You should be able to buy clears for this but level 5 job will need a decent amount of engagement with heist.
 You'll also very likely have 5 FPS in the harbour so that's nice.
@@ -167,6 +168,7 @@ Complete each of the following Harbinger encounters.
 - Use a Harbinger's Orb
 - Assemble a Harbinger Unique
 - Complete Red Tier Beachhead Maps x3
+	- These can come from Comprehensive Scouting Reports
 
 Straight forward, look up the unique fragments on the wiki and buy the Red Tier Beachheads.
 
@@ -267,7 +269,9 @@ Complete vendor recipes to receive each of the following items. A vendor recipe 
 - Exalted Shard
 	- Vendor a full set of influence matching equipment either IDed or otherwise
 - Influenced Item
-	- Vendor an influenced amulet and a gem of each colour (no white)
+	- Vendor an influenced amulet (not an onyx) and a gem of each colour (no white)
+	- Vendor an influenced Iron Ring and any colour gem
+	- Vendor normal rarity influenced boots with an Augmentation Orb and a Quicksilver Flask
 
 # 21 Alternate Atlases
 ## Very Easy
@@ -360,14 +364,18 @@ Not terribly hard but needs specific uniques I have yet to detail for some mecha
 ## Normal
 Complete any four of the following past league content encounters.
 - Defeat a Unique Map Boss that is Possessed while in a Ritual
-	- Roll map boss is possessed and hope you get it in a ritual
+	- This is literal, you need it to get Possessed while in the ritual itself
+	- There is a ritual that spawns Tormented Spirits and Scarabs for more in the wild
 	- You can do this easily by using a Shore Map and kiting the boss into a ritual, they release a tormented spirit at low HP
 		- Kiting can be awkward, try to maintain a path free of obstacles to kite him along, rocks etc. can cause him to retreat or wander off
 - Capture a Beast holding an essence
 	- Get 100% einhar and harvest and it will happen naturally
+	- This is apparently broken even if you force it with scarabs right now
 - Defeat a Tier 4 Harvest Monster while Delirious
 	- Use a Delirium Orb on a map and use the Scarab for a T4 boss
 - Defeat a Rogue Exile that is possessed at least three times
+	- You can have tormented spirits possessed at least once always with Exiled Will
+	- Not sure there's an easy way to do this other spamming scarabs and the torment nodes
 - Defeat a Blight Boss while in a Breach
     - **Heavy Breach** extends Breach encounters.
     - **Sextants** can add additional Breaches.
@@ -491,10 +499,24 @@ Complete each of the following tasks in Tier 17 Maps.
 - Complete Maps x30
 - Reach a total Increased Item Quantity from completed Maps x5000
 - Complete Maps with at least 50% Pack Size x15
+	- You can use Explicit Modifier Efect on the atlas tree to buff the amount of Pack Size that is granted by modifiers.
+	- This obviously heavily buffs the actual modifiers on the map, your mileage may vary
+		- 53% comes from standard 2% nodes and the 3%s leading to notables
+		- `Chiselled Perfection` will provide 12% always as T17s are always 20% quality
+		- `Mounting Modifiers` will provide 12-16% depending on mods rolled.
+		- A rough estimate is that you'd want around 50% Modifier Effect to get most 36% or more pack size maps up to 50%.
+			- In general modifiers provide 6-8% pack size, you could look at PoeDB for exact numbers.
+		
 
-Tier 17s cannot be rolled and are very variable in difficulty. You can get extra Item Quantity on the Atlas but it's not very much and it will mostly come from content grind.
+Tier 17s can only be rolled with chaos orbs and are very variable in difficulty, they are a lot more reasonable after the T16 changes but you can still very regularly brick yourself. 
 
-Depending on if these get adjusted it might end up being more reasonable, otherwise you probably want to make a specific T17 grinding character or be prepared to spend a lot of money getting other people's random clears.
+You can get extra Item Quantity on the Atlas but it's not very much and it will mostly come from content grind.
+
+Ideally you probably want to make a specific T17 grinding character or be prepared to spend a lot of money getting other people's random clears.
+
+A tree with nothing but Niko (Packed with Energy is a huge survivability buff), Shrines and potentially Modifier Effect or Huck will limit the difficulty of the maps further.
+
+Scarab of Stability can give you extra portals for each of these.
 
 # 35 Otherworldly Obstacles
 ## Normal
@@ -547,41 +569,49 @@ Defeat 100 Rare Monsters in Tier 16 or higher Maps with at least 80% Item Quanti
 This seems like it really needs `Imperial Wraiths` allocated, these are indicated by VII from what I've seen. 
 You probably also want `Eternal Torment` to boost rare rates and to shuffle on each map to try and increase chances of rare Magistrates.
 
+You can cheese this using the Volcano Map, roll Tier 17s with enough Item Quantity (Atlas passives count) and hunt for a map with a Magistrate-Haunted Modifier that also has a pack of `Kaom's Chosen`. 
+This pack will have the leader `Rakango` who spawns an additional rare mob near it to attack, if you distance yourself from the parent mob the new mob will spawn infinitely and every time you 'kill' it you will get credit towards this challenge. This takes it from a very long grind to being done in a couple hours.
+
 # 38 Unfamiliar Undertakings
 ## Very Hard
 Defeat any three of the following Tier 17 Map Boss encounters in the specified ways.
 - Nightmare of Catarina without being affected by Lich's Beam
 	- Ziggurat Boss
-	- The Lich's Beam is presumably the bouncing green beam
+	- The Lich's Beam is the bouncing green beam around the edges
+	- You will need to place a portal within the center of the arena if you will die during this as entering will immediately place you into the beam from the arena entrance
+	- Probably easiest out of the five as you can still get it even if you are dying a lot
 - Nightmare of Uhtred without being affected by Glimpse of Infinity
 	- Citadel Boss
 	- This is the beams that come from behind the glass in his arena
 	- Pretty hard to pull off because the beams can take up the entire arena outside of small areas you can't see
 - Nightmare of the Unbreakable without being affected by Magnetic Storm
 	- Fortress Boss
-	- These are the red beams he fires in all directions
+	- This is functionally doing the fight hitless, all red beams, orbs and lightning effects inflict this status effect
+	- Very easy if you can burst the boss down
 - Nightmare of the Depraved Trinity without being affected by any Effluent
 	- Abomination Boss
 	- Ground Degen effects from second phase
-	- Relatively easy if you can burst the boss down
+	- Very easy if you can burst the boss down
 - Nightmare of Lycia without being affected by Heretic's Ire
 	- Sanctuary Boss
-	- Not sure what this is, presumably her red waves attack?
+	- This is caused by the spinning spears in the arena and deals damage over time
+	- Caused both by their spinning and their thrust animation
 
-T17s are by all means very stupid right now, this is conditionals within those.
-The bosses are 'Uber' versions of various other bosses:
-- [Nightmare of Catarina](https://www.youtube.com/watch?v=3vStQxEiZoo)
+This is conditionals within Tier 17 maps. The bosses are 'Uber' versions of various other bosses:
+- [Nightmare of Catarina](https://www.youtube.com/watch?v=0hoR560zKpU)
 	- A version of Catarina without totem mechanics that spawns the Abyssal Liches
-- Nightmare of Uhtred 
+- [Nightmare of Uhtred](https://www.youtube.com/watch?v=GUxvScSmS20)
 	- Uhtred from Expedition, he spawns all other expedition bosses throughout his fight
-- The Unbreakable from Heist
-	- 
-- The Depraved Trinity 
+- [Nightmare of The Unbreakable](https://www.youtube.com/watch?v=hzNkZLfUno4)
+	- A boss from Heist, fairly straight forward and doesn't spawn adds
+- [The Depraved Trinity](https://www.youtube.com/watch?v=tPHt9tWKkAg)
 	- The Act 9 final boss but heavily remixed
 	- Doedre, Maligaro and Shavronne start inside a smallish arena and are all active at once
 	- They all regain health as the others die in the same way the Atziri Trio do
 	- They leave lingering special effects as they all die that differ by each member
-from the Campaign and Lycia from Sanctum
+- [Nightmare of Lycia](https://www.youtube.com/watch?v=3vStQxEiZoo)
+	- Lycia from Sanctum
+	- Spawns Beyond bosses during phases
 
 # 39 Colossal Conditionals
 ## Very Hard
