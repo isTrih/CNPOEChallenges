@@ -715,14 +715,13 @@ Complete any four of these encounters the specified number of times.
 - Collect Corpses in Tier 16 or higher Maps x250
 	- Pretty much free if you engage with the mechanic and just click corpses
 
-For Level 100 using a Domination Scarab of Learning is a very powerful option. It's recommended to set up a full Shrine and Breach oriented Atlas Tree while also running 2x Domination Scarab, 1x Domination Scarab of Learning and 1x Breach Scarab to get the most XP out of each map.
+For Level 100 using a Domination Scarab of Learning is a very powerful option. It's recommended to set up a full Beyond, Breach and Shrine oriented Atlas Tree while also running 2x Domination Scarab, 1x Domination Scarab of Learning and 1x Breach Scarab and using the Domination Map Device crafting option get the most XP out of each map.
 
 Having a source of Phasing is recommended as it will allow you to rush straight to the Shrines and tag them to stack your XP multiplier up before you actually kill the majority of monsters. As pack density is key here can skip any Atlas Nodes that don't directly grant pack density and go elsewhere to get more monsters in each map. Blacklisting mechanics that are awkward such as Blight or Ultimatum can also be advantageous. Ritual can be helpful as it allows you to spawn guaranteed extra monsters even if you've cleared an area out should you still have shrine buffs up.
 
 If you are aiming purely for Level 100 you probably should filter out single splinters and low value items entirely so that you don't feel inclined to wasting time picking up single item drops.
 
 If you don't have an Uber Boss farmer skipping Uber Pinnacles is a sensible choice. Level 100 is also an easy skip if you don't want to pay for it or build for reaching it.
-
 
 # Skipping Considerations
 If you are wanting to do these SSF, everything around Tier 17 Maps and Ubers are very inaccessible on characters not intentionally ramped up for them and drop rates are really not there in general.
