@@ -101,6 +101,7 @@ Complete each of the following Essence encounters.
 	- Might be six different types
 
 Pretty straight forward, you can use the atlas nodes and scarabs to increase the essences and level of them in a map.
+
 For the six essence boss you need to take the node `Crystal Resonance` which can be pretty tough the basic Essence Scarab can add up to 6 modifiers to any map and doing it in a T11 with no mods should be easier than alternatives.
 
 # 10 Abyssal Assailants
@@ -159,6 +160,7 @@ Complete each of the following Heist encounters.
 	- You cannot die during this process or you will not get credit towards this encounter.
 
 A lot of people hate heist, this isn't too bad but it isn't very good either. You should be able to buy clears for this but level 5 job will need a decent amount of engagement with heist.
+
 You'll also very likely have 5 FPS in the harbour, so that's nice.
 
 # 14 Heralding Harbingers
@@ -195,9 +197,10 @@ Complete each of the following Harvest encounters.
 - Defeat Oshabi
 
 These are pretty rough or at least expensive historically, you can buy the kills and Oshabi. 
-If you're buying T4s you probably should make sure one of them is also in delirium to cover the Cross Contamination challenge.
 
 Crop Rotation can get you Tier 4s relatively easy and makes Oshabi simple enough. 
+
+If you're buying T4s you probably should make sure one of them is also in delirium to cover the Cross Contamination challenge.
 
 # 17 Eternal Exorcising 
 ## Very Easy
@@ -282,6 +285,7 @@ Complete vendor recipes to receive each of the following items. A vendor recipe 
 Unlock all three Atlas Passive Trees.
 
 The second Atlas Tree unlocks at 50 completion.
+
 The third Atlas Tree unlocks at 100 completion.
 
 # 22 Abnormal Adversaries
@@ -413,6 +417,7 @@ Craft Equipment in The Necropolis while using any 10 of the following Crafting M
 - Reroll Implicit or Explicit Modifier Values
 
 Just grab the rarer corpses when you are mapping in late reds and you should get corpses to do this.
+
 You can also use `Prospero's Wager` on the Atlas Tree to randomise corpses and just hope you get one of these when burying them.
 
 # 28 Masterful Monsters
@@ -424,6 +429,7 @@ Defeat 50 of any Delve Boss, Syndicate Mastermind, Bestiary Boss or Vaal Omnitec
 		- Taxi services are likely slower and more expensive than simply getting Bestiary Bosses
 	
 This is an end-game grind from previous leagues with about 1/3rd cut off to pretend it's a normal challenge instead.
+
 Note that it doesn't have a level requirement so you can simply buy any version of any boss and spam them the Bestiary Bosses being the easiest choice.
 
 # 29 Sanctified Scarabs II
@@ -450,8 +456,11 @@ Complete Maps with any 11 of the following Scarab Types while there are at least
 - Misc
 
 Maps with matching sets of 3 mechanic Scarabs. 
+
 As a basic example this would be `Influencing Scarab of the Shaper` `Influencing Scarab of Hordes` and `Influencing Scarab of Conversion` in a Tier 16 map with 80% quantity.
+
 You can use the Atlas's Item Quantity nodes to make it easier and basically allow alch and go with the extra +% Item Quantity from there and the Map Device itself.
+
 Best choices will simply come down to costs at the time you're completing the challenge, most have more than three scarabs so you can just use the cheaper options even if mechanics are popular.
 
 # 30 Map Magnificence
@@ -592,10 +601,13 @@ You can unlock the Favoured Map Slot in anyone's hideout but you will only actua
 Defeat 100 Rare Monsters in Tier 16 or higher Maps with at least 80% Item Quantity while they are affected by Magistrate-Haunted Modifiers.
 
 This seems like it really needs `Imperial Wraiths` allocated, these are indicated by VII icons at the bottom right of a monster's details.
+
 You can upgrade some mods to Magistrate levels but a majority of the modifiers don't go this high.
+
 You probably also want `Eternal Torment` to boost rare rates and to shuffle on each map to try and increase chances of rare Magistrates.
 
 You can somewhat easily cheese this using the Volcano Map, roll Tier 17s with enough Item Quantity (Atlas passives count) and hunt for a map with a Magistrate-Haunted Modifier that also has a pack of `Kaom's Chosen`.
+
 This pack will have the leader `Rakango` who spawns an additional rare mob near it to attack, if you distance yourself from the parent mob the new mob will spawn infinitely and every time you 'kill' it you will get credit towards this challenge. This takes it from a very long grind to being done in a couple hours.
 
 Volcano isn't strictly required, if the mobs spawn anywhere and have a rare the cheese will function identically.
@@ -704,7 +716,9 @@ Complete any four of these encounters the specified number of times.
 	- Pretty much free if you engage with the mechanic and just click corpses
 
 For Level 100 using a Domination Scarab of Learning is a very powerful option. It's recommended to set up a full Shrine and Breach oriented Atlas Tree while also running 2x Domination Scarab, 1x Domination Scarab of Learning and 1x Breach Scarab to get the most XP out of each map.
+
 Having a source of Phasing is recommended as it will allow you to rush straight to the Shrines and tag them to stack your XP multiplier up before you actually kill the majority of monsters. As pack density is key here can skip any Atlas Nodes that don't directly grant pack density and go elsewhere to get more monsters in each map. Blacklisting mechanics that are awkward such as Blight or Ultimatum can also be advantageous. Ritual can be helpful as it allows you to spawn guaranteed extra monsters even if you've cleared an area out should you still have shrine buffs up.
+
 If you are aiming purely for Level 100 you probably should filter out single splinters and low value items entirely so that you don't feel inclined to wasting time picking up single item drops.
 
 If you don't have an Uber Boss farmer skipping Uber Pinnacles is a sensible choice. Level 100 is also an easy skip if you don't want to pay for it or build for reaching it.
@@ -719,10 +733,15 @@ If you're on trade league I would consider skipping Elevated Expanses and Gruell
 
 # Unlocks
 The base visuals unlock at 4, 8, 12 and 16 challenges for the Gloves, Body, Helmet and Boots respectively.
+
 The Tier 2 visuals unlock at 20, 22, 24 for the Gloves, Body and Helmet. These are only slightly different.
+
 The Tier 3 visuals unlock at 26 and 28 for the Body Armour and Helmet. This adds some extra golden decorations.
+
 The last tier of Gloves unlocks at 32 which adds more golden decorations and has the effect of changing the visuals of dropped items.
+
 The last tier of the Body unlocks at 35 which adds more golden decorations and has the effect of causing a rain of rubbish on top of trade partners when trading.
+
 The last tier of the Helmet unlocks at 38 which adds more golden decorations and has the effect of changing the UI of your trade window for yourself and the trading partner when trading.
 
 
