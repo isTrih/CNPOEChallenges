@@ -184,8 +184,11 @@ Complete each of the following Ritual encounters.
 - Spend Tribute x100000
 - Complete a single Ritual encounter with at least 6 Unique Map Bosses
 
-Despite how the '6 Unique Map Bosses' reads, it means six within the same map in isolation without using blood-filled vessels.
-Use the Twinned Boss mod on a map such as Arena, Courtyard or Vaal Pyramid to get this challenge done.
+To get six bosses in a map without any other sources you can simply roll the Twinned Boss mod on a map such as Arena, Courtyard or Vaal Pyramid to get this challenge done.
+
+Apparently at some point since the 7th of April Blood-filled vessels were made to count towards this challenge, there was nothing in hotfixes about this specifically so if it doesn't work I'd still advise using Twinned which was the only thing that actually worked for myself and is how the challenge had to be completed in previous leagues.
+
+Rogue Exiles lured into the Ritual Circle will also count towards the six bosses requirement, get exiles on your map from the league mechanic, Atlas Tree or Scarabs and simply kite them into the circle to make this easier.
 
 # 16 Hungering Harvests
 ## Normal
@@ -377,8 +380,9 @@ Complete any four of the following past league content encounters.
 	- You can do this easily by using a Shore Map and kiting the boss into a ritual, they release a tormented spirit at low HP
 		- Kiting can be awkward, try to maintain a path free of obstacles to kite him along, rocks etc. can cause him to retreat or wander off
 - Capture a Beast holding an essence
-	- This is apparently broken currently
-	- If it's ever fixed, get 100% einhar and Harvest and it will happen naturally
+	- As of 3.24.1 Hotfix 4 this actually works
+	- You can simply force Einhar and use an Essence Scarab of Calcification go have this happen with 100% chance
+	- Otherwise you can simply spam Essences with Einhar will eventually have it happen naturally
 - Defeat a Tier 4 Harvest Monster while Delirious
 	- Use a Delirium Orb on a map and use the Scarab for a T4 boss
 - Defeat a Rogue Exile that is possessed at least three times
@@ -745,8 +749,10 @@ The last tier of the Helmet unlocks at 38 which adds more golden decorations and
 
 
 # Credits
-[PoeDB](https://poedb.tw/us/) for easily accessible information on divination cards and labyrinth enchants.
+Reddit user *wrightosaur* for updated information on Cross Contamination and Rapturous Rituals.
 
-[PoeWiki](https://www.poewiki.net/wiki/) for some general information such The Temple of Atzoatl room names.
+[PoeDB](https://poedb.tw/us/) for easily accessible information on pretty much everything about the game.
+
+[PoeWiki](https://www.poewiki.net/wiki/) for some general information.
 
 [div-card]: ./img/DivCard.png
