@@ -1,0 +1,31 @@
+## You can toggle navigation with the `☰` at the top left
+
+# Settlers of Kalguur Challenges
+Please get in touch through [Github](https://github.com/CraniumViolence/craniumviolence.github.io) or on [Reddit](https://www.reddit.com/user/TrainCarMoney) if any information here is incorrect, absent or you simply have better strategies or information!
+
+This guide makes the assumption that you have a baseline understanding of Path of Exile and does not include complex instructions for a lot of aspects such as explaining what a mechanic is (with the obvious exception of current league or new mechanics getting more attention).
+
+# Actual Challenges
+They aren't revealed or datamined yet, so I can't write any information on them!
+
+- Can I offer you a nice ![has divination card][div-card] **Carrion Crow** in this trying time? 
+
+# Unlocks
+Unlike the most recent leagues you can unlock five separate types of MTX this time around. There are no tiers for the unlocks and you only need to complete 36/40 instead of 38/40 as with tiered rewards.
+
+At 12 challenge completion you can unlock the Runebind Weapon Effect.
+
+At 24 challenge completion you can unlock the Rune Character Effect.
+
+At 32 challenge completion you can unlock the Kalguuran Cloak.
+
+At 34 challenge completion you can unlock the Verisium Knight Unique Finisher Effect.
+
+At 36 challenge completion you can unlock the Kingsmarch Portal.
+
+# Credits
+[PoeDB](https://poedb.tw/us/) for easily accessible information on pretty much everything about the game.
+
+[PoeWiki](https://www.poewiki.net/wiki/) for some general information.
+
+[div-card]: ./img/DivCard.png

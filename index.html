@@ -43,7 +43,7 @@
 	h3[id^="grindheavy"]{color:#00C6D8;font-size:75%;}
 	h3[id^="partiallybuyable"],h3[id^="buyable"],h3[id^="luckbased"]{color:#00C6D8;font-size:75%;margin:2px 0px;}
 	em img,li img{max-height:18px;margin-bottom:-3px;}
-	#footer{position: fixed;left:0;bottom:0;height:20px;width:100%;text-align:center;background:#292929;border-top:1px solid black;font-size:90%;}
+	#footer{position: fixed;left:0;bottom:0;height:30px;width:100%;text-align:center;background:#292929;border-top:1px solid black;padding-top:5px;}
 	#navigation{position:fixed;left:var(--sidebar-left);top:0px;height:100vh;display:var(--sidebar-display);max-height:100vh;overflow-y:scroll;background:rgb(40,40,40);padding-right:10px;width:336px;transition:all 0.2s linear;}
 	#toggle{position:fixed;left:var(--toggle-left);top:5px;cursor:pointer;transition: all 0.2s linear;font-size:30px;padding-bottom: 20px;color:#ffff00;text-shadow: 2px 2px 4px rgb(0, 0, 0, 1);}
 	#toggle:hover{color:#FFE28B}
@@ -53,25 +53,28 @@
 	<div id="toggle" onclick="switchSidebar()">☰</div>
 	<div id="navigation"></div>
 	<div id="contents"></div>
-	<div id="footer">Other pages: <a href="./gems.html">Gem Rewards &amp; Vendors </a> | <a href="./transgems.html">Transfigured Gem Information [Outdated]</a></div>
+	<div id="footer">
+	<a href="#" onclick="GetLeague('settlers');return false;">Settlers Guide</a> | 	<a href="#" onclick="GetLeague('necropolis');return false;">Necropolis Guide</a> | 	<a href="#" onclick="GetLeague('affliction');return false;">Affliction Guide</a>
+	</div>
 	<script>
-		var converter = new showdown.Converter();
-		$.ajax({
-			url:'necropolis-toc.txt',
-			success: function(data){ document.getElementById("navigation").innerHTML = converter.makeHtml(data);}
-		});
-		
-		$.ajax({
-			url:'necropolis.txt',
-			success: function(data){ 
-				$("#contents").html(converter.makeHtml(data));
-				if (location.hash) {
-					let target = location.hash;				
-					$('html, body').animate({scrollTop: $(target).offset().top}, 'fast');
+		function GetLeague(league){		
+			var converter = new showdown.Converter();
+			$.ajax({
+				url: league + '-toc.txt',
+				success: function(data){ document.getElementById("navigation").innerHTML = converter.makeHtml(data);}
+			});
+			
+			$.ajax({
+				url:league + '.txt',
+				success: function(data){ 
+					$("#contents").html(converter.makeHtml(data));
+					if (location.hash) {
+						let target = location.hash;				
+						$('html, body').animate({scrollTop: $(target).offset().top}, 'fast');
+					}
 				}
-			}
-		});
-
+			});
+		}	
 		function switchSidebar(e) {
 			let sidebar = localStorage.getItem("data-sidebar");
 			if (sidebar === "visible" || sidebar === null) {
@@ -94,6 +97,7 @@
 			}
 		}
 		getSidebar();
+		GetLeague("settlers");
 	</script>
 </body>
 </html>
