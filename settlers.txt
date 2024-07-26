@@ -10,27 +10,39 @@ This guide makes the assumption that you have a baseline understanding of Path o
 Ruthless challenges are also here at the bottom until the league starts.
 
 # 1 Beginner's Basics
+## Very Easy
 Complete each of the following tasks.
 - Equip a magic flask
 - Use an Orb of Alchemy
 - Kill a Rare Monster
 - Fully clear the Fetid Pool
 
+Basically free but they are making you actually do Fetid Pool.
+
 # 2 Starting Settlements
+## Very Easy
 Complete each of the following Settlers of Kalguur tasks.
 - Enter Kingsmarch
 - Hire workers x 3
 - Have at least 1,000 gold in the Kingsmarch Treasury at once
 - Establish Kingsmarch Jobs x 4
 
+Free from simply interacting with the league content.
+
 # 3 Peddler's Produce I
+## Very Easy
 Complete vendor recipes to receive each of the following items. A vendor recipe is when you trade a specific combination of items to a vendor, not when you buy items from their purchase screen.
 - Ruby, Topaz or Sapphire Ring
+	- Vendor a Red, Green or Blue Gem and an Iron Ring
 - Agate, Turquoise or Citrine Amulet
+	- Vendor any pair of two types of Amber, Lapis, Jade Amulets and an Orb of Transmutation
 - Onyx Amulet
+	- Vendor a Red, Green and Blue Gem and an Amulet
 - Magic Boots with 10% increased Movement Speed
+	- Vendor any Normal Rarity Boots, Quicksilver Flask and Orb of Augmentation
 
 # 4 Act Adversaries I
+## Very Easy
 Complete each of the following encounters.
 - Act 1: Merveil, the Twisted
 - Act 2: Vaal Oversoul
@@ -38,14 +50,20 @@ Complete each of the following encounters.
 - Act 4: Malachai, The Nightmare
 - Act 5: Kitava, the Insatiable
 
+Simply complete half the campaign.
+
 # 5 Antagonistic Acts
+## Very Easy
 Complete each of the following encounters.
 - Defeat a monster holding an Essence
 - Complete a Legion Encounter
 - Open a Strongbox
 - Complete a Ritual
 
+No extra requirements, normal content you can see all during campaign and which are readily available during maps.
+
 # 6 Basic Beginnings
+## Unknown
 Complete each of the following Settlers of Kalguur tasks.
 - Complete a Shipment
 - Have a total of 1,000 of any Bar in your Kingsmarch Stockpile at once
@@ -53,7 +71,10 @@ Complete each of the following Settlers of Kalguur tasks.
 - Disenchant an item
 - Use any Runesmithing Craft
 
+Nothing about the mechanic is obvious yet, it's very unlikely this is hard or complex due to its challenge placement.
+
 # 7 Act Adversaries II
+## Very Easy
 Complete each of the following encounters.
 - Act 6: Tsoagoth, The Brine King
 - Act 7: Arakaali, Spinner of Shadows
@@ -61,14 +82,26 @@ Complete each of the following encounters.
 - Act 9: The Depraved Trinity
 - Act 10: Kitava, the Insatiable
 
+Simply complete the campaign.
+
 # 8 Powerful Prey
+## Very Easy
 Complete each of the following quests.
 - The Great White Beast
+	- An Act 2 Quest from Yeena
+	- Completed in the Den accessible from the Old Fields
 - Sever the Right Hand
+	- An Act 3 Quest from Maramoa
+	- Completed in The Ebony Barracks
 - The Gemling Legion
+	- An Act 8 Quest from Maramoa
+	- Completed in the Grain Gate
 - Fastis Fortuna
+	- An Act 9 Quest from Petarus and Vanja
+	- Completed in the Foothills
 
 # 9 Atlas Augmentations
+## Very Easy
 Complete any three of the following League Mechanic encounters the specified number of times.
 - Defeat Essence monsters x 30
 - Open Strongboxes x 30
@@ -78,7 +111,10 @@ Complete any three of the following League Mechanic encounters the specified num
 - Defeat Rogue Exiles x 30
 - Defeat Rare Beyond Monsters x 30
 
+Nothing complex, you will very likely finish this while doing normal atlas progression or while doing later grinds while specced into these mechanics.
+
 # 10 Meaningful Mechanics
+## Very Easy
 Complete any four of the following League Mechanic encounters the specified number of times.
 - Complete Breaches x 30
 - Complete Abysses x 30
@@ -91,14 +127,20 @@ Complete any four of the following League Mechanic encounters the specified numb
 - Complete Blights x 30
 - Complete Rituals x 100
 
+Nothing complex, you will very likely finish this while doing normal atlas progression or while doing later grinds while specced into these mechanics.
+
 # 11 Proven Professionals
+## Very Easy
 Complete any two of the following Master Mission encounters in Red or Purple Tier Maps the specified number of times.
 - Niko Missions x 30
 - Einhar Missions x 30
 - Jun Missions x 30
 - Alva Missions x 30
 
+Red Maps but no tier requirement, spec into them on the Atlas and you can get 100% chance or simply use their Scarabs.
+
 # 12 Refined Reagents
+## Unknown
 Have at least the specified amount of the following Resources in your Kingsmarch Stockpile at once.
 - 1,000 Wheat
 - 1,000 Corn
@@ -111,8 +153,12 @@ Have at least the specified amount of the following Resources in your Kingsmarch
 - 1,000 Bismuth Bars
 - 1,000 Verisium Bars
 - 20,000 Thaumaturgic Dust
+	- Disenchant Equipment
+
+Very unlikely to be complex, the wording implies you need to have it actively amassed so might need you to chill on spending if you are wanting it early.
 
 # 13 Crafty Currency
+## Very Easy
 Use each of the following Currency items. Using Crafting Bench options also count towards this challenge.
 - Orb of Transmutation
 - Orb of Augmentation
@@ -130,28 +176,53 @@ Use each of the following Currency items. Using Crafting Bench options also coun
 - Blessed Orb
 - Divine Orb
 
+Incredibly straight forward, the crafting bench counting makes it more likely you can use them on something useful for yourself or potentially others to recoup some cost.
+
 # 14 Overwhelming Opposition
+## Easy
 Defeat 500 Map Bosses.
 
+Historically maps with multiple bosses such as City Square have counted as multiple of these. There's also a lot of ways to add more Map Bosses in general with scarabs, shouldn't be too grindy but is probably still around 100 maps for most people.
+
 # 15 Potent Pantheon
+## Very Easy
 Fully upgrade any single Major and Minor Pantheon Power.
 - Major Pantheon Power
 - Minor Pantheon Power
 
+Pretty straight forward, Divine Vessels are much rarer than you might expect so it can take a while naturally but is very likely to happene before a lot of other challenges.
+
 # 16 Unbelievable Undertakings
+## Easy
+### Buyable
 Complete any four of the following encounters where the area level is 81 or higher.
 - Breachstones x 5
+	- Base Breachstones are Level 81 by default and not terribly hard to complete
 - Abyssal Depths x 5
+	- Spec into abyss, run it
+	- Should also be fairly profitable from the Uniques
 - Logbooks with at least 10 Remnants active x 5
+	- Very choose your own difficulty and should be pretty easy, bad Logbooks are also very cheap
 - Tier 4 Harvest Seeds x 5
+	- Crop Rotation can make these more likely
+	- Harvest Scarab of Cornucopia forces Tier 4 spawns when possible
 - Domains of Timeless Conflict with at least 25 rewards x 3
+	- Not too hard, four emblems baseline is level 81
+	- You can obviously just buy slots for this too
 - Blueprints with 4 revealed wings x 5
+	- A bit terrible compared to the other options if you aren't investing into Heist by default
 - Simulacrum Waves x 60
+	- Waves, not completed Simulacrums
 - Trialmaster fights x 3
+	- Ultimatum Scarab of Dueling forces him but you still need to complete all the waves
 - Blighted or Blight Ravaged Maps x 5
 - All Rituals in Maps with at least one Blood-filled Vessel applied x 15
 
+Shouldn't be terribly hard, obvious low stress options are Blighted Maps, Abyssal Depths, Logbooks and Breachstones. A lot of options can be purchased as slot services.
+
 # 17 Sublime Starlight
+## Unknown
+### Buyable
 Use the following Runes in Runesmith Crafting.
 - Sun Rune
 - Bound Rune
@@ -164,48 +235,91 @@ Use the following Runes in Runesmith Crafting.
 - Time Rune
 - Power Rune
 
+You can trade for all of these, they should be in order of rarity. Not obvious how rare each of them are as of the time of writing.
+
 # 18 Achieve Ascension
+## Very Easy
 Use the Ascendancy Device in each of the following Labyrinths.
 - The Labyrinth
 - The Cruel Labyrinth
 - The Merciless Labyrinth
 - The Eternal Labyrinth
 
+Free, simply progressing to the endgame gets you this.
+
 # 19 Divined Destiny
+## Easy
 Complete any three of the following Divination Card tasks.
 - Open Diviners Strongboxes x 5
 - Turn in sets of Divination Cards x 50
 - Complete Rare Tier 11 or higher Maps with at least one Divination Scarab applied x 25
 - Scry a Map
 
+This isn't that hard, the Diviners Strongboxes and Nameless Seer are probably going to be the issue if anything. You can presumably buy the strongbox opening.
+
 # 20 Peddler's Produce II
+## Easy
 Complete vendor recipes to receive each of the following items. A vendor recipe is when you trade a specific combination of items to a vendor, not when you buy items from their purchase screen.
 - Prismatic Ring
+	- Vendor all three types of Two-Stone Ring at once
 - Orb of Fusing
+	- Vendor a 6-link
 - Regal Orb
+	- Vendor three of a rare with the same name at 20% quality
+	- Vendor a Chaos Orb recipe with the item level of all items above 75
+		- Helmet, Body Armour, Gloves, Boots, Belt, Amulet, Two Rings and a weapon pair or two handed weapon.
 - Grasping Mail or Loreweave
+	- Tedious but guaranteed, you need to vendor a full inventory of Unique Rings or a full inventory of Breach Rings to get one of these
+	- You can trade for the rings but it will obviously suck a bit
+	
 
 # 21 Chaotic Creations
+## Very Easy
 Use a Chaos Orb on any five of the following item base types while they are Item Level 83 or higher.
 - Experimented
+	- Heist Bases
+	- [See all options](https://www.poewiki.net/wiki/Experimented_base_type)
 - Ritual
+	- Ritual Bases
+	- [See all options here](https://www.poewiki.net/wiki/Ritual_base_type)
 - Atlas 
+	- Bases Exclusively in Maps
+	- [See all options here](https://www.poewiki.net/wiki/List_of_atlas_base_items)
+	- This might include the new tiers of armour?
 - Abyss
+	- Stygian Vises
+	- Murderous Eye Jewel
+	- Ghastly Eye Jewel
+	- Searching Eye Jewel
+	- Hypnotic Eye Jewel
 - Expedition
+	- Ward Bases
+	- [See all options here](https://www.poewiki.net/wiki/Runic_base_type)
 - Rogue Equipment
+	- Equipment for the Rogues found in Heist
+	- [See all options here](https://www.poewiki.net/wiki/Rogue%27s_equipment)
 - Cluster Jewel
+	- Delirium drop
 
 # 22 Gilded Goals
+## Easy
 Have at least 250,000 gold in the Kingsmarch Treasury at once.
 
+Notable in that it's 'at once' which implies it should all be in your treasury at the same time.
+
 # 23 Remarkable Realms
+## Easy
 Complete each of the following Unique Maps.
 - Vaults of Atziri
+    - ![divination card][div-card] Treasure Hunter
+    - ![divination card][div-card] The Wolf's Legacy
 - Maelström of Chaos
 - The Coward's Trial
 - Acton's Nightmare
 - Poorjoy's Asylum
+    - ![has divination card][div-card] The Dreamland
 - Mao Kun
+    - ![has divination card][div-card] Scholar of the Seas
 - Oba's Cursed Trove
 - Olmec's Sanctum
 - Death and Taxes
@@ -213,31 +327,71 @@ Complete each of the following Unique Maps.
 - The Vinktar Square
 - Caer Blaidd, Wolfpack's Den
 - The Putrid Cloister
+    - ![has divination card][div-card] The Professor
 - Hallowed Ground
 - The Twilight Temple
+    - ![has divination card][div-card] The Twilight Moon
 - Pillars of Arun
 - Doryani's Machinarium
 
+Spamming **Singular Scouting Reports** rolls Unique Maps on Kirac, this can include higher tier maps in lower tiers resulting in very easy versions of bosses.
+
+You can also use **Comprehensive Scouting Report** that drop when using the **Planar Tactician** Atlas node which can also roll **Doryani's Machinarium** which is the most expensive unique map generally.
+
+Some Unique Maps have their own divination cards otherwise you can turn in sets of **The Encroaching Darkness** or simply buy the maps on trade.
+
+Still includes Doryani's Machinarium which can end up fairly pricey for a single throw away unique map with a bad reward pushing it slightly out of the 'Very Easy' rating.
+
 # 24 Sanctified Scarabs I
+## Normal
 Complete Maps with 500 Scarabs. Each Scarab applied to maps counts towards this Challenge.
 
+Should mostly complete naturally over time as long as you use scarabs, you unlock new slots for doing a T17 and for a Maven 10 Way pushing it from three scarabs to five maximum at once.
+- 167 maps with 3 Scarabs each
+- 125 maps with 4 Scarabs each
+- 100 maps with 5 Scarabs each
+
 # 25 Gleaming Gems
+## Easy
 Complete each of the following Gem tasks.
 - Level gems to level 20 x 10
+	- You can finish this naturally by just playing the game and sticking gems in every slot
+	- You can level things in equipment swaps too
 - Use Gemcutter Prisms x 40
+	- Not terribly hard, might push the prices of GCP up a bit
+	- GCPs can be obtained by vendoring a 20% quality gem or any combo of Gems with 40% quality
+		- Each combo needs to add up to 40% which is why sometimes it feels like you have underflow or overflow
 - Turn in a divination card set that rewards a Level 21 and/or 23% Quality Gem
+    - ![][div-card] The Skeleton (6 stack)
+    - ![][div-card] Rite of Elements (5 stack)
+    - ![][div-card] The Bitter Blossom (3 stack)
 - Use the Divine Font in the Endgame Labyrinth x 10
 
 # 26 Cross Contamination
+## Easy
 Complete any four of the following past league content encounters.
 - Defeat a Harbinger while you are in a Breach
-- Defeat a Unique Map Boss that is Possessed while in a Ritual
+	- Any harbinger, so you can use all sources of them without issue
+	- **Heavy Breach** extends Breach encounters.
+    - **Scarabs** can add additional Breaches.
+	- Vaal Portal might work but is expensive
+- Defeat a Unique Map Boss that is Possessed while in a Ritual	
+	- This is literal, you need it to get Possessed while in the ritual itself
+	- There is a ritual that spawns Tormented Spirits and Scarabs for more in the wild
+	- You can do this easily by using a Shore Map and kiting the boss into a ritual, they release a tormented spirit at low HP
+		- Kiting can be awkward, try to maintain a path free of obstacles to kite him along, rocks etc. can cause him to retreat or wander off
 - Defeat a Breachlord while affected by a Shrine
+	- Spamming Breach and Shrines should get this without much problem as you 
 - Defeat a Blight Boss while Delirious
+	- Scarabs can force Blight Bosses
+	- Maps can be made Delirious with orbs or the Atlas can make them last forever
 - Defeat a Delirium or Beyond Boss while in the Sacred Grove
+	- A bit RNG, stacking beyond and delirium at the same time probably gets you the best hopes
 - Defeat a Syndicate Member that is Possessed
+	- Not sure immediately if there's an easy means of this
 
 # 27 Ambitious Assignments
+## Unknown
 Complete each of the following Settlers of Kalguur tasks.
 - Have at least 10,000 Blue Zanthimum in your Kingsmarch Stockpile at once
 - Have at least 5,000 Verisium Bars in your Kingsmarch Stockpile at once
@@ -247,14 +401,22 @@ Complete each of the following Settlers of Kalguur tasks.
 - Use the Recombinator, resulting in an item which is Item Level 75 or higher x 15
 
 # 28 Magnificent Mastery
+## Easy
 Complete one of the following Master Mission encounters.
 - Reach Depth Level 400 in your Azurite Mine
 - Capture Red Beasts x 400
 - Complete Betrayal Safehouses x 40
 - Upgrade Incursion rooms to Tier 3 x 200
 
+Can be slow but shouldn't be too hard outside of the Delve one. having only one needed makes it fairly easy.
+
 # 29 Sanctified Scarabs II
+## Easy
 Complete 75 Rare Maps with at least 4 scarabs applied while the Maps have at least 80% Item Quantity and are at least Tier 16.
+
+Four Scarabs makes it a bit expensive but there's a lot of cheap scarabs and as long as you can run T16s it shouldn't be too bad. T17s are likely to always count for this.
+
+You can use the Atlas's Item Quantity nodes to make it easier and basically allow alch and go with the extra +% Item Quantity from there and the Map Device itself.
 
 # 30 Arduous Atlas
 Complete maps with a total of 4,000 explicit modifiers.
@@ -394,3 +556,5 @@ Complete 10 Tier 17 Maps.
 [PoeDB](https://poedb.tw/us/) for easily accessible information on pretty much everything about the game.
 
 [PoeWiki](https://www.poewiki.net/wiki/) for some general information.
+
+[div-card]: ./img/DivCard.png
