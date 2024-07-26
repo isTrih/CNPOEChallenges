@@ -3,7 +3,7 @@
 # Settlers of Kalguur Challenges
 Please get in touch through [Github](https://github.com/CraniumViolence/craniumviolence.github.io) or on [Reddit](https://www.reddit.com/user/TrainCarMoney) if any information here is incorrect, absent or you simply have better strategies or information!
 
-The guide is just a list for day 1, for obvious reasons. It'll be worked on over the course of the first days to completion. Pull requests etc. are welcome if you wish to contribute!
+The guide is still actively developing. It'll be worked on over the course of the first days to completion. Pull requests etc. are welcome if you wish to contribute!
 
 This guide makes the assumption that you have a baseline understanding of Path of Exile and does not include complex instructions for a lot of aspects such as explaining what a mechanic is (with the obvious exception of current league or new mechanics getting more attention).
 
@@ -419,18 +419,33 @@ Four Scarabs makes it a bit expensive but there's a lot of cheap scarabs and as 
 You can use the Atlas's Item Quantity nodes to make it easier and basically allow alch and go with the extra +% Item Quantity from there and the Map Device itself.
 
 # 30 Arduous Atlas
+# Normal
+### Grind Heavy
 Complete maps with a total of 4,000 explicit modifiers.
 
+It's a lot of modifiers, 500 pure 8 mod maps. It has no tier requirements so you can just blast whatever you can do fastest alch and go though.
+
 # 31 Monstrous Memories
+# Easy
 Defeat 100 Rare monsters with at least 3 Modifiers in Atlas Memories.
 
+It's a decent amount of memories, none of them force extra modifiers on rares as far as I'm aware so it's just doing a lot of them.
+
 # 32 Tremendous Township
+# Unknown
 Fully upgrade all of Kingsmarch.
+
+Presumably the big gold sink, likely grindy from its position.
 
 # 33 Agitated Adversaries
 Defeat any three of the following bosses in the specified ways while the area is level 83 .
 - The King in the Mists without taking damage from Ritual of Meditation or Ritual of Dance
+	- It's the same as it was in Affliction
+    - Red means stop
+    - Purple means move
 - Lycia, Herald of the Scourge without being affected by Heretic's Ire
+	- This is caused by the spinning spears in the arena and deals damage over time
+	- Caused both by their spinning and their thrust animation
 - Izaro in the Empowered Endgame Labyrinth without being hit by Ornamental Cascade
 - The Syndicate Mastermind without taking any damage from their sculpture
 - Aul, the Crystal King after destroying all of the Crystalline Cocoons
