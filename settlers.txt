@@ -3,12 +3,334 @@
 # Settlers of Kalguur Challenges
 Please get in touch through [Github](https://github.com/CraniumViolence/craniumviolence.github.io) or on [Reddit](https://www.reddit.com/user/TrainCarMoney) if any information here is incorrect, absent or you simply have better strategies or information!
 
+The guide is just a list for day 1, for obvious reasons. It'll be worked on over the course of the first days to completion. Pull requests etc. are welcome if you wish to contribute!
+
 This guide makes the assumption that you have a baseline understanding of Path of Exile and does not include complex instructions for a lot of aspects such as explaining what a mechanic is (with the obvious exception of current league or new mechanics getting more attention).
 
-# Actual Challenges
-They aren't revealed or datamined yet, so I can't write any information on them!
+Ruthless challenges are also here at the bottom until the league starts.
 
-- Can I offer you a nice ![has divination card][div-card] **Carrion Crow** in this trying time? 
+# 1 Beginner's Basics
+Complete each of the following tasks.
+- Equip a magic flask
+- Use an Orb of Alchemy
+- Kill a Rare Monster
+- Fully clear the Fetid Pool
+
+# 2 Starting Settlements
+Complete each of the following Settlers of Kalguur tasks.
+- Enter Kingsmarch
+- Hire workers x 3
+- Have at least 1,000 gold in the Kingsmarch Treasury at once
+- Establish Kingsmarch Jobs x 4
+
+# 3 Peddler's Produce I
+Complete vendor recipes to receive each of the following items. A vendor recipe is when you trade a specific combination of items to a vendor, not when you buy items from their purchase screen.
+- Ruby, Topaz or Sapphire Ring
+- Agate, Turquoise or Citrine Amulet
+- Onyx Amulet
+- Magic Boots with 10% increased Movement Speed
+
+# 4 Act Adversaries I
+Complete each of the following encounters.
+- Act 1: Merveil, the Twisted
+- Act 2: Vaal Oversoul
+- Act 3: Dominus, Ascendant
+- Act 4: Malachai, The Nightmare
+- Act 5: Kitava, the Insatiable
+
+# 5 Antagonistic Acts
+Complete each of the following encounters.
+- Defeat a monster holding an Essence
+- Complete a Legion Encounter
+- Open a Strongbox
+- Complete a Ritual
+
+# 6 Basic Beginnings
+Complete each of the following Settlers of Kalguur tasks.
+- Complete a Shipment
+- Have a total of 1,000 of any Bar in your Kingsmarch Stockpile at once
+- Have a total of 1,000 of any Crop in your Kingsmarch Stockpile at once
+- Disenchant an item
+- Use any Runesmithing Craft
+
+# 7 Act Adversaries II
+Complete each of the following encounters.
+- Act 6: Tsoagoth, The Brine King
+- Act 7: Arakaali, Spinner of Shadows
+- Act 8: Lunaris, Eternal Moon and Solaris, Eternal Sun
+- Act 9: The Depraved Trinity
+- Act 10: Kitava, the Insatiable
+
+# 8 Powerful Prey
+Complete each of the following quests.
+- The Great White Beast
+- Sever the Right Hand
+- The Gemling Legion
+- Fastis Fortuna
+
+# 9 Atlas Augmentations
+Complete any three of the following League Mechanic encounters the specified number of times.
+- Defeat Essence monsters x 30
+- Open Strongboxes x 30
+- Activate Shrines x 30
+- Defeat Harbingers x 30
+- Defeat Possessed Monsters x 30
+- Defeat Rogue Exiles x 30
+- Defeat Rare Beyond Monsters x 30
+
+# 10 Meaningful Mechanics
+Complete any four of the following League Mechanic encounters the specified number of times.
+- Complete Breaches x 30
+- Complete Abysses x 30
+- Complete Expeditions x 30
+- Harvest Plots x 100
+- Complete Legion Encounters x 30
+- Open Smuggler's Caches x 30
+- Pass through Mirrors of Delirium x 30
+- Complete Ultimatum Waves x 200
+- Complete Blights x 30
+- Complete Rituals x 100
+
+# 11 Proven Professionals
+Complete any two of the following Master Mission encounters in Red or Purple Tier Maps the specified number of times.
+- Niko Missions x 30
+- Einhar Missions x 30
+- Jun Missions x 30
+- Alva Missions x 30
+
+# 12 Refined Reagents
+Have at least the specified amount of the following Resources in your Kingsmarch Stockpile at once.
+- 1,000 Wheat
+- 1,000 Corn
+- 1,000 Pumpkin
+- 1,000 Orgourd
+- 1,000 Blue Zanthimum
+- 1,000 Crimson Iron Bars
+- 1,000 Orichalcum Bars
+- 1,000 Petrified Amber Bars
+- 1,000 Bismuth Bars
+- 1,000 Verisium Bars
+- 20,000 Thaumaturgic Dust
+
+# 13 Crafty Currency
+Use each of the following Currency items. Using Crafting Bench options also count towards this challenge.
+- Orb of Transmutation
+- Orb of Augmentation
+- Orb of Alteration
+- Orb of Chance
+- Orb of Alchemy
+- Orb of Scouring
+- Orb of Fusing
+- Jeweller's Orb
+- Chromatic Orb
+- Orb of Annulment
+- Regal Orb
+- Chaos Orb
+- Exalted Orb
+- Blessed Orb
+- Divine Orb
+
+# 14 Overwhelming Opposition
+Defeat 500 Map Bosses.
+
+# 15 Potent Pantheon
+Fully upgrade any single Major and Minor Pantheon Power.
+- Major Pantheon Power
+- Minor Pantheon Power
+
+# 16 Unbelievable Undertakings
+Complete any four of the following encounters where the area level is 81 or higher.
+- Breachstones x 5
+- Abyssal Depths x 5
+- Logbooks with at least 10 Remnants active x 5
+- Tier 4 Harvest Seeds x 5
+- Domains of Timeless Conflict with at least 25 rewards x 3
+- Blueprints with 4 revealed wings x 5
+- Simulacrum Waves x 60
+- Trialmaster fights x 3
+- Blighted or Blight Ravaged Maps x 5
+- All Rituals in Maps with at least one Blood-filled Vessel applied x 15
+
+# 17 Sublime Starlight
+Use the following Runes in Runesmith Crafting.
+- Sun Rune
+- Bound Rune
+- Life Rune
+- War Rune
+- River Rune
+- Bounty Rune
+- Journey Rune
+- Mountain Rune
+- Time Rune
+- Power Rune
+
+# 18 Achieve Ascension
+Use the Ascendancy Device in each of the following Labyrinths.
+- The Labyrinth
+- The Cruel Labyrinth
+- The Merciless Labyrinth
+- The Eternal Labyrinth
+
+# 19 Divined Destiny
+Complete any three of the following Divination Card tasks.
+- Open Diviners Strongboxes x 5
+- Turn in sets of Divination Cards x 50
+- Complete Rare Tier 11 or higher Maps with at least one Divination Scarab applied x 25
+- Scry a Map
+
+# 20 Peddler's Produce II
+Complete vendor recipes to receive each of the following items. A vendor recipe is when you trade a specific combination of items to a vendor, not when you buy items from their purchase screen.
+- Prismatic Ring
+- Orb of Fusing
+- Regal Orb
+- Grasping Mail or Loreweave
+
+# 21 Chaotic Creations
+Use a Chaos Orb on any five of the following item base types while they are Item Level 83 or higher.
+- Experimented
+- Ritual
+- Atlas 
+- Abyss
+- Expedition
+- Rogue Equipment
+- Cluster Jewel
+
+# 22 Gilded Goals
+Have at least 250,000 gold in the Kingsmarch Treasury at once.
+
+# 23 Remarkable Realms
+Complete each of the following Unique Maps.
+- Vaults of Atziri
+- Maelström of Chaos
+- The Coward's Trial
+- Acton's Nightmare
+- Poorjoy's Asylum
+- Mao Kun
+- Oba's Cursed Trove
+- Olmec's Sanctum
+- Death and Taxes
+- Whakawairua Tuahu
+- The Vinktar Square
+- Caer Blaidd, Wolfpack's Den
+- The Putrid Cloister
+- Hallowed Ground
+- The Twilight Temple
+- Pillars of Arun
+- Doryani's Machinarium
+
+# 24 Sanctified Scarabs I
+Complete Maps with 500 Scarabs. Each Scarab applied to maps counts towards this Challenge.
+
+# 25 Gleaming Gems
+Complete each of the following Gem tasks.
+- Level gems to level 20 x 10
+- Use Gemcutter Prisms x 40
+- Turn in a divination card set that rewards a Level 21 and/or 23% Quality Gem
+- Use the Divine Font in the Endgame Labyrinth x 10
+
+# 26 Cross Contamination
+Complete any four of the following past league content encounters.
+- Defeat a Harbinger while you are in a Breach
+- Defeat a Unique Map Boss that is Possessed while in a Ritual
+- Defeat a Breachlord while affected by a Shrine
+- Defeat a Blight Boss while Delirious
+- Defeat a Delirium or Beyond Boss while in the Sacred Grove
+- Defeat a Syndicate Member that is Possessed
+
+# 27 Ambitious Assignments
+Complete each of the following Settlers of Kalguur tasks.
+- Have at least 10,000 Blue Zanthimum in your Kingsmarch Stockpile at once
+- Have at least 5,000 Verisium Bars in your Kingsmarch Stockpile at once
+- Complete Port Quotas x 30
+- Disenchant Unique items x 30
+- Claim rewards from Maps successfully completed by your Atlas Runners x 150
+- Use the Recombinator, resulting in an item which is Item Level 75 or higher x 15
+
+# 28 Magnificent Mastery
+Complete one of the following Master Mission encounters.
+- Reach Depth Level 400 in your Azurite Mine
+- Capture Red Beasts x 400
+- Complete Betrayal Safehouses x 40
+- Upgrade Incursion rooms to Tier 3 x 200
+
+# 29 Sanctified Scarabs II
+Complete 75 Rare Maps with at least 4 scarabs applied while the Maps have at least 80% Item Quantity and are at least Tier 16.
+
+# 30 Arduous Atlas
+Complete maps with a total of 4,000 explicit modifiers.
+
+# 31 Monstrous Memories
+Defeat 100 Rare monsters with at least 3 Modifiers in Atlas Memories.
+
+# 32 Tremendous Township
+Fully upgrade all of Kingsmarch.
+
+# 33 Agitated Adversaries
+Defeat any three of the following bosses in the specified ways while the area is level 83 .
+- The King in the Mists without taking damage from Ritual of Meditation or Ritual of Dance
+- Lycia, Herald of the Scourge without being affected by Heretic's Ire
+- Izaro in the Empowered Endgame Labyrinth without being hit by Ornamental Cascade
+- The Syndicate Mastermind without taking any damage from their sculpture
+- Aul, the Crystal King after destroying all of the Crystalline Cocoons
+
+# 34 Extravagent Equipment
+Use any 6 of the following Currency Items.
+- Sacred Orb
+- Tailoring or Tempering Orb
+- Conqueror Exalted Orb
+- Veiled Orb
+- Awakener's Orb
+- Fracturing Orb
+- Hinekora's Lock
+- Mirror of Kalandra
+- Orb of Dominance
+- Tainted Divine Teardrop
+- Orb of Conflict
+- Reflecting Mist
+
+# 35 Inciting Invitations
+Reach a total of 3,000% Item Quantity from completing Invitations.
+
+# 36 Realised Realms
+Complete each of the following Atlas encounters
+- Unlock the 6 Slot Map Device
+- Use Maven Chisels x 10
+
+# 37 Challenging Competitors
+Defeat Settlers of Kalguur Boss encounters while the area is level 83 in any four of the specified ways.
+- Admiral Valerius without being hit by Anchor Smash
+- Admiral Valerius without being affected by more than 5 stacks of Soaked to the Bone
+- Sasan, the Bandit Lord without being hit by Circle of Flame
+- Sasan, the Bandit Lord without being hit by Hail of Arrows
+- The Black Knight without being hit by any falling rocks
+- The Black Knight without being affected by Verisium Laser
+
+# 38 Nightmarish Nemeses
+Complete each of the following Tier 17 Maps while they have at least 250% Item Quantity.
+- Sanctuary
+- Citadel
+- Fortress
+- Abomination
+- Ziggurat
+
+# 39 Ultimate Usurpers
+Defeat any four of the following Pinnacle Boss Encounters while the area is level 85.
+- Sirus, Awakener of Worlds in Eye of the Storm
+- The Elder in The Shaper's Realm
+- The Maven in Absence of Mercy and Empathy
+- The Searing Exarch in Absence of Patience and Wisdom
+- The Eater of Worlds in Absence of Symmetry and Harmony
+- High Templar Venarius in Cortex
+- The Shaper in The Shaper's Realm
+
+# 40 Gear Grinding Goals
+Complete any four of these encounters the specified number of times.
+- Reach Level 100
+- Cleanse Darkshrines in the Endgame Labyrinth x 300
+- Activate Eldritch Altars or defeat Witnessed Map Bosses  x 400
+- Defeat Level 83 or higher Rare monsters with at least 4 modifiers x 250
+- Complete Tier 17 maps x 50
+- Claim rewards from Rare, Tier 14 or higher Maps successfully completed by your Atlas Runners x 200
 
 # Unlocks
 Unlike the most recent leagues you can unlock five separate types of MTX this time around. There are no tiers for the unlocks and you only need to complete 36/40 instead of 38/40 as with tiered rewards.
@@ -23,9 +345,52 @@ At 34 challenge completion you can unlock the Verisium Knight Unique Finisher Ef
 
 At 36 challenge completion you can unlock the Kingsmarch Portal.
 
+---
+
+# Ruthless 1 Learned Levels
+Reach Level 90.
+
+# Ruthless 2 Reckoned Runesmithing
+Use the following Runes in Runesmith Crafting.
+- Sun Rune
+- Bound Rune
+- Life Rune
+- War Rune
+- River Rune
+- Bounty Rune
+- Journey Rune
+- Mountain Rune
+- Time Rune
+- Power Rune
+
+# Ruthless 3 Eldritch Expanses
+Complete each of the following Eldritch encounters in Maps.
+- Activate Searing Exarch Altars x 30
+- Activate Eater of Worlds Altars x 30
+- Defeat Witnessed Map Bosses x 30
+
+# Ruthless 4 Preferred Places
+Unlock each Favoured Map Slot.
+
+# Ruthless 5 Crowded Coffers
+Have at least 250,000 gold in the Kingsmarch Treasury at once.
+
+# Ruthless 6 Quantitive Quest
+Reach a total of 2,500% Item Quantity from completed Red or Purple Tier Maps.
+
+# Ruthless 7 Settler Strife
+Defeat Settlers of Kalguur Boss encounters while the area is level 83 in any four of the specified ways.
+- Admiral Valerius without being hit by Anchor Smash
+- Admiral Valerius without being affected by more than 5 stacks of Soaked to the Bone
+- Sasan, the Bandit Lord without being hit by Circle of Flame
+- Sasan, the Bandit Lord without being hit by Hail of Arrows
+- The Black Knight without being hit by any falling rocks
+- The Black Knight without being affected by Verisium Laser
+
+# Ruthless 8 Horrific Halls
+Complete 10 Tier 17 Maps.
+
 # Credits
 [PoeDB](https://poedb.tw/us/) for easily accessible information on pretty much everything about the game.
 
 [PoeWiki](https://www.poewiki.net/wiki/) for some general information.
-
-[div-card]: ./img/DivCard.png
