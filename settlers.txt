@@ -7,8 +7,6 @@ The guide is still actively developing. It'll be worked on over the course of th
 
 This guide makes the assumption that you have a baseline understanding of Path of Exile and does not include complex instructions for a lot of aspects such as explaining what a mechanic is (with the obvious exception of current league or new mechanics getting more attention).
 
-Ruthless challenges are also here at the bottom until the league starts.
-
 # 1 Beginner's Basics
 ## Very Easy
 Complete each of the following tasks.
@@ -63,7 +61,7 @@ Complete each of the following encounters.
 No extra requirements, normal content you can see all during campaign and which are readily available during maps.
 
 # 6 Basic Beginnings
-## Unknown
+## Very Easy
 Complete each of the following Settlers of Kalguur tasks.
 - Complete a Shipment
 - Have a total of 1,000 of any Bar in your Kingsmarch Stockpile at once
@@ -71,7 +69,7 @@ Complete each of the following Settlers of Kalguur tasks.
 - Disenchant an item
 - Use any Runesmithing Craft
 
-Nothing about the mechanic is obvious yet, it's very unlikely this is hard or complex due to its challenge placement.
+You will finish this very easily just by interacting with the league mechanic and while setting up facilities that are required for later facilities (and challenges).
 
 # 7 Act Adversaries II
 ## Very Easy
@@ -140,7 +138,7 @@ Complete any two of the following Master Mission encounters in Red or Purple Tie
 Red Maps but no tier requirement, spec into them on the Atlas and you can get 100% chance or simply use their Scarabs.
 
 # 12 Refined Reagents
-## Unknown
+## Very Easy
 Have at least the specified amount of the following Resources in your Kingsmarch Stockpile at once.
 - 1,000 Wheat
 - 1,000 Corn
@@ -152,10 +150,11 @@ Have at least the specified amount of the following Resources in your Kingsmarch
 - 1,000 Petrified Amber Bars
 - 1,000 Bismuth Bars
 - 1,000 Verisium Bars
+	- Found in maps
 - 20,000 Thaumaturgic Dust
 	- Disenchant Equipment
 
-Very unlikely to be complex, the wording implies you need to have it actively amassed so might need you to chill on spending if you are wanting it early.
+Very straight forward and very simple. Take note of the **at once** wording and be sure not to spend the resources as you get them if you want to unlock this.
 
 # 13 Crafty Currency
 ## Very Easy
@@ -216,12 +215,22 @@ Complete any four of the following encounters where the area level is 81 or high
 - Trialmaster fights x 3
 	- Ultimatum Scarab of Dueling forces him but you still need to complete all the waves
 - Blighted or Blight Ravaged Maps x 5
+	- Ring anoint for Meteor Burning Ground and Chilling Towers Freeze Enemies.
+	- Grey lanes are inactive, yellow ones are actively spawning monsters.
+	- Leave Seismic, Empowering and Ice towers at Level 3.
+	- Minions should go to Scout Towers, Fire should go to Meteor Towers.
+	- Build multiple damage types in each lane to cover immunities. Try to build towers around actual lane chokepoints.	
+	- Towers are active within about two screens of your character's current location.
+	- Leave the portal near the pump so you if you die you load back in to activating towers, especially true if you have slow loads.
+	- You do not need to roll the maps, you simply need them to be at least T14
 - All Rituals in Maps with at least one Blood-filled Vessel applied x 15
 
 Shouldn't be terribly hard, obvious low stress options are Blighted Maps, Abyssal Depths, Logbooks and Breachstones. A lot of options can be purchased as slot services.
 
+All map areas need to be at least T14 for level 81.
+
 # 17 Sublime Starlight
-## Unknown
+## Easy
 ### Buyable
 Use the following Runes in Runesmith Crafting.
 - Sun Rune
@@ -235,7 +244,11 @@ Use the following Runes in Runesmith Crafting.
 - Time Rune
 - Power Rune
 
-You can trade for all of these, they should be in order of rarity. Not obvious how rare each of them are as of the time of writing.
+You will need to upgrade your Runesmithing Facility in order to unlock actually using these.
+
+Runes are listed in order of rarity and all runes can be traded for or bought on the Currency Market.
+
+To get them naturally, send ships to Kalguuran ports to get Runes back, they are goods agnostic and will simply be rewarded based on the overall value of your shipments.
 
 # 18 Achieve Ascension
 ## Very Easy
@@ -285,7 +298,7 @@ Use a Chaos Orb on any five of the following item base types while they are Item
 - Atlas 
 	- Bases Exclusively in Maps
 	- [See all options here](https://www.poewiki.net/wiki/List_of_atlas_base_items)
-	- This might include the new tiers of armour?
+	- Does not include the new tiers of armour
 - Abyss
 	- Stygian Vises
 	- Murderous Eye Jewel
@@ -305,21 +318,23 @@ Use a Chaos Orb on any five of the following item base types while they are Item
 ## Easy
 Have at least 250,000 gold in the Kingsmarch Treasury at once.
 
-Notable in that it's 'at once' which implies it should all be in your treasury at the same time.
+Notable in that it's 'at once' which means it should all be in your treasury *at the same time*. You can simply map to get this, it'll likely be in the region of 50 cleared maps, so it's a bit grindy.
+
+Don't deposit it in chunks if you have facilities running or they will consume it.
 
 # 23 Remarkable Realms
 ## Easy
 Complete each of the following Unique Maps.
 - Vaults of Atziri
-    - ![divination card][div-card] Treasure Hunter
-    - ![divination card][div-card] The Wolf's Legacy
+	- ![divination card][div-card] Treasure Hunter
+	- ![divination card][div-card] The Wolf's Legacy
 - Maelström of Chaos
 - The Coward's Trial
 - Acton's Nightmare
 - Poorjoy's Asylum
-    - ![has divination card][div-card] The Dreamland
+	- ![has divination card][div-card] The Dreamland
 - Mao Kun
-    - ![has divination card][div-card] Scholar of the Seas
+	- ![has divination card][div-card] Scholar of the Seas
 - Oba's Cursed Trove
 - Olmec's Sanctum
 - Death and Taxes
@@ -327,10 +342,10 @@ Complete each of the following Unique Maps.
 - The Vinktar Square
 - Caer Blaidd, Wolfpack's Den
 - The Putrid Cloister
-    - ![has divination card][div-card] The Professor
+	- ![has divination card][div-card] The Professor
 - Hallowed Ground
 - The Twilight Temple
-    - ![has divination card][div-card] The Twilight Moon
+	- ![has divination card][div-card] The Twilight Moon
 - Pillars of Arun
 - Doryani's Machinarium
 
@@ -351,6 +366,8 @@ Should mostly complete naturally over time as long as you use scarabs, you unloc
 - 125 maps with 4 Scarabs each
 - 100 maps with 5 Scarabs each
 
+Notably there is no tier, rarity or quantity requirements so you can spam to finish this up.
+
 # 25 Gleaming Gems
 ## Easy
 Complete each of the following Gem tasks.
@@ -362,9 +379,9 @@ Complete each of the following Gem tasks.
 	- GCPs can be obtained by vendoring a 20% quality gem or any combo of Gems with 40% quality
 		- Each combo needs to add up to 40% which is why sometimes it feels like you have underflow or overflow
 - Turn in a divination card set that rewards a Level 21 and/or 23% Quality Gem
-    - ![][div-card] The Skeleton (6 stack)
-    - ![][div-card] Rite of Elements (5 stack)
-    - ![][div-card] The Bitter Blossom (3 stack)
+	- ![][div-card] The Skeleton (6 stack)
+	- ![][div-card] Rite of Elements (5 stack)
+	- ![][div-card] The Bitter Blossom (3 stack)
 - Use the Divine Font in the Endgame Labyrinth x 10
 
 # 26 Cross Contamination
@@ -373,7 +390,7 @@ Complete any four of the following past league content encounters.
 - Defeat a Harbinger while you are in a Breach
 	- Any harbinger, so you can use all sources of them without issue
 	- **Heavy Breach** extends Breach encounters.
-    - **Scarabs** can add additional Breaches.
+	- **Scarabs** can add additional Breaches.
 	- Vaal Portal might work but is expensive
 - Defeat a Unique Map Boss that is Possessed while in a Ritual	
 	- This is literal, you need it to get Possessed while in the ritual itself
@@ -387,18 +404,27 @@ Complete any four of the following past league content encounters.
 	- Maps can be made Delirious with orbs or the Atlas can make them last forever
 - Defeat a Delirium or Beyond Boss while in the Sacred Grove
 	- A bit RNG, stacking beyond and delirium at the same time probably gets you the best hopes
+	- You can use a Delirium Orb to force delirium for the entire map
 - Defeat a Syndicate Member that is Possessed
 	- Not sure immediately if there's an easy means of this
+	
+Harbinger in Breach, Breachlord during Shrine, Blight Boss while Delirious are the obvious easiest choices and Unique Map Boss while Possessed is easy enough with some manipulation.
 
 # 27 Ambitious Assignments
-## Unknown
+## Normal
 Complete each of the following Settlers of Kalguur tasks.
 - Have at least 10,000 Blue Zanthimum in your Kingsmarch Stockpile at once
+	- Last unlock for farming, get highest level farmers and have them make Blue Zanthium
 - Have at least 5,000 Verisium Bars in your Kingsmarch Stockpile at once
+	- Last unlock for ores, appears only in maps. You can get a couple thousand if you get the Black Knight's Starfall Crater instance in a map
 - Complete Port Quotas x 30
+	- A longer term one, you need to do a lot of shipments which all have real time aspects to them, you probably want to get started on these sooner rather than later
 - Disenchant Unique items x 30
+	- The final tier of the Disenchanter facility unlocks these, you will need a fair amount of gold and items disenchanted before you unlock this
 - Claim rewards from Maps successfully completed by your Atlas Runners x 150
+	- Map Runners are expensive and prone to dying so this might take quite a while, you can run a bunch at once and queue them up after upgrading at least
 - Use the Recombinator, resulting in an item which is Item Level 75 or higher x 15
+	- Needs dust but is otherwise pretty easy and you can just use actual junk items to get this done
 
 # 28 Magnificent Mastery
 ## Easy
@@ -408,7 +434,7 @@ Complete one of the following Master Mission encounters.
 - Complete Betrayal Safehouses x 40
 - Upgrade Incursion rooms to Tier 3 x 200
 
-Can be slow but shouldn't be too hard outside of the Delve one. having only one needed makes it fairly easy.
+Can be slow but shouldn't be too hard outside of the Delve one. A single completion is required so this is pretty easy overall.
 
 # 29 Sanctified Scarabs II
 ## Easy
@@ -431,26 +457,43 @@ Defeat 100 Rare monsters with at least 3 Modifiers in Atlas Memories.
 
 It's a decent amount of memories, none of them force extra modifiers on rares as far as I'm aware so it's just doing a lot of them.
 
+This was bugged initially to count all monsters, if you were lucky enough to finish it before they fixed it you can skip memories entirely this patch cycle for challenges.
+
 # 32 Tremendous Township
-# Unknown
+## Normal
 Fully upgrade all of Kingsmarch.
 
-Presumably the big gold sink, likely grindy from its position.
+Fairly grindy but happens very passively. Gold drops relative to monster rarity so something like Olmec's Sanctum can get you around 5,000 gold in two minutes if you want to grind it.
+
+You will need to map to complete this as you will need to mark Verisium actively to complete upgrades.
+
+Upgrades cost a lot of money so you might want to save up the 250,000 early so you can spend it all on upgrades freely afterwards.
 
 # 33 Agitated Adversaries
-Defeat any three of the following bosses in the specified ways while the area is level 83 .
+## Normal
+### Buyable
+Defeat any three of the following bosses in the specified ways while the area is level 83.
 - The King in the Mists without taking damage from Ritual of Meditation or Ritual of Dance
 	- It's the same as it was in Affliction
-    - Red means stop
-    - Purple means move
+	- Red means stop
+	- Purple means move
 - Lycia, Herald of the Scourge without being affected by Heretic's Ire
+	- Sanctum final boss, obvious skip if you don't do Sanctum
 	- This is caused by the spinning spears in the arena and deals damage over time
 	- Caused both by their spinning and their thrust animation
 - Izaro in the Empowered Endgame Labyrinth without being hit by Ornamental Cascade
+	- Likely the green cascade attack, this needs to be done in a lab opened with one of Tribute, Gift or Dedication to the Goddess
 - The Syndicate Mastermind without taking any damage from their sculpture
+	- Catarina's sculpture fires beams that rotate clockwise, these speed up as the fight goes on, easiest if you can blitz her or survive in her DOT in the corners
 - Aul, the Crystal King after destroying all of the Crystalline Cocoons
+	- Delve boss, obvious skip if you don't want to do any Delving
+	- There are 8 Cocoons around the arena, Aul's spectral shield charge clones can break these which leave a permanent DoT where htey are destroyed
+
+The conditions aren't too hard, this should be fairly easy ias long as you have a build that can do the bosses while staying mobile. 
 
 # 34 Extravagent Equipment
+## Easy
+### Buyable
 Use any 6 of the following Currency Items.
 - Sacred Orb
 - Tailoring or Tempering Orb
@@ -465,15 +508,30 @@ Use any 6 of the following Currency Items.
 - Orb of Conflict
 - Reflecting Mist
 
+Very straight forward, buy them and use them. 
+
+You probably should skip the mirror, just a suggestion.
+
 # 35 Inciting Invitations
+## Normal
+### Buyable
 Reach a total of 3,000% Item Quantity from completing Invitations.
 
+A total of around 60 invites rolled on the lower end, this isn't particularly hard but is a lot of content due to the nature of how invitations work.
+
+You can buy clears and you can buy invitations outright for non-maven encounters.
+
 # 36 Realised Realms
+## Easy
 Complete each of the following Atlas encounters
 - Unlock the 6 Slot Map Device
+	- Unlocked by completing a T17 Map and a Maven 10-way fight
+		- You can simply buy a T17 completion or lurk in globals to find people sharing
 - Use Maven Chisels x 10
+	- New chisels that can drop during any of the Maven's encounters
 
 # 37 Challenging Competitors
+## Hard
 Defeat Settlers of Kalguur Boss encounters while the area is level 83 in any four of the specified ways.
 - Admiral Valerius without being hit by Anchor Smash
 - Admiral Valerius without being affected by more than 5 stacks of Soaked to the Bone
@@ -482,7 +540,16 @@ Defeat Settlers of Kalguur Boss encounters while the area is level 83 in any fou
 - The Black Knight without being hit by any falling rocks
 - The Black Knight without being affected by Verisium Laser
 
+Two of these require you to engage with the league mechanic a fair amount.
+- The Black Knight appears in Starfall Crater found randomly in maps
+- Admiral Valerius appears if your boats are taken by pirates
+- Sasan appears to ransom your Map Runners while they are active
+
+There's not a lot of these encounters so this might be tricky, especially if you have too low DPS to just obliterate bosses.
+
 # 38 Nightmarish Nemeses
+## Hard
+### Buyable
 Complete each of the following Tier 17 Maps while they have at least 250% Item Quantity.
 - Sanctuary
 - Citadel
@@ -490,7 +557,11 @@ Complete each of the following Tier 17 Maps while they have at least 250% Item Q
 - Abomination
 - Ziggurat
 
+Straight forward enough, requires a fairly strong build but can be bought from other players and you can roll the maps to your strengths.
+
 # 39 Ultimate Usurpers
+## Hard
+### Buyable
 Defeat any four of the following Pinnacle Boss Encounters while the area is level 85.
 - Sirus, Awakener of Worlds in Eye of the Storm
 - The Elder in The Shaper's Realm
@@ -500,14 +571,51 @@ Defeat any four of the following Pinnacle Boss Encounters while the area is leve
 - High Templar Venarius in Cortex
 - The Shaper in The Shaper's Realm
 
+This is four of the seven uber boss variants, if you have a bosser this should be fine otherwise you can buy the clears.
+
 # 40 Gear Grinding Goals
+## Very Hard
+### Grind Heavy
 Complete any four of these encounters the specified number of times.
 - Reach Level 100
+	- Shrines are dead, unfortunately
+	- Buying Five Way runs
+	- Pure Chayula and other higher end Breachstones
+	- Coward's Trial
+	- T15 Beachheads
 - Cleanse Darkshrines in the Endgame Labyrinth x 300
+	- You can get multiple of these a run, it would be monotonous but you can go for them on a day where there's a very early one and simply reset
 - Activate Eldritch Altars or defeat Witnessed Map Bosses  x 400
+	- Straight forward normal mapping rewards, all types of content count so you'll likely always make passive progress on this if you are mapping
 - Defeat Level 83 or higher Rare monsters with at least 4 modifiers x 250
+	- Horned Scarab of Nemeses will help with this as they can be rather rare naturally
 - Complete Tier 17 maps x 50
+	- Straight forward, rebalanced T17s should make this more widely doable but it can still be very hard for a lot of builds
 - Claim rewards from Rare, Tier 14 or higher Maps successfully completed by your Atlas Runners x 200
+	- This needs a lot of spare maps, gold and real time, not fully certain of how bad or easy this one is yet
+
+If you aren't doing lab runs, Darkshrines is a very obvious skip choice. 
+
+Level 100 is not as easy as last league and is also probably a good option to skip.
+
+
+
+# Challenges to Skip
+What you skip (if anything) will come down to what characters you want to build and how willing you are to buy challenge completion over clearing them yourself.
+
+As a baseline serious considerations should be made for:
+- Grinding Gear Goals
+	- It's not too bad, but it is a lot of grind that you might be doing naturally.
+- Ultimate Usurpers
+	- Uber Bosses are Uber Bosses, not all builds can do them and they can be expensive to even access. If you don't want to buy completions these might be an obvious skip.
+- Challenging Competitors
+	- The spawns are fairly rare overall and it's unlikely you will get many attempts at them over the league.
+- Inciting Invitations
+	- Invitations aren't something everyone actively runs and if you do not want to do cycles or buy them you might be best served skipping this.
+- Magnificent Mastery
+	- If you don't like the content it is completely viable to skip it this league as most of the challenges aren't too bad.
+
+Most of the challenges are fairly mapping oriented this time so you will actively want to be mapping just to advance the league mechanic and get numbers moving up.
 
 # Unlocks
 Unlike the most recent leagues you can unlock five separate types of MTX this time around. There are no tiers for the unlocks and you only need to complete 36/40 instead of 38/40 as with tiered rewards.
@@ -521,51 +629,6 @@ At 32 challenge completion you can unlock the Kalguuran Cloak.
 At 34 challenge completion you can unlock the Verisium Knight Unique Finisher Effect.
 
 At 36 challenge completion you can unlock the Kingsmarch Portal.
-
----
-
-# Ruthless 1 Learned Levels
-Reach Level 90.
-
-# Ruthless 2 Reckoned Runesmithing
-Use the following Runes in Runesmith Crafting.
-- Sun Rune
-- Bound Rune
-- Life Rune
-- War Rune
-- River Rune
-- Bounty Rune
-- Journey Rune
-- Mountain Rune
-- Time Rune
-- Power Rune
-
-# Ruthless 3 Eldritch Expanses
-Complete each of the following Eldritch encounters in Maps.
-- Activate Searing Exarch Altars x 30
-- Activate Eater of Worlds Altars x 30
-- Defeat Witnessed Map Bosses x 30
-
-# Ruthless 4 Preferred Places
-Unlock each Favoured Map Slot.
-
-# Ruthless 5 Crowded Coffers
-Have at least 250,000 gold in the Kingsmarch Treasury at once.
-
-# Ruthless 6 Quantitive Quest
-Reach a total of 2,500% Item Quantity from completed Red or Purple Tier Maps.
-
-# Ruthless 7 Settler Strife
-Defeat Settlers of Kalguur Boss encounters while the area is level 83 in any four of the specified ways.
-- Admiral Valerius without being hit by Anchor Smash
-- Admiral Valerius without being affected by more than 5 stacks of Soaked to the Bone
-- Sasan, the Bandit Lord without being hit by Circle of Flame
-- Sasan, the Bandit Lord without being hit by Hail of Arrows
-- The Black Knight without being hit by any falling rocks
-- The Black Knight without being affected by Verisium Laser
-
-# Ruthless 8 Horrific Halls
-Complete 10 Tier 17 Maps.
 
 # Credits
 [PoeDB](https://poedb.tw/us/) for easily accessible information on pretty much everything about the game.
