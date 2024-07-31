@@ -6,7 +6,6 @@ Please get in touch through [Github](https://github.com/CraniumViolence/craniumv
 The guide is still actively developing. It'll be worked on over the course of the first days to completion. Pull requests etc. are welcome if you wish to contribute!
 
 This guide makes the assumption that you have a baseline understanding of Path of Exile and does not include complex instructions for a lot of aspects such as explaining what a mechanic is (with the obvious exception of current league or new mechanics getting more attention).
-</div>
 
 # 1 Beginner's Basics
 <div id="ch-1" markdown="1">
@@ -18,7 +17,6 @@ This guide makes the assumption that you have a baseline understanding of Path o
 - [.ggg]Fully clear the Fetid Pool
 
 Basically free but they are making you actually do Fetid Pool.
-</div>
 </div>
 
 # 2 Starting Settlements
@@ -699,8 +697,7 @@ This is four of the seven uber boss variants, if you have a bosser this should b
 If you aren't doing lab runs, Darkshrines is a very obvious skip choice. 
 
 Level 100 is not as easy as last league and is also probably a good option to skip.
-
-
+</div>
 
 # Challenges to Skip
 What you skip (if anything) will come down to what characters you want to build and how willing you are to buy challenge completion over clearing them yourself.
