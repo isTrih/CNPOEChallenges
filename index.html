@@ -30,7 +30,7 @@
 	html{background:#363636;text-shadow: 2px 2px 1px rgba(0,0,0,0.75);}
 	a,a:visited{color:#EE983C;text-decoration:none;}
 	a:hover{color:#FDB12D;}
-	h1{color:#E7B477;text-align:center;border-left:5px solid #C2A965;border-right:5px solid #C2A965;border-top:1px solid #C2A965;border-bottom:1px solid #C2A965;background-color:#5d1515;margin-bottom:0px;padding:5px;}
+	h1{color:#E7B477;text-align:center;border-left:5px solid #C2A965;border-right:5px solid #C2A965;border-top:1px solid #C2A965;border-bottom:1px solid #C2A965;background-color:#5d1515;margin-bottom:0px;padding:5px;position:relative;}
 	h2{color:#DADADA;text-align:center;margin:4px 0px;}
 	h3{color:#875516;text-align:center;margin:4px 0px;}
 	body{color:rgb(230,230,210);margin: 0 0 20px;padding-bottom:20px;}
@@ -50,6 +50,10 @@
 	.ggg{color:#E7B477;}
 	.com{color:rgb(230,230,210);}
 	li{line-height:120%;}
+	.complete{position:absolute;right:0;top:0;cursor:hand;cursor:pointer;width:48px;height:48px;}
+	div[data-complete="no"]{color:red;}
+	div[data-complete="yes"]{color:rgb(0,240,0);}
+	
 	</style>
 	</head>
 <body>
@@ -57,10 +61,11 @@
 	<div id="navigation"></div>
 	<div id="contents"></div>
 	<div id="footer">
-	<a href="#" onclick="GetLeague('settlers');return false;">Settlers Guide</a> | 	<a href="#" onclick="GetLeague('necropolis');return false;">Necropolis Guide</a> | 	<a href="#" onclick="GetLeague('affliction');return false;">Affliction Guide</a>
+	<a href="#" onclick="getLeague('settlers');return false;">Settlers Guide</a> | <a href="#" onclick="getLeague('necropolis');return false;">Necropolis Guide</a> | <a href="#" onclick="getLeague('affliction');return false;">Affliction Guide</a>
 	</div>
 	<script>
-		function GetLeague(league){		
+		var currentLeague = "settlers";
+		function getLeague(league){		
 			var converter = new showdown.Converter();
 			// Declare extension
 			var customClassExt = {
@@ -91,6 +96,10 @@
 					if (location.hash) {
 						let target = location.hash;				
 						$('html, body').animate({scrollTop: $(target).offset().top}, 'fast');
+						
+						if(league == currentLeague){
+							addCheckboxes();
+						}
 					}
 				}
 			});
@@ -116,8 +125,37 @@
 				document.documentElement.setAttribute('data-sidebar', 'hidden');
 			}
 		}
+		
+		function addCheckboxes(){
+			$("h1").each(function(i){
+				if(i != 0 && i < 40){
+					let challenge = localStorage.getItem("data-ch-" + i);
+					if (challenge === "no" || challenge === null) {
+						localStorage.setItem("data-ch-" + i, "no");
+						$(this).append('<div class="complete" data-challenge="' + i + '" data-complete="no">&#x2717;</div>');
+					} else if (challenge === "yes") {
+						$(this).append('<div class="complete" data-challenge="' + i + '" data-complete="yes">&#x2713;</div>');
+						$("#ch-" + i).hide();		
+					}					
+				}
+			})
+		}
+		$(document).on('click', '.complete', function() {
+			let i = $(this).attr("data-challenge");
+			let challenge = localStorage.getItem("data-ch-" + i);
+			
+			if (challenge === "yes" || challenge === null) {
+				localStorage.setItem("data-ch-" + i, "no");
+				$(this).html('&#x2717;').attr("data-complete", "no");
+				$("#ch-" + i).show();
+			} else if (challenge === "no") {
+				localStorage.setItem("data-ch-" + i, "yes");
+				$(this).html('&#x2713;').attr("data-complete", "yes");
+				$("#ch-" + i).hide();
+			}
+		});
 		getSidebar();
-		GetLeague("settlers");
+		getLeague("settlers");
 		
 		
 	</script>

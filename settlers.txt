@@ -6,8 +6,10 @@ Please get in touch through [Github](https://github.com/CraniumViolence/craniumv
 The guide is still actively developing. It'll be worked on over the course of the first days to completion. Pull requests etc. are welcome if you wish to contribute!
 
 This guide makes the assumption that you have a baseline understanding of Path of Exile and does not include complex instructions for a lot of aspects such as explaining what a mechanic is (with the obvious exception of current league or new mechanics getting more attention).
+</div>
 
 # 1 Beginner's Basics
+<div id="ch-1" markdown="1">
 ## Very Easy
 [.ggg]Complete each of the following tasks.
 - [.ggg]Equip a magic flask
@@ -16,8 +18,11 @@ This guide makes the assumption that you have a baseline understanding of Path o
 - [.ggg]Fully clear the Fetid Pool
 
 Basically free but they are making you actually do Fetid Pool.
+</div>
+</div>
 
 # 2 Starting Settlements
+<div id="ch-2" markdown="1">
 ## Very Easy
 [.ggg]Complete each of the following Settlers of Kalguur tasks.
 - [.ggg]Enter Kingsmarch
@@ -26,8 +31,10 @@ Basically free but they are making you actually do Fetid Pool.
 - [.ggg]Establish Kingsmarch Jobs x 4
 
 Free from simply interacting with the league content.
+</div>
 
 # 3 Peddler's Produce I
+<div id="ch-3" markdown="1">
 ## Very Easy
 [.ggg]Complete vendor recipes to receive each of the following items. A vendor recipe is when you trade a specific combination of items to a vendor, not when you buy items from their purchase screen.
 - [.ggg]Ruby, Topaz or Sapphire Ring
@@ -40,8 +47,10 @@ Free from simply interacting with the league content.
 	- [.com]Vendor any Normal Rarity Boots, Quicksilver Flask and Orb of Augmentation
 
 Normal vendor recipe challenge, nothing complicated or rare.
+</div>
 
 # 4 Act Adversaries I
+<div id="ch-4" markdown="1">
 ## Very Easy
 [.ggg]Complete each of the following encounters.
 - [.ggg]Act 1: Merveil, the Twisted
@@ -51,8 +60,10 @@ Normal vendor recipe challenge, nothing complicated or rare.
 - [.ggg]Act 5: Kitava, the Insatiable
 
 Simply complete half the campaign.
+</div>
 
 # 5 Antagonistic Acts
+<div id="ch-5" markdown="1">
 ## Very Easy
 [.ggg]Complete each of the following encounters.
 - [.ggg]Defeat a monster holding an Essence
@@ -61,8 +72,10 @@ Simply complete half the campaign.
 - [.ggg]Complete a Ritual
 
 No extra requirements, normal content you can see all during campaign and which are readily available during maps.
+</div>
 
 # 6 Basic Beginnings
+<div id="ch-6" markdown="1">
 ## Very Easy
 [.ggg]Complete each of the following Settlers of Kalguur tasks.
 - [.ggg]Complete a Shipment
@@ -72,8 +85,10 @@ No extra requirements, normal content you can see all during campaign and which 
 - [.ggg]Use any Runesmithing Craft
 
 You will finish this very easily just by interacting with the league mechanic and while setting up facilities that are required for later facilities (and challenges).
+</div>
 
 # 7 Act Adversaries II
+<div id="ch-7" markdown="1">
 ## Very Easy
 [.ggg]Complete each of the following encounters.
 - [.ggg]Act 6: Tsoagoth, The Brine King
@@ -83,8 +98,10 @@ You will finish this very easily just by interacting with the league mechanic an
 - [.ggg]Act 10: Kitava, the Insatiable
 
 Simply complete the campaign.
+</div>
 
 # 8 Powerful Prey
+<div id="ch-8" markdown="1">
 ## Very Easy
 [.ggg]Complete each of the following quests.
 - [.ggg]The Great White Beast
@@ -101,8 +118,10 @@ Simply complete the campaign.
 	- [.com]Completed in the Foothills
 
 Normal campaign quest challenge, these aren't passive point ones so if you rushed campaign you might need to go back and complete them.
+</div>
 
 # 9 Atlas Augmentations
+<div id="ch-9" markdown="1">
 ## Very Easy
 [.ggg]Complete any three of the following League Mechanic encounters the specified number of times.
 - [.ggg]Defeat Essence monsters x 30
@@ -114,8 +133,10 @@ Normal campaign quest challenge, these aren't passive point ones so if you rushe
 - [.ggg]Defeat Rare Beyond Monsters x 30
 
 Nothing complex, you will very likely finish this while doing normal atlas progression or while doing later grinds while specced into these mechanics.
+</div>
 
 # 10 Meaningful Mechanics
+<div id="ch-10" markdown="1">
 ## Very Easy
 [.ggg]Complete any four of the following League Mechanic encounters the specified number of times.
 - [.ggg]Complete Breaches x 30
@@ -130,8 +151,10 @@ Nothing complex, you will very likely finish this while doing normal atlas progr
 - [.ggg]Complete Rituals x 100
 
 Nothing complex, you will very likely finish this while doing normal atlas progression or while doing later grinds while specced into these mechanics.
+</div>
 
 # 11 Proven Professionals
+<div id="ch-11" markdown="1">
 ## Very Easy
 [.ggg]Complete any two of the following Master Mission encounters in Red or Purple Tier Maps the specified number of times.
 - [.ggg]Niko Missions x 30
@@ -140,8 +163,10 @@ Nothing complex, you will very likely finish this while doing normal atlas progr
 - [.ggg]Alva Missions x 30
 
 Red Maps but no tier requirement, spec into them on the Atlas and you can get 100% chance or simply use their Scarabs.
+</div>
 
 # 12 Refined Reagents
+<div id="ch-12" markdown="1">
 ## Very Easy
 [.ggg]Have at least the specified amount of the following Resources in your Kingsmarch Stockpile at once.
 - [.ggg]1,000 Wheat
@@ -161,8 +186,10 @@ Red Maps but no tier requirement, spec into them on the Atlas and you can get 10
 Very straight forward and very simple. Take note of the **at once** wording and be sure not to spend the resources as you get them if you want to unlock this.
 
 The food and bars are in order of rarity and progression.
+</div>
 
 # 13 Crafty Currency
+<div id="ch-13" markdown="1">
 ## Very Easy
 [.ggg]Use each of the following Currency items. Using Crafting Bench options also count towards this challenge.
 - [.ggg]Orb of Transmutation
@@ -182,22 +209,28 @@ The food and bars are in order of rarity and progression.
 - [.ggg]Divine Orb
 
 Incredibly straight forward, the crafting bench counting makes it more likely you can use them on something useful for yourself or potentially others to recoup some cost.
+</div>
 
 # 14 Overwhelming Opposition
+<div id="ch-14" markdown="1">
 ## Easy
 [.ggg]Defeat 500 Map Bosses.
 
 Historically maps with multiple bosses such as City Square have counted as multiple of these. There's also a lot of ways to add more Map Bosses in general with scarabs, shouldn't be too grindy but is probably still around 100 maps for most people.
+</div>
 
 # 15 Potent Pantheon
+<div id="ch-15" markdown="1">
 ## Very Easy
 [.ggg]Fully upgrade any single Major and Minor Pantheon Power.
 - [.ggg]Major Pantheon Power
 - [.ggg]Minor Pantheon Power
 
 Pretty straight forward, Divine Vessels are much rarer than you might expect so it can take a while naturally but is very likely to happene before a lot of other challenges.
+</div>
 
 # 16 Unbelievable Undertakings
+<div id="ch-16" markdown="1">
 ## Easy
 ### Buyable
 [.ggg]Complete any four of the following encounters where the area level is 81 or higher.
@@ -236,8 +269,10 @@ Pretty straight forward, Divine Vessels are much rarer than you might expect so 
 Shouldn't be terribly hard, obvious low stress options are Blighted Maps, Abyssal Depths, Logbooks and Breachstones. A lot of options can be purchased as slot services.
 
 All map areas need to be at least T14 for level 81.
+</div>
 
 # 17 Sublime Starlight
+<div id="ch-17" markdown="1">
 ## Easy
 ### Buyable
 [.ggg]Use the following Runes in Runesmith Crafting.
@@ -257,8 +292,10 @@ You will need to upgrade your Runesmithing Facility in order to unlock actually 
 Runes are listed in order of rarity and all runes can be traded for or bought on the Currency Market.
 
 To get them naturally, send ships to Kalguuran ports to get Runes back, they are goods agnostic and will simply be rewarded based on the overall value of your shipments.
+</div>
 
 # 18 Achieve Ascension
+<div id="ch-18" markdown="1">
 ## Very Easy
 [.ggg]Use the Ascendancy Device in each of the following Labyrinths.
 - [.ggg]The Labyrinth
@@ -267,8 +304,10 @@ To get them naturally, send ships to Kalguuran ports to get Runes back, they are
 - [.ggg]The Eternal Labyrinth
 
 Functionally free, simply progressing to the endgame gets you this.
+</div>
 
 # 19 Divined Destiny
+<div id="ch-19" markdown="1">
 ## Easy
 [.ggg]Complete any three of the following Divination Card tasks.
 - [.ggg]Open Diviners Strongboxes x 5
@@ -281,8 +320,10 @@ The turn ins are for any set and the scarabs are for any red maps making those v
 Scrying a map needs the Nameless Seer to spawn within a T16 and Diviner's Strongboxes are somewhat rare.
 
 You can likely buy the strongbox opening but keep in mind because of the 'Open' qualifier it is very likely only the person clicking the strongbox gets the challenge progress.
+</div>
 
 # 20 Peddler's Produce II
+<div id="ch-20" markdown="1">
 ## Easy
 Complete vendor recipes to receive each of the following items. A vendor recipe is when you trade a specific combination of items to a vendor, not when you buy items from their purchase screen.
 - [.ggg]Prismatic Ring
@@ -296,8 +337,10 @@ Complete vendor recipes to receive each of the following items. A vendor recipe 
 - [.ggg]Grasping Mail or Loreweave
 	- [.com]Tedious but guaranteed, you need to vendor a full inventory of Unique Rings or a full inventory of Breach Rings to get one of these
 	- [.com]You can trade for the rings but it will obviously suck a bit
-	
+	</div>
+
 # 21 Chaotic Creations
+<div id="ch-21" markdown="1">
 ## Very Easy
 Use a Chaos Orb on any five of the following item base types while they are Item Level 83 or higher.
 - [.ggg]Experimented
@@ -324,8 +367,10 @@ Use a Chaos Orb on any five of the following item base types while they are Item
 	- [.com]Visit PoeWiki to [see all options](https://www.poewiki.net/wiki/Rogue%27s_equipment)
 - [.ggg]Cluster Jewel
 	- [.com]Delirium drop
+</div>
 
 # 22 Gilded Goals
+<div id="ch-22" markdown="1">
 ## Easy
 [.ggg]Have at least 250,000 gold in the Kingsmarch Treasury at once.
 
@@ -336,8 +381,10 @@ Don't deposit it in chunks if you have facilities running or they will consume i
 Be aware that workers assigned to Ore and Bar production will automatically swap to pending tasks! 
 
 For example if you have 10,000 Orichalcum Ore and everyone is assigned to Bismuth Bars they will swap to making Orichalcum Bars after they run out of Bismuth.
+</div>
 
 # 23 Remarkable Realms
+<div id="ch-23" markdown="1">
 ## Easy
 [.ggg]Complete each of the following Unique Maps.
 - [.ggg]Vaults of Atziri
@@ -371,8 +418,10 @@ You can also use **Comprehensive Scouting Report** that drop when using the **Pl
 Some Unique Maps have their own divination cards otherwise you can turn in sets of **The Encroaching Darkness** or simply buy the maps on trade.
 
 Still includes Doryani's Machinarium which can end up fairly pricey for a single throw away unique map with a bad reward pushing it slightly out of the 'Very Easy' rating.
+</div>
 
 # 24 Sanctified Scarabs I
+<div id="ch-24" markdown="1">
 ## Normal
 [.ggg]Complete Maps with 500 Scarabs. Each Scarab applied to maps counts towards this Challenge.
 
@@ -382,8 +431,10 @@ Should mostly complete naturally over time as long as you use scarabs, you unloc
 - 100 maps with 5 Scarabs each
 
 Notably there is no tier, rarity or quantity requirements so you can spam to finish this up.
+</div>
 
 # 25 Gleaming Gems
+<div id="ch-25" markdown="1">
 ## Easy
 [.ggg]Complete each of the following Gem tasks.
 - [.ggg]Level gems to level 20 x 10
@@ -401,8 +452,10 @@ Notably there is no tier, rarity or quantity requirements so you can spam to fin
 	- [.com]This is making transfigured gems, it's fairly easy but it does mean you have to run a couple labs.
 	
 Overall very simple with the only friction being that you will potentially need to do extra lab runs.
+</div>
 
 # 26 Cross Contamination
+<div id="ch-26" markdown="1">
 ## Easy
 [.com]Complete any four of the following past league content encounters.
 - [.ggg]Defeat a Harbinger while you are in a Breach
@@ -427,8 +480,10 @@ Overall very simple with the only friction being that you will potentially need 
 	- [.com]Not sure immediately if there's an easy means of this
 	
 Harbinger in Breach, Breachlord during Shrine, Blight Boss while Delirious are the obvious easiest choices and Unique Map Boss while Possessed is easy enough with some manipulation.
+</div>
 
 # 27 Ambitious Assignments
+<div id="ch-10" markdown="27">
 ## Normal
 [.ggg]Complete each of the following Settlers of Kalguur tasks.
 - [.ggg]Have at least 10,000 Blue Zanthimum in your Kingsmarch Stockpile at once
@@ -444,8 +499,10 @@ Harbinger in Breach, Breachlord during Shrine, Blight Boss while Delirious are t
 	- [.com]Map Runners are expensive and prone to dying so this might take quite a while, you can run a bunch at once and queue them up after upgrading at least
 - [.ggg]Use the Recombinator, resulting in an item which is Item Level 75 or higher x 15
 	- [.com]Needs dust but is otherwise pretty easy and you can just use actual junk items to get this done
+</div>
 
 # 28 Magnificent Mastery
+<div id="ch-28" markdown="1">
 ## Easy
 [.ggg]Complete one of the following Master Mission encounters.
 - [.ggg]Reach Depth Level 400 in your Azurite Mine
@@ -456,31 +513,39 @@ Harbinger in Breach, Breachlord during Shrine, Blight Boss while Delirious are t
 Can be slow but shouldn't be too hard outside of the Delve one. A single completion is required so this is pretty easy overall.
 
 You will likely want to double down on Scarabs and an Atlas Tree to complete any of them quickly.
+</div>
 
 # 29 Sanctified Scarabs II
+<div id="ch-29" markdown="1">
 ## Easy
 [.ggg]Complete 75 Rare Maps with at least 4 scarabs applied while the Maps have at least 80% Item Quantity and are at least Tier 16.
 
 Four Scarabs makes it a bit expensive but there's a lot of cheap scarabs and as long as you can run T16s it shouldn't be too bad. T17s are likely to always count for this.
 
 You can use the Atlas's Item Quantity nodes to make it easier and basically allow alch and go with the extra +% Item Quantity from there and the Map Device itself.
+</div>
 
 # 30 Arduous Atlas
-# Normal
+<div id="ch-30" markdown="1">
+## Normal
 ### Grind Heavy
 [.ggg]Complete maps with a total of 4,000 explicit modifiers.
 
 It's a lot of modifiers, 500 pure 8 mod maps. It has no tier requirements so you can just blast whatever you can do fastest alch and go though.
+</div>
 
 # 31 Monstrous Memories
-# Easy
+<div id="ch-31" markdown="1">
+## Easy
 [.ggg]Defeat 100 Rare monsters with at least 3 Modifiers in Atlas Memories.
 
 It's a decent amount of memories, none of them force extra modifiers on rares as far as I'm aware so it's just doing a lot of them.
 
 This was bugged initially to count all monsters, if you were lucky enough to finish it before they fixed it you can skip memories entirely this patch cycle for challenges.
+</div>
 
 # 32 Tremendous Township
+<div id="ch-32" markdown="1">
 ## Normal
 [.ggg]Fully upgrade all of Kingsmarch.
 
@@ -489,8 +554,10 @@ Fairly grindy but happens very passively. Gold drops relative to monster rarity 
 You will need to map to complete this as you will need to mark Verisium actively to complete upgrades.
 
 Upgrades cost a lot of money so you might want to save up the 250,000 early so you can spend it all on upgrades freely afterwards.
+</div>
 
 # 33 Agitated Adversaries
+<div id="ch-33" markdown="1">
 ## Normal
 ### Buyable
 [.ggg]Defeat any three of the following bosses in the specified ways while the area is level 83.
@@ -511,8 +578,10 @@ Upgrades cost a lot of money so you might want to save up the 250,000 early so y
 	- [.com]There are 8 Cocoons around the arena, Aul's spectral shield charge clones can break these which leave a permanent DoT where htey are destroyed
 
 The conditions aren't too hard, this should be fairly easy ias long as you have a build that can do the bosses while staying mobile. 
+</div>
 
 # 34 Extravagent Equipment
+<div id="ch-34" markdown="1">
 ## Easy
 ### Buyable
 [.ggg]Use any 6 of the following Currency Items.
@@ -532,8 +601,10 @@ The conditions aren't too hard, this should be fairly easy ias long as you have 
 Very straight forward, buy them and use them. 
 
 You probably should skip the mirror, just a suggestion.
+</div>
 
 # 35 Inciting Invitations
+<div id="ch-35" markdown="1">
 ## Normal
 ### Buyable
 [.ggg]Reach a total of 3,000% Item Quantity from completing Invitations.
@@ -541,8 +612,10 @@ You probably should skip the mirror, just a suggestion.
 A total of around 60 invites rolled on the lower end, this isn't particularly hard but is a lot of content due to the nature of how invitations work.
 
 You can buy clears and you can buy invitations outright for non-maven encounters.
+</div>
 
 # 36 Realised Realms
+<div id="ch-36" markdown="1">
 ## Easy
 [.ggg]Complete each of the following Atlas encounters
 - [.ggg]Unlock the 6 Slot Map Device
@@ -550,8 +623,10 @@ You can buy clears and you can buy invitations outright for non-maven encounters
 	- [.com]You can simply buy a T17 completion or lurk in globals to find people sharing completions or wanting leeches to boost their party quantity
 - [.ggg]Use Maven Chisels x 10
 	- [.com]New chisels that can drop during any of the Maven's encounters
+</div>
 
 # 37 Challenging Competitors
+<div id="ch-37" markdown="1">
 ## Hard
 [.ggg]Defeat Settlers of Kalguur Boss encounters while the area is level 83 in any four of the specified ways.
 - [.ggg]Admiral Valerius without being hit by Anchor Smash
@@ -567,8 +642,10 @@ Two of these require you to engage with the league mechanic a fair amount.
 - Sasan appears to ransom your Map Runners while they are active
 
 There's not a lot of these encounters so this might be tricky, especially if you have too low DPS to just obliterate bosses.
+</div>
 
 # 38 Nightmarish Nemeses
+<div id="ch-38" markdown="1">
 ## Hard
 ### Buyable
 [.ggg]Complete each of the following Tier 17 Maps while they have at least 250% Item Quantity.
@@ -579,8 +656,10 @@ There's not a lot of these encounters so this might be tricky, especially if you
 - [.ggg]Ziggurat
 
 Straight forward enough, requires a fairly strong build but can be bought from other players and you can roll the maps to your strengths.
+</div>
 
 # 39 Ultimate Usurpers
+<div id="ch-39" markdown="1">
 ## Hard
 ### Buyable
 [.ggg]Defeat any four of the following Pinnacle Boss Encounters while the area is level 85.
@@ -593,8 +672,10 @@ Straight forward enough, requires a fairly strong build but can be bought from o
 - [.ggg]The Shaper in The Shaper's Realm
 
 This is four of the seven uber boss variants, if you have a bosser this should be fine otherwise you can buy the clears.
+</div>
 
 # 40 Gear Grinding Goals
+<div id="ch-40" markdown="1">
 ## Very Hard
 ### Grind Heavy
 [.ggg]Complete any four of these encounters the specified number of times.
