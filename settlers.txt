@@ -388,15 +388,15 @@ For example if you have 10,000 Orichalcum Ore and everyone is assigned to Bismut
 ## Easy
 [.ggg]Complete each of the following Unique Maps.
 - [.ggg]Vaults of Atziri
-	- [.com]![divination card][div-card] Treasure Hunter
-	- [.com]![divination card][div-card] The Wolf's Legacy
+	- [.div]Treasure Hunter 
+	- [.div]The Wolf's Legacy
 - [.ggg]Maelström of Chaos
 - [.ggg]The Coward's Trial
 - [.ggg]Acton's Nightmare
 - [.ggg]Poorjoy's Asylum
-	- [.com]![has divination card][div-card] The Dreamland
+	- [.div]The Dreamland
 - [.ggg]Mao Kun
-	- [.com]![has divination card][div-card] Scholar of the Seas
+	- [.div]Scholar of the Seas
 - [.ggg]Oba's Cursed Trove
 - [.ggg]Olmec's Sanctum
 - [.ggg]Death and Taxes
@@ -404,10 +404,10 @@ For example if you have 10,000 Orichalcum Ore and everyone is assigned to Bismut
 - [.ggg]The Vinktar Square
 - [.ggg]Caer Blaidd, Wolfpack's Den
 - [.ggg]The Putrid Cloister
-	- [.com]![has divination card][div-card] The Professor
+	- [.div]The Professor
 - [.ggg]Hallowed Ground
 - [.ggg]The Twilight Temple
-	- [.com]![has divination card][div-card] The Twilight Moon
+	- [.div]The Twilight Moon
 - [.ggg]Pillars of Arun
 - [.ggg]Doryani's Machinarium
 
@@ -445,9 +445,9 @@ Notably there is no tier, rarity or quantity requirements so you can spam to fin
 	- [.com]GCPs can be obtained by vendoring a 20% quality gem or any combo of Gems with 40% quality
 		- [.com]Each combo needs to add up to 40% which is why sometimes it feels like you have underflow or overflow
 - [.ggg]Turn in a divination card set that rewards a Level 21 and/or 23% Quality Gem
-	- [.com]![][div-card] The Skeleton (6 stack)
-	- [.com]![][div-card] Rite of Elements (5 stack)
-	- [.com]![][div-card] The Bitter Blossom (3 stack)
+	- [.div] The Skeleton (6 stack)
+	- [.div] Rite of Elements (5 stack)
+	- [.div] The Bitter Blossom (3 stack)
 - [.ggg]Use the Divine Font in the Endgame Labyrinth x 10
 	- [.com]This is making transfigured gems, it's fairly easy but it does mean you have to run a couple labs.
 	
@@ -585,18 +585,18 @@ The conditions aren't too hard, this should be fairly easy ias long as you have 
 ## Easy
 ### Buyable
 [.ggg]Use any 6 of the following Currency Items.
-- [.com]Sacred Orb
-- [.com]Tailoring or Tempering Orb
-- [.com]Conqueror Exalted Orb
-- [.com]Veiled Orb
-- [.com]Awakener's Orb
-- [.com]Fracturing Orb
-- [.com]Hinekora's Lock
-- [.com]Mirror of Kalandra
-- [.com]Orb of Dominance
-- [.com]Tainted Divine Teardrop
-- [.com]Orb of Conflict
-- [.com]Reflecting Mist
+- [.ggg]Sacred Orb
+- [.ggg]Tailoring or Tempering Orb
+- [.ggg]Conqueror Exalted Orb
+- [.ggg]Veiled Orb
+- [.ggg]Awakener's Orb
+- [.ggg]Fracturing Orb
+- [.ggg]Hinekora's Lock
+- [.ggg]Mirror of Kalandra
+- [.ggg]Orb of Dominance
+- [.ggg]Tainted Divine Teardrop
+- [.ggg]Orb of Conflict
+- [.ggg]Reflecting Mist
 
 Very straight forward, buy them and use them. 
 
@@ -738,5 +738,3 @@ At 36 challenge completion you can unlock the Kingsmarch Portal.
 [PoeDB](https://poedb.tw/us/) for easily accessible information on pretty much everything about the game.
 
 [PoeWiki](https://www.poewiki.net/wiki/) for some general information.
-
-[div-card]: ./img/DivCard.png
