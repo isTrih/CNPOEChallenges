@@ -556,6 +556,33 @@ Fairly grindy but happens very passively. Gold drops relative to monster rarity 
 You will need to map to complete this as you will need to mark Verisium actively to complete upgrades.
 
 Upgrades cost a lot of money so you might want to save up the 250,000 early so you can spend it all on upgrades freely afterwards.
+
+Below is a full breakdown of all resources required by each facility and total. The Runesmith also needs one of each type of rune (except the Sun Rune).
+
+|  Resource |  Recruiting |  Mining |  Smelting |  Farming |  Shipping |  Disenchant |  Mapping |  Runesmith |  Recomb |  Total |
+|  :--- |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |
+|  Gold |  160,585 |  269,345 |  141,350 |  272,435 |  98,695 |  255,440 |  319,495 |  135,795 |  44,115 |  1,697,255 |
+|   |   |   |   |   |   |   |   |   |   |   |
+|  Crimson Iron Ore |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |
+|  Orichalcum Ore |  15 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  15 |
+|  Petrified Amber Ore |  40 |  0 |  0 |  0 |  80 |  0 |  0 |  0 |  0 |  120 |
+|  Bismuth Ore |  260 |  0 |  0 |  0 |  123 |  0 |  0 |  0 |  0 |  383 |
+|  Verisium Ore |  640 |  0 |  0 |  0 |  250 |  0 |  0 |  0 |  0 |  890 |
+|   |   |   |   |   |   |   |   |   |   |   |
+|  Crimson Iron Bars |  0 |  315 |  695 |  1,880 |  994 |  0 |  0 |  0 |  0 |  3,884 |
+|  Orichalcum Bars |  0 |  515 |  708 |  0 |  837 |  0 |  0 |  0 |  0 |  2,060 |
+|  Petrified Amber Bars |  0 |  440 |  691 |  0 |  990 |  0 |  0 |  0 |  0 |  2,121 |
+|  Bismuth Bars |  0 |  255 |  1,000 |  0 |  1,010 |  0 |  0 |  0 |  0 |  2,265 |
+|  Verisium Bars |  280 |  470 |  370 |  500 |  595 |  0 |  1,130 |  0 |  0 |  3,345 |
+|   |   |   |   |   |   |   |   |   |   |   |
+|  Wheat |  2,570 |  2,520 |  75 |  0 |  150 |  0 |  0 |  0 |  0 |  5,315 |
+|  Corn |  395 |  20 |  80 |  0 |  10 |  100 |  0 |  0 |  0 |  605 |
+|  Pumpkin |  290 |  100 |  100 |  0 |  0 |  0 |  0 |  0 |  0 |  490 |
+|  Orgourd |  4,950 |  4,350 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  9,300 |
+|  Blue Zanthimum |  4,600 |  4,600 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  9,200 |
+|   |   |   |   |   |   |   |   |   |   |   |
+|  Thaumaturgic Dust |  0 |  0 |  0 |  0 |  0 |  685,000 |  400,000 |  0 |  350,000 |  1,435,000 |
+
 </div>
 
 # 33 Agitated Adversaries
