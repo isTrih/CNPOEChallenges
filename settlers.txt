@@ -477,9 +477,11 @@ Overall very simple with the only friction being that you will potentially need 
 	- [.com]A bit RNG, stacking beyond and delirium at the same time probably gets you the best hopes
 	- [.com]You can use a Delirium Orb to force delirium for the entire map
 - [.ggg]Defeat a Syndicate Member that is Possessed
-	- [.com]Not sure immediately if there's an easy means of this
+	- [.com]Force Jun using scarabs
+	- [.com]Stack as many tormented spirits in a map as you can with the Atlas and Scarabs
+	- [.com]Syndicate intervention members will chase you until you die or the leader dies which allows you to guide them to spirits
 	
-Harbinger in Breach, Breachlord during Shrine, Blight Boss while Delirious are the obvious easiest choices and Unique Map Boss while Possessed is easy enough with some manipulation.
+Harbinger in Breach, Breachlord during Shrine, Blight Boss while Delirious are the obvious easiest choices and Unique Map Boss while Possessed and Possessed Syndicate Member are easy enough with some manipulation.
 </div>
 
 # 27 Ambitious Assignments
