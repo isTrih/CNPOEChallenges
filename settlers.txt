@@ -323,7 +323,7 @@ You can likely buy the strongbox opening but keep in mind because of the 'Open' 
 # 20 Peddler's Produce II
 <div id="ch-20" markdown="1">
 ## Easy
-Complete vendor recipes to receive each of the following items. A vendor recipe is when you trade a specific combination of items to a vendor, not when you buy items from their purchase screen.
+[.ggg]Complete vendor recipes to receive each of the following items. A vendor recipe is when you trade a specific combination of items to a vendor, not when you buy items from their purchase screen.
 - [.ggg]Prismatic Ring
 	- [.com]Vendor all three types of Two-Stone Ring at once
 - [.ggg]Orb of Fusing
@@ -340,7 +340,7 @@ Complete vendor recipes to receive each of the following items. A vendor recipe 
 # 21 Chaotic Creations
 <div id="ch-21" markdown="1">
 ## Very Easy
-Use a Chaos Orb on any five of the following item base types while they are Item Level 83 or higher.
+[.ggg]Use a Chaos Orb on any five of the following item base types while they are Item Level 83 or higher.
 - [.ggg]Experimented
 	- [.com]Heist Bases
 	- [.com]Visit PoeWiki to [see all options](https://www.poewiki.net/wiki/Experimented_base_type)
