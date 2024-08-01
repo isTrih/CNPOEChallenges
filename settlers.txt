@@ -464,8 +464,10 @@ Overall very simple with the only friction being that you will potentially need 
 - [.ggg]Defeat a Unique Map Boss that is Possessed while in a Ritual	
 	- [.com]This is literal, you need it to get Possessed while in the ritual itself
 	- [.com]There is a ritual that spawns Tormented Spirits and Scarabs for more in the wild
-	- [.com]You can do this easily by using a Shore Map and kiting the boss into a ritual, they release a tormented spirit at low HP
+	- [.com]You can do this easily by using a Shore Map and kiting the boss into a ritual
 		- [.com]Kiting can be awkward, try to maintain a path free of obstacles to kite him along, rocks etc. can cause him to retreat or wander off
+		- [.com]Kill them in the ritual circle so they are revived during it and they will release a tormented spirit at low HP
+		- [.com]Maintain low DPS to avoid killing him during the ritual and ensure that the tormented spirit actually comes out
 - [.ggg]Defeat a Breachlord while affected by a Shrine
 	- [.com]Spamming Breach and Shrines should get this without much problem as you 
 - [.ggg]Defeat a Blight Boss while Delirious
