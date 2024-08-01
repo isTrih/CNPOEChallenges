@@ -35,6 +35,7 @@
 	h3{color:#875516;text-align:center;margin:4px 0px;}
 	body{color:rgb(230,230,210);margin: 0 0 20px;padding-bottom:20px;}
 	#contents{margin:auto;max-width:800px;}
+	#disclaimer{margin:80px auto 10px;max-width:800px;font-size:75%;}
 	h2[id^="veryeasy"]{color:#00DA00}
 	h2[id^="easy"]{color:#56C256}
 	h2[id^="average"]{color:#A5B2C2}
@@ -47,6 +48,9 @@
 	#navigation{position:fixed;left:var(--sidebar-left);top:0px;height:100vh;display:var(--sidebar-display);max-height:100vh;overflow-y:scroll;background:rgb(40,40,40);padding-right:10px;width:336px;transition:all 0.2s linear;}
 	#toggle{position:fixed;left:var(--toggle-left);top:5px;cursor:pointer;transition: all 0.2s linear;font-size:30px;padding-bottom: 20px;color:#ffff00;text-shadow: 2px 2px 4px rgb(0, 0, 0, 1);z-index:9999;}
 	#toggle:hover{color:#FFE28B}
+	
+	#togglecomplete{position:fixed;right:5px;top:5px;cursor:pointer;z-index:9999;font-size:75%;}
+	#togglecomplete:hover{color:#FFE28B}
 	.ggg{color:#E7B477;}
 	.com{color:rgb(230,230,210);}	
 	.div{color:rgb(200,200,180);}
@@ -60,8 +64,10 @@
 	</head>
 <body>
 	<div id="toggle" onclick="switchSidebar()">☰</div>
+	<div id="togglecomplete" onclick="hideCompleted()"></div>
 	<div id="navigation"></div>
 	<div id="contents"></div>
+	<div id="disclaimer">No data is saved server side, all interaction is saved only locally on your PC. You may <a href="#" onclick="clearLocalStorage()">Click Here</a> to completed reset everything.</div>
 	<div id="footer">
 	<a href="#" onclick="GetLeague('settlers');return false;">Settlers Guide</a> | 	<a href="#" onclick="GetLeague('necropolis');return false;">Necropolis Guide</a> | 	<a href="#" onclick="GetLeague('affliction');return false;">Affliction Guide</a>
 	</div>
@@ -128,23 +134,45 @@
 			}
 		}
 		
-		function fullyHideChallenges(){
-			let hideState = localStorage.getItem("data-ch-hide");
-			if (hideState === "hidden" || hideState === null) {
-				
+		function checkHidden(){
+			let hideState = localStorage.getItem("data-complete-visibility");
+			if (hideState === "visible" || hideState === null) {
+				$("#togglecomplete").text("Fully Hide Complete");
 			} else {
-				
+				$("#togglecomplete").text("Show Completed Names");			
+			}
+			
+		}
+		
+		function hideCompleted(){
+			let hideState = localStorage.getItem("data-complete-visibility");
+			if (hideState === "hidden" || hideState === null) {
+				// show all
+				$("h1").show();
+				localStorage.setItem("data-complete-visibility", "visible");		
+				$("#togglecomplete").text("Fully Hide Complete");		
+			} else if (hideState == "visible"){
+				// hide all
+				for(let x = 1; x <= 40; x++){					
+					let challenge = localStorage.getItem("data-ch-" + x);
+					if (challenge === "yes"){
+						// closest h1 because I'm dumb and lazy
+						$('div[data-challenge="' + x + '"]').closest("h1").hide();
+					}
+				}
+				localStorage.setItem("data-complete-visibility", "hidden");
+				$("#togglecomplete").text("Show Completed Names");
 			}			
 		}
 		
 		function addCheckboxes(){
+			let hideState = localStorage.getItem("data-complete-visibility");
 			let i = 0;
 			$("h1").each(function(){
 				// count from first challenge only
 				if($(this).text().startsWith("1 ")){
 					i = 1;
 				}
-			
 				if(i != 0 && i <= 40){
 					let challenge = localStorage.getItem("data-ch-" + i);
 					if (challenge === "no" || challenge === null) {
@@ -152,15 +180,23 @@
 						$(this).append('<div class="complete" data-challenge="' + i + '" data-complete="no">&#x2717;</div>');
 					} else if (challenge === "yes") {
 						$(this).append('<div class="complete" data-challenge="' + i + '" data-complete="yes">&#x2713;</div>');
-						$("#ch-" + i).hide();		
-					}					
+						$("#ch-" + i).hide();
+						if (hideState === "hidden"){
+							$(this).closest("h1").hide();
+						}
+					}
+					i++;					
 				}
 			})
+		}
+		function clearLocalStorage(){
+			localStorage.clear();
+			 location.reload();
 		}
 		$(document).on('click', '.complete', function() {
 			let i = $(this).attr("data-challenge");
 			let challenge = localStorage.getItem("data-ch-" + i);
-			
+			let hideState = localStorage.getItem("data-complete-visibility");
 			if (challenge === "yes" || challenge === null) {
 				localStorage.setItem("data-ch-" + i, "no");
 				$(this).html('&#x2717;').attr("data-complete", "no");
@@ -169,9 +205,13 @@
 				localStorage.setItem("data-ch-" + i, "yes");
 				$(this).html('&#x2713;').attr("data-complete", "yes");
 				$("#ch-" + i).hide();
+				if (hideState === "hidden"){
+					$(this).closest("h1").hide();
+				}
 			}
 		});
 		getSidebar();
+		checkHidden();
 		GetLeague("settlers");
 		
 		
