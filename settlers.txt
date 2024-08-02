@@ -605,6 +605,7 @@ Below is a full breakdown of all resources required by each facility and total. 
 - [.ggg]Aul, the Crystal King after destroying all of the Crystalline Cocoons
 	- [.com]Delve boss, obvious skip if you don't want to do any Delving
 	- [.com]There are 8 Cocoons around the arena, Aul's spectral shield charge clones can break these which leave a permanent DoT where htey are destroyed
+	- [.com]Not avoidance oriented so any build that can survive while Aul creates the clones (probably needing him to do it twice) should be able to do it
 
 The conditions aren't too hard, this should be fairly easy ias long as you have a build that can do the bosses while staying mobile. 
 </div>
@@ -627,7 +628,9 @@ The conditions aren't too hard, this should be fairly easy ias long as you have 
 - [.ggg]Orb of Conflict
 - [.ggg]Reflecting Mist
 
-Very straight forward, buy them and use them. 
+Very straight forward currency dump challenge, buy them and use them. 
+
+Sacred Orbs, Tempering Orbs, Conqueror Exalted Orbs, Orb of Dominance, Orb of Conflict and Tainted Divine Teardrops are the 'cheapest' options but you will still come in at around 400 chaos for this.
 
 You probably should skip the mirror, just a suggestion.
 </div>
@@ -652,6 +655,10 @@ You can buy clears and you can buy invitations outright for non-maven encounters
 	- [.com]You can simply buy a T17 completion or lurk in globals to find people sharing completions or wanting leeches to boost their party quantity
 - [.ggg]Use Maven Chisels x 10
 	- [.com]New chisels that can drop during any of the Maven's encounters
+	
+Chisels are literal in being 'use', you do not need to run the maps you chisel. 
+
+Simply buy 10 of the cheapest chisels and you are done. You can also claim a stack of random chisels fro mKirac's Vault Pass which can give you a 20 stack of a random Maven Chisel type.
 </div>
 
 # 37 Challenging Competitors
