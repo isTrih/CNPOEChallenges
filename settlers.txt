@@ -374,6 +374,11 @@ You can likely buy the strongbox opening but keep in mind because of the 'Open' 
 
 Notable in that it's 'at once' which means it should all be in your treasury *at the same time*. You can simply map to get this, it'll likely be in the region of 50 cleared maps, so it's a bit grindy.
 
+Spamming basic deliveries to spawn Admiral Valerius is viable for this as he drops around 45,000 gold each time
+- Assign a mediocre helmsman to your three ships and simply send them to Riben Fell with around 1,000 value in crops and dust
+- You will regularly get small amounts of runes which can be valuable and have seemingly the same chance as any other shipment to get the Admiral spawn
+- Each Admiral will drop runes and around 45,000 gold
+
 Don't deposit it in chunks if you have facilities running or they will consume it.
 
 Be aware that workers assigned to Ore and Bar production will automatically swap to pending tasks! 
@@ -583,6 +588,11 @@ Below is a full breakdown of all resources required by each facility and total. 
 |   |   |   |   |   |   |   |   |   |   |   |
 |  Thaumaturgic Dust |  0 |  0 |  0 |  0 |  0 |  685,000 |  400,000 |  0 |  350,000 |  1,435,000 |
 
+As mentioned elsewhere, for gold you can spam basic deliveries to spawn Admiral Valerius as he drops around 45,000 gold each kill
+- Assign a mediocre helmsman to your three ships and simply send them to Riben Fell with around 1,000 value in crops and dust
+- You will regularly get small amounts of runes which can be valuable and have seemingly the same chance as any other shipment to get the Admiral spawn
+- Each Admiral will drop runes and around 45,000 gold
+
 </div>
 
 # 33 Agitated Adversaries
@@ -666,15 +676,25 @@ Simply buy 10 of the cheapest chisels and you are done. You can also claim a sta
 ## Hard
 [.ggg]Defeat Settlers of Kalguur Boss encounters while the area is level 83 in any four of the specified ways.
 - [.ggg]Admiral Valerius without being hit by Anchor Smash
+	- [.com]He shouts 'Sink!' and spawns a giant Anchor to Smash you
 - [.ggg]Admiral Valerius without being affected by more than 5 stacks of Soaked to the Bone
+	- [.com]Water based attacks inflict this but the waves which push you do not
 - [.ggg]Sasan, the Bandit Lord without being hit by Circle of Flame
 - [.ggg]Sasan, the Bandit Lord without being hit by Hail of Arrows
 - [.ggg]The Black Knight without being hit by any falling rocks
+	- [.com]The rocks have obvious telegraphs showing where they will fall during an intermissino phase
 - [.ggg]The Black Knight without being affected by Verisium Laser
+	- [.com]The boss spawns multiple rock pillars in the area and the fires a laser which can be blocked by said rock pillars
+	- [.com]The pillars will shatter over time so you should have a blink skill to move behind double layered or simply multiple pillars in a row
 
 Two of these require you to engage with the league mechanic a fair amount.
+
 - The Black Knight appears in Starfall Crater found randomly in maps
+	- Presumably has an area level restriction to spawn, likely T16s?
 - Admiral Valerius appears if your boats are taken by pirates
+	- You can simply spam low value shipments to get this encounter
+	- Assign a mediocre helmsman to your three ships and simply send them to Riben Fell with around 1,000 value in crops and dust
+	- You will regularly get small amounts of runes which can be valuable and have seemingly the same chance as any other shipment to get the Admiral spawn
 - Sasan appears to ransom your Map Runners while they are active
 
 There's not a lot of these encounters so this might be tricky, especially if you have too low DPS to just obliterate bosses.
