@@ -379,6 +379,10 @@ Spamming basic deliveries to spawn Admiral Valerius is viable for this as he dro
 - You will regularly get small amounts of runes which can be valuable and have seemingly the same chance as any other shipment to get the Admiral spawn
 - Each Admiral will drop runes and around 45,000 gold
 
+Synthesis Maps give around 15,000 gold regularly on completion and can be incorporated into doing invitation grinds fairly easily.
+
+Olmec's Sanctum gives around 5,000 gold and can be finished in around 2 minutes on a character with good movement speed and high DPS
+
 Don't deposit it in chunks if you have facilities running or they will consume it.
 
 Be aware that workers assigned to Ore and Bar production will automatically swap to pending tasks! 
