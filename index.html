@@ -141,9 +141,9 @@
 		function checkHidden(){
 			let hideState = localStorage.getItem("data-complete-visibility");
 			if (hideState === "visible" || hideState === null) {
-				$("#togglecomplete").text("Fully Hide Complete");
+				$("#togglecomplete").text("完全隱藏已完成挑戰");
 			} else {
-				$("#togglecomplete").text("Show Completed Names");			
+				$("#togglecomplete").text("顯示完成挑戰的名字");			
 			}
 			
 		}
@@ -154,7 +154,7 @@
 				// show all
 				$("h1").show();
 				localStorage.setItem("data-complete-visibility", "visible");		
-				$("#togglecomplete").text("Fully Hide Complete");		
+				$("#togglecomplete").text("完全隱藏已完成挑戰");		
 			} else if (hideState == "visible"){
 				// hide all
 				for(let x = 1; x <= 40; x++){					
@@ -165,7 +165,7 @@
 					}
 				}
 				localStorage.setItem("data-complete-visibility", "hidden");
-				$("#togglecomplete").text("Show Completed Names");
+				$("#togglecomplete").text("顯示完成挑戰的名字");
 			}			
 		}
 		
