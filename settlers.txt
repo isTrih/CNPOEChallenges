@@ -1,55 +1,57 @@
-## You can toggle navigation with the `☰` at the top left
+## 点击左边的 `☰` 展开或收起目录
 
-# Settlers of Kalguur Challenges
-Please get in touch through [Github](https://github.com/CraniumViolence/craniumviolence.github.io) or on [Reddit](https://www.reddit.com/user/TrainCarMoney) if any information here is incorrect, absent or you simply have better strategies or information!
+# 卡爾葛拓荒者挑戰
+如果有任何疑問請到我的[Github](https://github.com/CraniumViolence/craniumviolence.github.io)與我取得聯繫，或者在[QQ頻道](https://pd.qq.com/s/9m7bzqgwo)與我聯繫。
 
-The guide is still actively developing. It'll be worked on over the course of the first days to completion. Pull requests etc. are welcome if you wish to contribute!
+本手冊是人工整理，因此在賽季初的幾天處於未完成狀態，歡迎在GitHub提交request來貢獻該項目
 
-This guide makes the assumption that you have a baseline understanding of Path of Exile and does not include complex instructions for a lot of aspects such as explaining what a mechanic is (with the obvious exception of current league or new mechanics getting more attention).
+本手冊基於，[CraniumViolence](https://github.com/CraniumViolence/craniumviolence.github.io)以及[天音鳳梨的文檔](https://docs.qq.com/sheet/DR2F2R01uRkZGSE9s?tab=BB08J2)
 
-# 1 Beginner's Basics
+# 1 績戰力
 <div id="ch-1" markdown="1">
-## Very Easy
-[.ggg]Complete each of the following tasks.
-- [.ggg]Equip a magic flask
-- [.ggg]Use an Orb of Alchemy
-- [.ggg]Kill a Rare Monster
-- [.ggg]Fully clear the Fetid Pool
+## 非常簡單
+[.ggg]完成以下任務。
+- [.ggg]裝備魔法藥劑
+- [.ggg]使用點金石
+- [.ggg]殺死1個稀有怪物
+- [.ggg]完全清空腐水岩洞（Fetid Pool）
 
-Basically free but they are making you actually do Fetid Pool.
+幾乎很簡單，但是清空腐水岩洞可以留到等級高了之後再去。
 </div>
 
-# 2 Starting Settlements
+# 2 全新的旅途
 <div id="ch-2" markdown="1">
-## Very Easy
-[.ggg]Complete each of the following Settlers of Kalguur tasks.
-- [.ggg]Enter Kingsmarch
-- [.ggg]Hire workers x 3
-- [.ggg]Have at least 1,000 gold in the Kingsmarch Treasury at once
-- [.ggg]Establish Kingsmarch Jobs x 4
+## 非常簡單
+[.ggg]完成以下每一項卡爾葛拓荒者事件。
+- [.ggg]進入金司馬區
+- [.ggg]僱用工人 x 3
+- [.ggg]在金司馬區的秘寶庫中一次擁有至少1000金幣
+- [.ggg]建立金司馬區的工作 x 4
 
-Free from simply interacting with the league content.
+很簡單的挑戰，正常遊玩即可完成。
 </div>
 
-# 3 Peddler's Produce I
+# 3 小販的產品 I
 <div id="ch-3" markdown="1">
-## Very Easy
-[.ggg]Complete vendor recipes to receive each of the following items. A vendor recipe is when you trade a specific combination of items to a vendor, not when you buy items from their purchase screen.
-- [.ggg]Ruby, Topaz or Sapphire Ring
-	- [.com]Vendor a Red, Green or Blue Gem and an Iron Ring
-- [.ggg]Agate, Turquoise or Citrine Amulet
-	- [.com]Vendor any pair of two types of Amber, Lapis, Jade Amulets and an Orb of Transmutation
-- [.ggg]Onyx Amulet
-	- [.com]Vendor a Red, Green and Blue Gem and an Amulet
-- [.ggg]Magic Boots with 10% increased Movement Speed
-	- [.com]Vendor any Normal Rarity Boots, Quicksilver Flask and Orb of Augmentation
+## 非常簡單
+[.ggg]完成商人配方可獲得以下每一項道具。注意：「商人配方」指的是將一些指定物品交易給商人，而不是從商人的【購買物品】中購買物品
+- [.ggg]紅玉、黃玉或藍玉戒指
+	- [.com]出售：鍛鐵戒指 + 紅/綠/藍色技能石
+- [.ggg]青玉、瑪瑙或者黃晶護身符
+	- [.com]瑪瑙：1x 琥珀護身符+1x 海玉護身符+1x 蛻變石
+    - [.com]青玉：1x 翠玉護身符+1x 海玉護身符+1x 蛻變石
+    - [.com]黃晶：1x 琥珀護身符+1x 翠玉護身符+1x 蛻變石
+- [.ggg]黑暗護身符
+	- [.com]出售：1x 護身符+1x 紅色技能石+1x 藍色技能石+1x 綠色技能石
+- [.ggg]增加 10% 移動速度的魔法鞋子
+	- [.com]出售：1x 普通鞋子 + 1x 水銀藥劑 + 1x 增幅石
 
-Normal vendor recipe challenge, nothing complicated or rare.
+都是很簡單的商店配方，跟著做就好了。
 </div>
 
-# 4 Act Adversaries I
+# 4 得心應手：第 I 章
 <div id="ch-4" markdown="1">
-## Very Easy
+## 非常簡單
 [.ggg]Complete each of the following encounters.
 - [.ggg]Act 1: Merveil, the Twisted
 - [.ggg]Act 2: Vaal Oversoul
