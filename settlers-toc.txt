@@ -1,5 +1,5 @@
 - [Settlers of Kalguur Challenges](#settlersofkalguurchallenges)
-- [1 Beginner's Basics](#1beginnersbasics)
+- [1 Beginner's Basics](#1績戰力)
 - [2 Starting Settlements](#2startingsettlements)
 - [3 Peddler's Produce I](#3peddlersproducei)
 - [4 Act Adversaries I](#4actadversariesi)
