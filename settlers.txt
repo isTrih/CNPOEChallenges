@@ -1,7 +1,7 @@
 ## 点击左边的 `☰` 展开或收起目录
 
 # 卡爾葛拓荒者挑戰
-如果有任何疑問請到我的[Github](https://github.com/CraniumViolence/craniumviolence.github.io)與我取得聯繫，或者在[QQ頻道](https://pd.qq.com/s/9m7bzqgwo)與我聯繫。
+如果有任何疑問請到我的[Github](https://github.com/isTrih/CNPOEChallenges)與我取得聯繫，或者在[QQ頻道](https://pd.qq.com/s/9m7bzqgwo)與我聯繫。
 
 本手冊是人工整理，因此在賽季初的幾天處於未完成狀態，歡迎在GitHub提交request來貢獻該項目
 

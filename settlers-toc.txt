@@ -1,5 +1,5 @@
 - [Settlers of Kalguur Challenges](#settlersofkalguurchallenges)
-- [1 績戰力](#1績戰力)
+- [1 績戰力](#1 績戰力)
 - [2 Starting Settlements](#2startingsettlements)
 - [3 Peddler's Produce I](#3peddlersproducei)
 - [4 Act Adversaries I](#4actadversariesi)
@@ -21,6 +21,7 @@
 - [20 Peddler's Produce II](#20peddlersproduceii)
 - [21 Chaotic Creations](#21chaoticcreations)
 - [22 Gilded Goals](#22gildedgoals)
+
 - [23 Remarkable Realms](#23remarkablerealms)
 - [24 Sanctified Scarabs I](#24sanctifiedscarabsi)
 - [25 Gleaming Gems](#25gleaminggems)
